@@ -7,6 +7,7 @@
 <h3 align="center">I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
 ---
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=iamantimpal&label=Profile%20views&color=0e75b6&style=flat" alt="iamantimpal" /> </p>
 <h3 align="left">Connect with me:</h3>
 <p align="center">
 <a href="https://linkedin.com/in/antim pal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="antim pal" height="30" width="40" /></a>
@@ -14,7 +15,7 @@
 <a href="https://www.leetcode.com/antim pal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="antim pal" height="30" width="40" /></a>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=iamantimpal&label=Profile%20views&color=0e75b6&style=flat" alt="iamantimpal" /> </p>
+
 <img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
  <h3 align="left"> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" />About Me:</h3>
@@ -57,17 +58,32 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515&hide=css,html,php)](https://github.com/anuraghazra/github-readme-stats)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=iamAntimPal&theme=dark)](https://git.io/streak-stats)
 
+
 <!--START_SECTION:waka-->
 
 ⏳ **Year Progress** { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 23.78 % as on ⏰ 27-Mar-2024
 
 ---
+<!--
+[![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamAntimPal&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+-->
 
 ### <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:
+
+<!--
+<a href="https://github.com/rafi0101/Android-Room-Database-Backup" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rafi0101&repo=Android-Room-Database-Backup&theme=gruvbox""></a>
+<a href="https://github.com/rafi0101/Stundenplan" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rafi0101&repo=Stundenplan&theme=gruvbox""></a>
+<a href="https://github.com/rafi0101/traefik-ssl-certificate-exporter" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rafi0101&repo=traefik-ssl-certificate-exporter&theme=gruvbox""></a>
+<a href="https://github.com/rafi0101/logstash-pipelines" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rafi0101&repo=logstash-pipelines&theme=gruvbox""></a>  
+-->
+
+
 
 ---
 <img height="120" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100"/>
 </p>
+
+
 
