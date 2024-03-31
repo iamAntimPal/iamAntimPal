@@ -67,6 +67,9 @@
 ⏳ **Year Progress** { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 23.78 % as on ⏰ 27-Mar-2024
 
 ---
+## Portfolio Website
+[![Static Badge](https://img.shields.io/badge/Website-%20?style=for-the-badge&label=Portfolio&labelColor=dark&color=blue)](https://iamantimpal.github.io/Antim-Portfolio/)
+---
 <!--
 [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamAntimPal&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 -->
