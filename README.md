@@ -10,13 +10,6 @@
 [![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark)](https://github.com/iamAntimPal)
 
 ---
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=iamantimpal&label=Profile%20views&color=0e75b6&style=flat" alt="iamantimpal" /> </p>
-<h3 align="left">Connect with me:</h3>
-<p align="center">
-<a href="https://linkedin.com/in/antim pal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="antim pal" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/antim_pal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="antim_pal" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/antim pal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="antim pal" height="30" width="40" /></a>
-</p>
 
 
 <img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
@@ -70,6 +63,13 @@
 ## Portfolio Website
 [![Static Badge](https://img.shields.io/badge/Website-%20?style=for-the-badge&label=Portfolio&labelColor=dark&color=blue)](https://iamantimpal.github.io/Antim-Portfolio/)
 ---
+
+## Contact
+[![Email](https://img.shields.io/badge/Gmail-antimpal01617121?style=for-the-badge&logo=gmail&logoColor=white)](antimpal01617121@gmail.com) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/antim-pal) 
+[![HackerRank](https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/antimpal01617121/) 
+[![LeetCode](https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/antim_pal/)
+
 <!--
 [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamAntimPal&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 -->
