@@ -74,6 +74,7 @@
 [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamAntimPal&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 -->
 
+
 ### <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:
 
 <!--
@@ -82,6 +83,8 @@
 <a href="https://github.com/rafi0101/traefik-ssl-certificate-exporter" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rafi0101&repo=traefik-ssl-certificate-exporter&theme=gruvbox""></a>
 <a href="https://github.com/rafi0101/logstash-pipelines" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=rafi0101&repo=logstash-pipelines&theme=gruvbox""></a>  
 -->
+---
+![Snake animation](https://github.com/iamAntimPal/iamAntimPal/blob/main/.github/workflows/main.yml)
 
 
 
