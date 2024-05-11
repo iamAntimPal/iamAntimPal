@@ -57,7 +57,7 @@
 
 <!--START_SECTION:waka-->
 
-⏳ **Year Progress** { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 23.78 % as on ⏰ 27-Mar-2024
+⏳ **Year Progress** { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 37.78 % as on ⏰ 11-May-2024
 
 ---
 ## Portfolio Website
