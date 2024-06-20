@@ -18,7 +18,7 @@
 
 - 🏦 I'm Data Analyst working for Intern Career startup in India 
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 🔭 I’m currently working on **Terrorision**
+- 🔭 I’m currently working on **CRM and deluge language**
 - 🌱 I’m currently learning **Data Science**
 - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
 
@@ -57,7 +57,7 @@
 
 <!--START_SECTION:waka-->
 
-⏳ **Year Progress** { ███████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 37.78 % as on ⏰ 14-May-2024
+⏳ **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 45.78 % as on ⏰ 14-May-2024
 
 ---
 ## Portfolio Website
