@@ -45,14 +45,16 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="50" height="50"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="50" height="50"/> </a> </p>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamAntimPal)](https://github.com/iamAntimPal/github-readme-stats)
+
 
 
 ---
 ### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
-![Antim Pal's github stats](https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count_private=true&include_all_commits=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515&hide=css,html,php)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=iamAntimPal&theme=dark)](https://git.io/streak-stats)
+<img alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/> <img alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/>
+<img alt="github strick" src="https://github-readme-streak-stats.herokuapp.com/?user=iamAntimPal&theme=dark"/>
+
+
+
 
 
 <!--START_SECTION:waka-->
