@@ -23,15 +23,15 @@
 
 - 🏦 I'm Data Analyst working for Intern Career startup in India 
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 🔭 I’m currently working on **CRM and deluge language**
-- 🌱 I’m currently learning **Data Science**
+- 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer**
+- 🌱 I’m currently learning:- **Data Science**
 - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
 
-- 💬 Ask me about **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
+- 💬 Ask me about:- **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
 
-- 📫 How to reach me **antimpal01617121@gmail.com**
+- 📫 How to reach me:- **antimpal01617121@gmail.com**
   
-- 📫 Join Whatsapp Group  **https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK**
+- 📫 Join Whatsapp Group:-  **https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK**
 
 - ⚡ Fun fact **I think I am So funny.**
 
