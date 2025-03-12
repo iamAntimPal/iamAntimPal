@@ -1,3 +1,4 @@
+<!-- Banner Section-->
 <img alt="banner" src="banner.png"/>
 <!--
 <h1 align="center">
@@ -8,12 +9,15 @@
 <h3 align="left">I'm Traning specilist at IWP Academy⚡</h3>
 <h3 align="center">I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark)](https://github.com/iamAntimPal)
+<!-- Antim Pal Summary -->
+<img align="center" height="300" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
 
 ---
+<!-- Gif Section -->
+<!-- GIF -->
+<img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" />
 
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
  <h3 align="left"> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" />About Me:</h3>
 
@@ -23,19 +27,23 @@
 - 🌱 I’m currently learning **Data Science**
 - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
 
-- 💬 Ask me about **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python,**
+- 💬 Ask me about **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
 
 - 📫 How to reach me **antimpal01617121@gmail.com**
+  
+- 📫 Join Whatsapp Group  **https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK**
 
 - ⚡ Fun fact **I think I am So funny.**
+
   
 - <h3 align="left">🧑‍💻 Tech I work on :</h3>
 
 
 <p align="center"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> 
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a> 
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="50" height="50"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> 
 <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="50" height="50"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> 
@@ -44,7 +52,15 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="50" height="50"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="50" height="50"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="50" height="50"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="50" height="50"/> </a> </p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="50" height="50"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="50" height="50"/> </a>
+<img src="https://cdn.worldvectorlogo.com/logos/intellij-idea-1.svg" alt="intellij" title="intellij" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="vs-code" title="vs-code" width="40" height="40"/>
+
+
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="git" width="40" height="40"/>  
+<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="github" title="github" width="40" height="40"/> 
+<img src="https://brandlogos.net/wp-content/uploads/2020/03/Linux-logo.png" alt="linux" title="linux" width="40" height="40"/> 
+<img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="ubuntu" title="ubuntu" width="40" height="40"/> 
+</p>
 
 
 
