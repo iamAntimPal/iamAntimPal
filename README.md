@@ -139,6 +139,17 @@ Lestest Video on Youtube -->
 
 
 
+#### Top Repositories
+
+
+<a href="https://github.com/iamAntimPal">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=buefy" />
+</a>
+<a href="https://github.com/iamAntimPal">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=buefy" />
+</a>
+
+
 ---
 
 <!--START_SECTION:waka-->
