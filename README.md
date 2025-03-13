@@ -5,9 +5,22 @@
   <img src="https://raw.githubusercontent.com/martonlederer/martonlederer/master/name.svg" alt="Antim Pal" />
 </h1>
 -->
-<h1 align="center">Hi 👋, I'm Antim pal</h1>
+<h1 align="center">🏄‍♂️ Hi 👋, I'm Antim pal</h1>
 <h3 align="left">I'm Traning specilist at IWP Academy⚡</h3>
 <h3 align="center">I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
+
+<!-- Adding Follower and youtube option -->
+
+<p align="left">
+      <a href="https://www.youtube.com/@OptimismEducator?sub_confirmation=1">
+         <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/></a> 
+      <a href="https://www.youtube.com/@OptimismEducator">
+         <img alt="youtube views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"/></a> 
+      <a href="https://github.com/iamAntimPal?tab=followers">
+         <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/iamAntimPal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+      <a href="https://github.com/iamAntimPal?tab=repositories&sort=stargazers">
+         <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/iamAntimPal?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+   </p>
 
 <!-- Antim Pal Summary -->
 <img align="center" height="300" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
