@@ -132,7 +132,7 @@ Lestest Video on Youtube -->
 
 
 <!-- Git hub stats -->
-<a href="https://github.com/iamAntimPal/github-readme-stats#gh-dark-mode-only">
+<!--<a href="https://github.com/iamAntimPal/github-readme-stats#gh-dark-mode-only">
 <img height=259 src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&hide_border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&bg_color=000000#gh-dark-mode-only" alt="Antim Pal's Github stats" />
 </a>
 </div>
@@ -142,7 +142,7 @@ Lestest Video on Youtube -->
 
 
 
-#### Top Repositories
+<!--#### Top Repositories
 
 
 <a href="https://github.com/iamAntimPal">
@@ -152,7 +152,7 @@ Lestest Video on Youtube -->
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=buefy" />
 </a>
 
-
+-->
 ---
 
 <!--START_SECTION:waka-->
