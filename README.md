@@ -119,8 +119,11 @@ Lestest Video on Youtube -->
 
 ---
 ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
+<!-- This is for github stats-->
 
-<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/> 
+<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
+
+
 <img height="200" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
 
 
