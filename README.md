@@ -49,7 +49,7 @@
 - ⚡ Fun fact **I think I am So funny.**
 
   
-- <h3 align="left">🧑‍💻 Tech I work on :</h3>
+## 🧑‍💻 Tech I work on :
 
 
 <p align="center"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> 
