@@ -12,9 +12,9 @@
 
 
 
-## I'm Traning specilist at IWP Academy⚡
+<h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
 
-[![Github](https://img.shields.io/github/followers/iamAntimPal?label=Follow&style=social)](https://github.com/iamAntimPal)
+<img align="center" src="https://img.shields.io/github/followers/iamAntimPal?label=Follow&style=social" />
 
 <h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
