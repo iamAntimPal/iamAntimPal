@@ -23,7 +23,7 @@
    </p>
 
 <!-- Antim Pal Summary -->
-<img align="center" height="100" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
+<img align="center"  width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
 
 ---
 <!-- Gif Section -->
