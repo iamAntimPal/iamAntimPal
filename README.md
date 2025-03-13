@@ -34,10 +34,10 @@
 
  <h3 align="left"> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" />About Me:</h3>
 
-- 🏦 I'm Data Analyst working for Intern Career startup in India 
+- 🏦 I'm Data Analyst worked for Intern Career startup in India 
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer**
-- 🌱 I’m currently learning:- **Data Science**
+- 🌱 I’m currently learning:- **Data Science Machine Learning**
 - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
 
 - 💬 Ask me about:- **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
