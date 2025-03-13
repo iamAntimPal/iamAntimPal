@@ -1,5 +1,7 @@
 <!-- Banner Section-->
+<!--
 <img alt="banner" src="assets/banner.png"/>
+->
 <!-- adding name -->
 
 <!--
