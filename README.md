@@ -92,15 +92,16 @@
 ---
 ### 📺 Latest YouTube Videos
 
-<!-- Lestest Video on Youtube -->
+Lestest Video on Youtube -->
 
 <!-- BEGIN YOUTUBE-CARDS -->
-[![Software Engineers are WRONG about AI "taking our jobs"](https://ytcards.demolab.com/?id=4Sj4-kYi0J0&title=Software+Engineers+are+WRONG+about+AI+%22taking+our+jobs%22&lang=en&timestamp=1741789856&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1682 "Software Engineers are WRONG about AI \"taking our jobs\"")](https://www.youtube.com/watch?v=4Sj4-kYi0J0)
+
+<!--[![Software Engineers are WRONG about AI "taking our jobs"](https://ytcards.demolab.com/?id=4Sj4-kYi0J0&title=Software+Engineers+are+WRONG+about+AI+%22taking+our+jobs%22&lang=en&timestamp=1741789856&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1682 "Software Engineers are WRONG about AI \"taking our jobs\"")](https://www.youtube.com/watch?v=4Sj4-kYi0J0)
 [![Vibe coders are struggling.](https://ytcards.demolab.com/?id=yIwGl8YK18Y&title=Vibe+coders+are+struggling.&lang=en&timestamp=1741703586&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=669 "Vibe coders are struggling.")](https://www.youtube.com/watch?v=yIwGl8YK18Y)
 [![Building My DREAM Home Office Ep. 1 // It's Just Sticks Right Now](https://ytcards.demolab.com/?id=T1hWCaC_N0Y&title=Building+My+DREAM+Home+Office+Ep.+1+%2F%2F+It%27s+Just+Sticks+Right+Now&lang=en&timestamp=1741521629&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=426 "Building My DREAM Home Office Ep. 1 // It's Just Sticks Right Now")](https://www.youtube.com/watch?v=T1hWCaC_N0Y)
 [![I finally got access to Claude Code... i'm not a fan](https://ytcards.demolab.com/?id=W13MloZg03Y&title=I+finally+got+access+to+Claude+Code...+i%27m+not+a+fan&lang=en&timestamp=1741356038&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1349 "I finally got access to Claude Code... i'm not a fan")](https://www.youtube.com/watch?v=W13MloZg03Y)
 [![Rust is Killing C++](https://ytcards.demolab.com/?id=ZQyrrMqLT2s&title=Rust+is+Killing+C%2B%2B&lang=en&timestamp=1741191302&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=364 "Rust is Killing C++")](https://www.youtube.com/watch?v=ZQyrrMqLT2s)
-[![Actually coding with Claude 3.7 is actually insane, actually.](https://ytcards.demolab.com/?id=CvooajyiiUw&title=Actually+coding+with+Claude+3.7+is+actually+insane%2C+actually.&lang=en&timestamp=1740593333&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=771 "Actually coding with Claude 3.7 is actually insane, actually.")](https://www.youtube.com/watch?v=CvooajyiiUw)
+[![Actually coding with Claude 3.7 is actually insane, actually.](https://ytcards.demolab.com/?id=CvooajyiiUw&title=Actually+coding+with+Claude+3.7+is+actually+insane%2C+actually.&lang=en&timestamp=1740593333&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=771 "Actually coding with Claude 3.7 is actually insane, actually.")](https://www.youtube.com/watch?v=CvooajyiiUw) -->
 
 
 <!-- END YOUTUBE-CARDS -->
@@ -110,9 +111,20 @@
 
 ---
 ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
-<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/> <img height="200" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/>
-<img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> <img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
+
+<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/> 
+<img height="200" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/>
+
+
+<!-- <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/>  -->
+
+
+<img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
 <!-- Git hub stats -->
+<a href="https://github.com/iamAntimPal/github-readme-stats#gh-dark-mode-only">
+<img height=259 src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&hide_border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&bg_color=000000#gh-dark-mode-only" alt="Antim Pal's Github stats" />
+</a>
+</div>
 <!--
 <img alt="github strick" src="https://github-readme-streak-stats.herokuapp.com/?user=iamAntimPal&theme=dark"/>
 -->
