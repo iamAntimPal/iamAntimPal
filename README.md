@@ -1,7 +1,8 @@
 <!-- Banner Section-->
+<!--
 <img alt="banner" src="assets/banner.png"/>
 <!-- adding name -->
-
+-->
 <!--
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/martonlederer/martonlederer/master/name.svg" alt="Antim Pal" />
