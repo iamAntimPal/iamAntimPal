@@ -1,7 +1,7 @@
 <!-- Banner Section-->
 <img alt="banner" src="assets/banner.png"/>
 <!-- adding name -->
-<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/Antim.png" /></a></p>
+<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/IamAntimPal.png" /></a></p>
 <!--
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/martonlederer/martonlederer/master/name.svg" alt="Antim Pal" />
