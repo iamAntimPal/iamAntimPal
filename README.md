@@ -12,7 +12,7 @@
 
 
 
-<h1 align="center" > I'm Teacher at IWP Academy⚡</h1>
+<h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
 
 <div align="center">
 <img src="https://img.shields.io/github/followers/iamAntimPal?label=Follow&style=social" />
