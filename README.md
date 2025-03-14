@@ -151,7 +151,7 @@ Lestest Video on Youtube -->
 
 </p>
 
-
+<!--
 
 ![](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/master/profile-summary-card-output/solarized/1-repos-per-language.svg)
 ![](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/master/profile-summary-card-output/solarized/2-most-commit-language.svg)
