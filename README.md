@@ -15,6 +15,8 @@
 
 <h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
 
+<!-- banner that is have follower and youtube-->
+
 <div align="center">
 <a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
 <a href="#"> <img height="30" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
@@ -24,6 +26,8 @@
 
 </div>
 
+
+<!-- My Discription-->
 <h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
 <!-- Adding Follower and youtube option -->
@@ -40,7 +44,7 @@
    </p> -->
 
 <!-- Antim Pal Summary -->
-<img align="center"  width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
+<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
 
 ---
 <!-- Gif Section -->
