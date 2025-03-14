@@ -16,7 +16,11 @@
 <h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
 
 <div align="center">
-<img src="https://img.shields.io/github/followers/iamAntimPal?label=Follow&style=social" />
+<a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
+<a href="#"> <img height="30" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
+<a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
+<a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
+
 </div>
 
 <h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
@@ -43,7 +47,7 @@
 <img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" />
 
 
-<img align="right" height="300" width="500" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" />
+<!-- <img align="right" height="300" width="500" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" /> -->
 
 
 
