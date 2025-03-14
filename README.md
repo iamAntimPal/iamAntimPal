@@ -169,13 +169,13 @@ Lestest Video on Youtube -->
 
 ## Contact
 [![Email](https://img.shields.io/badge/Gmail-antimpal01617121?style=for-the-badge&logo=gmail&logoColor=white)](antimpal01617121@gmail.com) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/antim-pal) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antim-pal/) 
 [![HackerRank](https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/antimpal01617121/) 
 [![LeetCode](https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/antim_pal/)
 
-<!--
-[![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=iamAntimPal&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
--->
+
+<!-- [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
+
 
 <!--
 ---
