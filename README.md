@@ -1,5 +1,5 @@
 <!-- Banner Section-->
-
+<img src="./assets/welcome-header.gif">
 <img alt="banner" src="assets/banner.png"/>
 <!-- adding name -->
 
