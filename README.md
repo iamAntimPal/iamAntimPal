@@ -48,8 +48,7 @@
    </p> -->
 
 <!-- Antim Pal Summary -->
-<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
-
+<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
 ---
 <!-- Gif Section -->
 <!-- GIF -->
@@ -143,17 +142,23 @@ Lestest Video on Youtube -->
 <img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
 </a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
 
+<!-- this try to git stats-->
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=dark&exclude=java,python,HTML,jupyter%20Notebook" />
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vn7n24fzkq&theme=nord_bright)
+
+### Productive time card
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=nord_bright&utcOffset=8)
+
+
+
+<!-- the end of stats-->
 
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 
 <!-- This is for github stats-->
-
-[![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-
-[![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 
 <!-- <img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/> -->
