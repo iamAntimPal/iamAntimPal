@@ -1,7 +1,8 @@
 <!-- Banner Section-->
+<div align="center">
 <img align="center" witdh="auto" src="./assets/welcome-header.gif">
 <img alt="banner" src="assets/banner.png"/>
-<!-- adding name -->
+</div>
 
 <!--
 <h1 align="center">
@@ -9,11 +10,15 @@
 </h1>
 -->
 <!-- <h1 align="center">🏄‍♂️ Hi 👋, I'm Antim pal</h1> -->
-<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Shiwangi Srivastava. I do open source!" src="./assets/Antim_pal.png" /></a></p>
+
+<!-- adding name -->
+<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/Antim_pal.png" /></a></p>
 
 
 
 <h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
+
+<!-- banner that is have follower and youtube-->
 
 <div align="center">
 <a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
@@ -24,6 +29,8 @@
 
 </div>
 
+
+<!-- My Discription-->
 <h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
 <!-- Adding Follower and youtube option -->
@@ -40,7 +47,7 @@
    </p> -->
 
 <!-- Antim Pal Summary -->
-<img align="center"  width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
+<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
 
 ---
 <!-- Gif Section -->
