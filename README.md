@@ -53,14 +53,12 @@
 ---
 <!-- Gif Section -->
 <!-- GIF -->
-<img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" />
-
+<img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" /><br>
 
 <!-- <img align="right" height="300" width="500" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" /> -->
 
-
-
- <h3 align="left"> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:</h3>
+<div>
+ <h3 align="left"> <img height="25" src="./assets/cat-typing.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
 
 - 🏦 I'm Data Analyst worked for Intern Career startup in India 
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
@@ -75,7 +73,7 @@
 - 📫 Join Whatsapp Group:-  **https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK**
 
 - ⚡ Fun fact **I think I am So funny.**
-
+</div>
   
 ## 🧑‍💻 Tech I work on :
 
