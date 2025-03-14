@@ -22,6 +22,9 @@
 
 <div align="center">
 <a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
+  
+<img src="https://enct8yvqkgdbon1.m.pipedream.net" alt="Total Github views" />&nbsp;&nbsp;</a>
+
 <a href="#"> <img height="30" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
 <a href="#"> <img height="30" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
 <a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
