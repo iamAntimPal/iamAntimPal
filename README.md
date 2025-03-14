@@ -143,12 +143,20 @@ Lestest Video on Youtube -->
 </a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
 
 <!-- this try to git stats-->
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical&exclude=python,HTML,SQL,Java,CSS,Javascript,jupyter%20Notebook" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical&exclude=python, HTML, SQL,Java,CSS,Javascript,jupyter%20Notebook" />
 
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical&exclude=python,HTML,SQL,Java,CSS,Javascript,jupyter%20Notebook" />
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8)
+
 </p>
+
+
+
+![](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/master/profile-summary-card-output/solarized/1-repos-per-language.svg)
+![](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/master/profile-summary-card-output/solarized/2-most-commit-language.svg)
+![](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/master/profile-summary-card-output/solarized/3-stats.svg)
+![](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/master/profile-summary-card-output/solarized/4-productive-time.svg)
 <!-- the end of stats-->
 
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
