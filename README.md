@@ -148,12 +148,12 @@ Lestest Video on Youtube -->
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical" />
 
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8" />
-</p>
-<!-- the end of stats-->
+
 
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
-
+</p>
+<!-- the end of stats-->
 <!-- This is for github stats-->
 
 
