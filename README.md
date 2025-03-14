@@ -1,7 +1,8 @@
 <!-- Banner Section-->
+<div align="center">
 <img align="center" witdh="auto" src="./assets/welcome-header.gif">
 <img alt="banner" src="assets/banner.png"/>
-<!-- adding name -->
+</div>
 
 <!--
 <h1 align="center">
@@ -9,7 +10,9 @@
 </h1>
 -->
 <!-- <h1 align="center">🏄‍♂️ Hi 👋, I'm Antim pal</h1> -->
-<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Shiwangi Srivastava. I do open source!" src="./assets/Antim_pal.png" /></a></p>
+
+<!-- adding name -->
+<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/Antim_pal.png" /></a></p>
 
 
 
