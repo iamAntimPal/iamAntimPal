@@ -1,5 +1,5 @@
 <!-- Banner Section-->
-<img src="./assets/welcome-header.gif">
+<img align="center" witdh="auto" src="./assets/welcome-header.gif">
 <img alt="banner" src="assets/banner.png"/>
 <!-- adding name -->
 
@@ -16,13 +16,18 @@
 <h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
 
 <div align="center">
-<img src="https://img.shields.io/github/followers/iamAntimPal?label=Follow&style=social" />
+<a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
+<a href="#"> <img height="30" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
+<a href="#"> <img height="30" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
+<a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
+<a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
+
 </div>
 
 <h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
 <!-- Adding Follower and youtube option -->
-
+<!-- 
 <p align="center">
       <a href="https://www.youtube.com/@OptimismEducator?sub_confirmation=1">
          <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/></a> 
@@ -32,7 +37,7 @@
          <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/iamAntimPal?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
       <a href="https://github.com/iamAntimPal?tab=repositories&sort=stargazers">
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/iamAntimPal?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-   </p>
+   </p> -->
 
 <!-- Antim Pal Summary -->
 <img align="center"  width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=dark" />
@@ -41,6 +46,9 @@
 <!-- Gif Section -->
 <!-- GIF -->
 <img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" />
+
+
+<!-- <img align="right" height="300" width="500" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" /> -->
 
 
 
@@ -119,7 +127,11 @@ Lestest Video on Youtube -->
 
 
 ---
-## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
+
+## <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
+
+<!-- this is adding github stats icon-->
+<!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
 
 <a href="https://github.com/iamAntimPal/github-readme-stats#gh-dark-mode-only">
 <img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
@@ -160,7 +172,7 @@ Lestest Video on Youtube -->
 
 <!--START_SECTION:waka-->
 
-⏳ **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 09-March-2025
+<img height="25" src="./assets/unicorn.gif"> **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 09-March-2025
 
 ---
 ## Portfolio Website
