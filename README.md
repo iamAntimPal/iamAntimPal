@@ -116,7 +116,7 @@
 
 ---
 ### 📺 Latest YouTube Videos
-
+<!--
 Lestest Video on Youtube -->
 
 <!-- BEGIN YOUTUBE-CARDS -->
@@ -131,10 +131,10 @@ Lestest Video on Youtube -->
 
 <!-- END YOUTUBE-CARDS -->
 
-[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)
+<img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif">
 
+<!-- END YOUTUBE-CARDS End -->
 
----
 
 ## <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
 <div align="center" >
