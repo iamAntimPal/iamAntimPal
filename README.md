@@ -1,5 +1,5 @@
 <!-- Banner Section-->
-<img src="./assets/welcome-header.gif">
+<img align="center" witdh="auto" src="./assets/welcome-header.gif">
 <img alt="banner" src="assets/banner.png"/>
 <!-- adding name -->
 
@@ -119,7 +119,11 @@ Lestest Video on Youtube -->
 
 
 ---
-## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
+
+## <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
+
+<!-- this is adding github stats icon-->
+<!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
 
 <a href="https://github.com/iamAntimPal/github-readme-stats#gh-dark-mode-only">
 <img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
@@ -160,7 +164,7 @@ Lestest Video on Youtube -->
 
 <!--START_SECTION:waka-->
 
-⏳ **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 09-March-2025
+<img height="25" src="./assets/unicorn.gif"> **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 09-March-2025
 
 ---
 ## Portfolio Website
