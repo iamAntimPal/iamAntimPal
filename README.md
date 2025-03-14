@@ -134,7 +134,7 @@ Lestest Video on Youtube -->
 
 
 ## <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
-<div align="center" >
+<p align="center" >
 <!-- this is adding github stats icon-->
 <!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
 
@@ -143,17 +143,12 @@ Lestest Video on Youtube -->
 </a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
 
 <!-- this try to git stats-->
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical&exclude=java,python,HTML,jupyter%20Notebook" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical&exclude=python,HTML,SQL,Java,CSS,Javascript,jupyter%20Notebook" />
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={username}&theme=radical&exclude=python,html,jupyter%20Notebook" />
-
-
-### Productive time card
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical&exclude=python,HTML,SQL,Java,CSS,Javascript,jupyter%20Notebook" />
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8)
-
-
-
+</p>
 <!-- the end of stats-->
 
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
