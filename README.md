@@ -143,13 +143,14 @@ Lestest Video on Youtube -->
 </a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
 
 <!-- this try to git stats-->
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=dark&exclude=java,python,HTML,jupyter%20Notebook" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical&exclude=java,python,HTML,jupyter%20Notebook" />
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vn7n24fzkq&theme=nord_bright)
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={username}&theme=radical&exclude=python,html,jupyter%20Notebook" />
+
 
 ### Productive time card
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=nord_bright&utcOffset=8)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8)
 
 
 
