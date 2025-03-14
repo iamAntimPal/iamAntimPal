@@ -236,12 +236,12 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
    </details> 
----
+
 
 
 <!--START_SECTION:waka-->
 
-<img height="25" src="./assets/unicorn.gif"> **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 09-March-2025
+<img height="25" src="./assets/unicorn.gif"> **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 14-March-2025
 
 ---
 ## Portfolio Website
