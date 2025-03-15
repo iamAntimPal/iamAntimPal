@@ -1,0 +1,157 @@
+< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Top Repositories</title><style>
+
+/* Section Background (full width) */
+.top-repos-section {
+     width: 100%;
+     background-color: #f8f9fa;
+     padding: 3rem 0;
+}
+
+/* Container to restrict content width and center it */
+.container {
+     max-width: 1140px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+/* Section Title */
+.section-title {
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: 700;
+     margin-bottom: 2rem;
+     color: #333;
+}
+
+/* Horizontal Row Layout for Repository Cards */
+.repos-grid {
+     display: flex;
+     flex-wrap: nowrap;
+     /* Force one row */
+     overflow-x: auto;
+     /* Enable horizontal scrolling on smaller screens */
+     gap: 1.5rem;
+     padding-bottom: 1rem;
+}
+
+/* Individual Repository Card Styling */
+.repos-grid a {
+     flex: 0 0 auto;
+     /* Prevent cards from shrinking */
+     width: 300px;
+     /* Fixed width on larger screens */
+     display: block;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Repository Card Image Styling */
+.repos-grid a img {
+     width: 100%;
+     height: auto;
+     display: block;
+     border-radius: 8px;
+}
+
+/* Hover Effect: Scale up and add shadow */
+.repos-grid a:hover {
+     transform: scale(1.15);
+     /* Increase size on hover */
+     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Custom Scrollbar (optional) */
+.repos-grid::-webkit-scrollbar {
+     height: 8px;
+}
+
+.repos-grid::-webkit-scrollbar-thumb {
+     background-color: rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+}
+
+/* Responsive Adjustment for Smaller Devices */
+@media (max-width: 600px) {
+     .repos-grid a {
+          width: 90%;
+          /* Use most of the screen width on smaller devices */
+     }
+}
+< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Top Repositories</title><style>
+
+/* Section Background (full width) */
+.top-repos-section {
+     width: 100%;
+     background-color: #f8f9fa;
+     padding: 3rem 0;
+}
+
+/* Container to restrict content width and center it */
+.container {
+     max-width: 1140px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+/* Section Title */
+.section-title {
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: 700;
+     margin-bottom: 2rem;
+     color: #333;
+}
+
+/* Horizontal Row Layout for Repository Cards */
+.repos-grid {
+     display: flex;
+     flex-wrap: nowrap;
+     /* Force one row */
+     overflow-x: auto;
+     /* Enable horizontal scrolling on smaller screens */
+     gap: 1.5rem;
+     padding-bottom: 1rem;
+}
+
+/* Individual Repository Card Styling */
+.repos-grid a {
+     flex: 0 0 auto;
+     /* Prevent cards from shrinking */
+     width: 300px;
+     /* Fixed width on larger screens */
+     display: block;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Repository Card Image Styling */
+.repos-grid a img {
+     width: 100%;
+     height: auto;
+     display: block;
+     border-radius: 8px;
+}
+
+/* Hover Effect: Scale up and add shadow */
+.repos-grid a:hover {
+     transform: scale(1.15);
+     /* Increase size on hover */
+     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Custom Scrollbar (optional) */
+.repos-grid::-webkit-scrollbar {
+     height: 8px;
+}
+
+.repos-grid::-webkit-scrollbar-thumb {
+     background-color: rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+}
+
+/* Responsive Adjustment for Smaller Devices */
+@media (max-width: 600px) {
+     .repos-grid a {
+          width: 90%;
+          /* Use most of the screen width on smaller devices */
+     }
+}
+

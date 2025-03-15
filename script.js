@@ -33,3 +33,44 @@ document.querySelectorAll('section').forEach(section => {
     }, { threshold: 0.5 });
     observer.observe(section);
 });
+
+
+// Fetch and display top 3 repositories dynamically
+async function fetchTopRepos() {
+  const username = 'iamAntimPal';
+  try {
+    // Fetch all public repositories for the user
+    const response = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
+    const repos = await response.json();
+    
+    // Sort repositories by star count in descending order
+    repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
+    
+    // Select the top 3 repositories
+    const topRepos = repos.slice(0, 3);
+    
+    // Get the container element where repos will be added
+    const container = document.getElementById('repos-container');
+    
+    // Create a card for each top repository using the GitHub ReadMe Stats "pin" card
+    topRepos.forEach(repo => {
+      const anchor = document.createElement('a');
+      anchor.href = repo.html_url;
+      anchor.target = '_blank';
+      
+      // Construct the image URL with the repo name and desired theme
+      const img = document.createElement('img');
+      img.src = `https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=dark`;
+      img.alt = repo.name;
+      
+      anchor.appendChild(img);
+      container.appendChild(anchor);
+    });
+  } catch (error) {
+    console.error('Error fetching repositories:', error);
+    document.getElementById('repos-container').innerHTML = '<p>Failed to load repositories.</p>';
+  }
+}
+
+// Call the function on page load
+fetchTopRepos();
