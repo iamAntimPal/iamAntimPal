@@ -1,0 +1,98 @@
+/* Theme Variables */
+:root {
+     --footer-bg-dark: #1f1f1f;
+     --footer-text-dark: #e0e0e0;
+     --footer-bg-light: #f8f9fa;
+     --footer-text-light: #212529;
+}
+
+/* Dark Theme */
+body[data-theme="dark"] .footer {
+     background-color: var(--footer-bg-dark);
+     color: var(--footer-text-dark);
+}
+
+/* Light Theme */
+body[data-theme="light"] .footer {
+     background-color: var(--footer-bg-light);
+     color: var(--footer-text-light);
+}
+
+/* Footer Base Styling */
+.footer {
+     padding: 1rem 0;
+     text-align: center;
+     /* Initial state for animation */
+     opacity: 0;
+     transform: translateY(30px);
+     /* Drop shadow and transition for hover effects */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease, box-shadow 0.3s ease,
+          background-color 0.3s ease, color 0.3s ease;
+     animation: slideInFooter 1s ease forwards;
+}
+
+/* Hover Effects for the Footer */
+.footer:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Container Utility */
+.container {
+     max-width: 1140px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+/* Footer Text Styling */
+.footer-text {
+     margin: 0;
+     font-size: 1rem;
+}
+
+/* Keyframes for Footer Animation */
+@keyframes slideInFooter {
+     from {
+          opacity: 0;
+          transform: translateY(30px);
+     }
+
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+/* Container Utility */
+.container {
+     max-width: 1140px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+/* Footer Base Styling */
+.footer {
+     background-color: #1f1f1f;
+     /* Dark background */
+     color: #e0e0e0;
+     /* Light text */
+     padding: 1rem 0;
+     text-align: center;
+     /* Initial state for animation and hover effects */
+     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Hover Effect */
+.footer:hover {
+     transform: translateY(-5px);
+     background-color: #111111;
+     /* Slightly darker on hover */
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer Text Styling */
+.footer-text {
+     margin: 0;
+     font-size: 1rem;
+}

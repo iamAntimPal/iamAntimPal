@@ -1,0 +1,379 @@
+:root {
+     --primary: #1a1a1a;
+     --secondary: #f5f5f5;
+     --accent: #64ffda;
+}
+
+[data-theme="dark"] {
+     --primary: #1a1a1a;
+     --secondary: #f5f5f5;
+     --bg: #0d1117;
+     --text: #c9d1d9;
+}
+
+[data-theme="light"] {
+     --primary: #2d333b;
+     --secondary: #f0f6fc;
+     --bg: #ffffff;
+     --text: #24292f;
+}
+
+body {
+     font-family: 'Segoe UI', sans-serif;
+     margin: 0;
+     padding: 0;
+     background: var(--bg);
+     color: var(--text);
+     transition: all 0.3s ease;
+}
+
+.navbar {
+     position: sticky;
+     top: 0;
+     background: var(--primary);
+     padding: 1rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     z-index: 1000;
+}
+
+.nav-links {
+     list-style: none;
+     display: flex;
+     gap: 2rem;
+}
+
+.nav-links a {
+     color: var(--secondary);
+     text-decoration: none;
+     font-weight: 500;
+}
+
+.theme-toggle {
+     background: none;
+     border: none;
+     cursor: pointer;
+     color: var(--secondary);
+     font-size: 1.2rem;
+}
+
+.section {
+     padding: 4rem 2rem;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.tech-stack {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+     gap: 1.5rem;
+}
+
+.tech-item {
+     text-align: center;
+     padding: 1rem;
+     border-radius: 10px;
+     transition: transform 0.2s ease;
+}
+
+.tech-item:hover {
+     transform: translateY(-5px);
+}
+
+.repo-card {
+     background: var(--secondary);
+     padding: 1.5rem;
+     border-radius: 10px;
+     margin: 1rem 0;
+}
+
+.stats-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     gap: 2rem;
+}
+
+ /* Add these new styles */
+ .banner {
+      position: relative;
+      text-align: center;
+      padding: 4rem 2rem;
+ }
+
+ .logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid var(--accent);
+      margin: 0 auto 2rem;
+      transition: transform 0.3s ease;
+ }
+
+ .logo:hover {
+      transform: rotate(360deg);
+ }
+
+ .gradient-name {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(45deg, #64ffda, #ff6b6b, #4ecdc4, #45b7d1);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientAnimation 5s ease infinite;
+ }
+
+ @keyframes gradientAnimation {
+      0% {
+           background-position: 0% 50%;
+      }
+
+      50% {
+           background-position: 100% 50%;
+      }
+
+      100% {
+           background-position: 0% 50%;
+      }
+ }
+
+ .subtitle {
+      color: var(--accent);
+      margin-top: 1rem;
+      font-size: 1.5rem;
+ }
+
+
+ /* Add these new styles for the footer */
+
+
+ /* Container */
+ .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 15px;
+ }
+
+ /* Utility classes */
+ .py-5 {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+ }
+
+ .py-3 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+ }
+
+ .bg-secondary {
+      background-color: #6c757d;
+ }
+
+ .bg-opacity-10 {
+      /* bg-secondary with 10% opacity */
+      background-color: rgba(108, 117, 125, 0.1);
+ }
+
+ .text-center {
+      text-align: center;
+ }
+
+ .mb-0 {
+      margin-bottom: 0;
+ }
+
+ /* Section Title */
+ .section-title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+ }
+
+ /* Contact Section Styles */
+ #contact {
+      padding: 3rem 0;
+      /* equivalent to .py-5 */
+      background-color: rgba(108, 117, 125, 0.1);
+      /* bg-secondary with 10% opacity */
+      text-align: center;
+ }
+
+ #contact p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+ }
+
+ /* Button Styles */
+ .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      transition: background-color 0.15s ease-in-out,
+           border-color 0.15s ease-in-out,
+           color 0.15s ease-in-out;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+ }
+
+ .btn-outline-primary {
+      color: #0d6efd;
+      border-color: #0d6efd;
+ }
+
+ .btn-outline-primary:hover {
+      background-color: #0d6efd;
+      color: #fff;
+ }
+
+ .btn-outline-info {
+      color: #0dcaf0;
+      border-color: #0dcaf0;
+ }
+
+ .btn-outline-info:hover {
+      background-color: #0dcaf0;
+      color: #fff;
+ }
+
+ .btn-outline-success {
+      color: #198754;
+      border-color: #198754;
+ }
+
+ .btn-outline-success:hover {
+      background-color: #198754;
+      color: #fff;
+ }
+
+ /* Footer Styles */
+ footer {
+      padding: 1rem 0;
+      /* equivalent to .py-3 */
+      background-color: #f8f9fa;
+      text-align: center;
+ }
+
+ footer p {
+      margin-bottom: 0;
+      font-size: 0.875rem;
+      color: #6c757d;
+ }
+
+/* Define Gradient Variables */
+:root {
+     --gradient-bg: linear-gradient(135deg, #667eea, #764ba2);
+     --gradient-text: linear-gradient(90deg, #ff7e5f, #feb47b);
+}
+
+/* Container and Utility Styles */
+.py-5 {
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+}
+
+.container {
+     max-width: 1140px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+/* Gradient Background for Stats Section */
+.github-stats-section {
+     background: var(--gradient-bg);
+     padding: 3rem 0;
+     transition: background 0.3s ease;
+}
+
+/* Gradient Text Title */
+.section-title {
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: 700;
+     margin-bottom: 2rem;
+     background: var(--gradient-text);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+/* Stats Cards Layout */
+.stats-cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 2rem;
+}
+
+/* Stats Card Styling with Animation */
+.stats-card {
+     flex: 1 1 500px;
+     max-width: 550px;
+     background: rgba(255, 255, 255, 0.1);
+     border-radius: 10px;
+     padding: 1rem;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+     text-align: center;
+     opacity: 0;
+     transform: translateY(20px);
+     animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Stagger Animation Delay for Each Card */
+.stats-card:nth-child(1) {
+     animation-delay: 0.2s;
+}
+
+.stats-card:nth-child(2) {
+     animation-delay: 0.4s;
+}
+
+.stats-card:nth-child(3) {
+     animation-delay: 0.6s;
+}
+
+.stats-card:nth-child(4) {
+     animation-delay: 0.8s;
+}
+
+/* Ensure Stats Card Images are Responsive */
+.stats-card img {
+     width: 100%;
+     height: auto;
+     border-radius: 8px;
+}
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+     from {
+          transform: translateY(20px);
+          opacity: 0;
+     }
+
+     to {
+          transform: translateY(0);
+          opacity: 1;
+     }
+}
+
+@media (max-width: 768px) {
+     .stats-cards {
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .stats-card {
+          max-width: 90%;
+     }
+}
+
+/* Add these new styles */
+/* Container and Utility Styles */
+/* that is contact fil */
