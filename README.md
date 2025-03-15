@@ -255,17 +255,31 @@ Pandas                  1 repo              █░░░░░░░░░░░
 ---
 
 ## Contact
-[![Email](https://img.shields.io/badge/Gmail-antimpal01617121?style=for-the-badge&logo=gmail&logoColor=white)](antimpal01617121@gmail.com) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antim-pal/) 
-[![HackerRank](https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/antimpal01617121/) 
-[![LeetCode](https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/antim_pal/)
+
+<!-- My Gmail -->
+  <a href="mailto:antimpal01617121@gmail.com">
+  <img height="30" src="https://img.shields.io/badge/Gmail-antimpal01617121?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<!-- LinkedIn Badge -->
+<a href="https://www.linkedin.com/in/antim-pal/" target="_blank">
+  <img height="30" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<!-- HackerRank Badge -->
+<a href="https://www.hackerrank.com/profile/antimpal01617121/" target="_blank">
+  <img height="30" src="https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white" />
+</a>
+
+<!-- LeetCode Badge -->
+<a href="https://leetcode.com/antim_pal/" target="_blank">
+  <img height="30" src="https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white" />
+</a>
 
 <!-- whatsapp group -->
-<div>
 <a href="https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK" target="_blank">
   <img height="30" src="https://img.shields.io/badge/Join%20WhatsApp%20Group-25D366?style=flat&logo=whatsapp&logoColor=white" />
 </a>
-</div>
 
 <!-- [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 
