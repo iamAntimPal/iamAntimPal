@@ -57,7 +57,7 @@
 <!-- <img align="right" height="300" width="500" alt="GIF" src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" /> -->
 
 <div>
- <h3 align="left"> <img height="25" src="./assets/cat-typing.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
+ <h3 align="left"> <img height="25" src="./assets/cat.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
 
 - 🏦 I'm Data Analyst worked for Intern Career startup in India 
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
