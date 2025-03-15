@@ -260,6 +260,12 @@ Pandas                  1 repo              █░░░░░░░░░░░
 [![HackerRank](https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/antimpal01617121/) 
 [![LeetCode](https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/antim_pal/)
 
+<!-- whatsapp group -->
+<div>
+<a href="https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK" target="_blank">
+  <img height="30" src="https://img.shields.io/badge/Join%20WhatsApp%20Group-25D366?style=flat&logo=whatsapp&logoColor=white" />
+</a>
+</div>
 
 <!-- [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
 
