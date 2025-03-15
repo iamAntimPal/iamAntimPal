@@ -49,7 +49,7 @@
 
 <!-- Antim Pal Summary -->
 <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
----
+
 <!-- Gif Section -->
 <!-- GIF -->
 <img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" /><br>
