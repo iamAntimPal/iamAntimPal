@@ -288,7 +288,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 <!-- Visiter count -->
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <p>Visitor Count</p>
-  <img src="https://profile-counter.glitch.me/murapa96/count.svg" alt="Profile Visitor Count" />
+  <img src="https://profile-counter.glitch.me/iamAntimPal/count.svg"alt="Profile Visitor Count" />
 </div>
 
 <!-- Keep Learing Banner -->
