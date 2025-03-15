@@ -17,7 +17,7 @@
 
 
 
-<h1 align="center" > I'm a Training Specilist at IWP Academy⚡</h1>
+<h1 align="center" > I'm a Training Specialist at IWP Academy⚡</h1>
 
 <!-- banner that is have follower and youtube-->
 
@@ -180,7 +180,7 @@ Lestest Video on Youtube -->
 <a href="https://github.com/iamAntimPal">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
 </a>
-<a href="https://github.com/iamAntimPal">
+<a href="https://github.com/iamAntimPal/Hotel-Management">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=dark" />
 </a>
 
