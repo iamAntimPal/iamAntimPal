@@ -74,7 +74,7 @@
   
 - 📫 Join Whatsapp Group:-  **https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK** 
 
-- ⚡ Fun fact **I think I am So funny.**
+- ⚡ Fun fact: **Model accuracy: 0.0001%. Close enough! 🎯😂**
 </div>
   
 ## 🧑‍💻 Tech I work on :
