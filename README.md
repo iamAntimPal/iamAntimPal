@@ -180,7 +180,7 @@ Lestest Video on Youtube -->
 <a href="https://github.com/iamAntimPal">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
 </a>
-<a href="https://github.com/iamAntimPal">
+<a href="https://github.com/iamAntimPal/Hotel-Management">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=dark" />
 </a>
 
