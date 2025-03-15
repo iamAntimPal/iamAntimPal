@@ -17,7 +17,7 @@
 
 
 
-<h1 align="center" > I'm a Training Specilist at IWP Academy⚡</h1>
+<h1 align="center" > I'm a Training Specialist at IWP Academy⚡</h1>
 
 <!-- banner that is have follower and youtube-->
 
