@@ -17,7 +17,7 @@
 
 
 
-<h1 align="center" > I'm Traning specilist at IWP Academy⚡</h1>
+<h1 align="center" > I'm a Training Specilist at IWP Academy⚡</h1>
 
 <!-- banner that is have follower and youtube-->
 
@@ -33,7 +33,7 @@
 
 
 <!-- My Discription-->
-<h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
+<h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am passionate about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
 
 <!-- Adding Follower and youtube option -->
 <!-- 
@@ -62,7 +62,7 @@
 <div>
  <h3 align="left"> <img height="25" src="./assets/cat.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
 
-- 🏦 I'm Data Analyst worked for Intern Career startup in India 
+- 🏦 I'm a Data Analyst who worked for Intern Career startup in India 
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer**
 - 🌱 I’m currently learning:- **Data Science Machine Learning**
