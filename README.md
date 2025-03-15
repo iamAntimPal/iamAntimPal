@@ -74,7 +74,7 @@
   
 - 📫 Join Whatsapp Group:-  **https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK** 
 
-- ⚡ Fun fact: **Model accuracy: 0.0001%. Close enough! 🎯😂**
+- ⚡ Fun fact: **My GitHub is more active then my phone!😂**
 </div>
   
 ## 🧑‍💻 Tech I work on :
