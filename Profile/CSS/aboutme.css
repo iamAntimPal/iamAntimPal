@@ -44,19 +44,36 @@
      background: #e68900;
 }
 
+
 /* Responsive Design */
 @media (max-width: 768px) {
-     .about-me-container {
+     .about-container {
           flex-direction: column;
           text-align: center;
      }
 
-     .about-me-image {
-          max-width: 200px;
+     .about-image img {
+          width: 150px;
+          /* Reduce size for smaller screens */
      }
 
-     .about-me-content {
+     .about-text {
           max-width: 90%;
      }
 }
 
+@media (max-width: 480px) {
+     .about-section {
+          padding: 30px 15px;
+     }
+
+     .about-image img {
+          width: 120px;
+          /* Further reduce image size for very small screens */
+     }
+
+     .btn-contact {
+          padding: 8px 16px;
+          font-size: 14px;
+     }
+}
