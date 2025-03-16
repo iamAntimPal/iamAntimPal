@@ -1,157 +1,128 @@
-< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Top Repositories</title><style>
-
-/* Section Background (full width) */
+/* Top Repositories Section: Transparent background */
 .top-repos-section {
      width: 100%;
-     background-color: #f8f9fa;
-     padding: 3rem 0;
+     background: transparent;
+     padding: 4rem 0;
 }
 
-/* Container to restrict content width and center it */
+/* Container: Centers content with a max-width */
 .container {
-     max-width: 1140px;
+     max-width: 1440px;
      margin: 0 auto;
-     padding: 0 15px;
+     padding: 0 30px;
 }
 
-/* Section Title */
+/* Section Title Styling */
 .section-title {
      text-align: center;
-     font-size: 2.5rem;
+     font-size: 3rem;
      font-weight: 700;
-     margin-bottom: 2rem;
+     margin-bottom: 2.5rem;
      color: #333;
 }
 
-/* Horizontal Row Layout for Repository Cards */
+/* Repositories Grid: Horizontal row with overflow scrolling */
 .repos-grid {
      display: flex;
      flex-wrap: nowrap;
-     /* Force one row */
+     /* Force a single row */
      overflow-x: auto;
-     /* Enable horizontal scrolling on smaller screens */
-     gap: 1.5rem;
+     /* Enable horizontal scrolling */
+     gap: 2rem;
      padding-bottom: 1rem;
 }
 
-/* Individual Repository Card Styling */
+/* Individual Repository Card */
 .repos-grid a {
+     position: relative;
      flex: 0 0 auto;
      /* Prevent cards from shrinking */
-     width: 300px;
-     /* Fixed width on larger screens */
+     width: 500px;
+     /* Fixed width */
+     height: 200px;
+     /* Fixed height */
      display: block;
+     overflow: hidden;
+     border-radius: 12px;
      transition: transform 0.3s ease, box-shadow 0.3s ease;
+     /* Initial animation state */
+     opacity: 0;
+     transform: translateY(30px);
+     animation: fadeInSlide 1s ease forwards;
 }
 
-/* Repository Card Image Styling */
+/* Repository Card Image */
 .repos-grid a img {
      width: 100%;
-     height: auto;
+     height: 100%;
+     object-fit: cover;
+     /* Ensures image covers area without distortion */
      display: block;
-     border-radius: 8px;
+     border-radius: 12px;
+     transition: transform 0.3s ease;
 }
 
-/* Hover Effect: Scale up and add shadow */
+/* Overlay for Repository Details */
+.repos-grid a .repo-overlay {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.4);
+     /* 40% opaque overlay */
+     color: #fff;
+     padding: 0.5rem 1rem;
+     font-size: 1.2rem;
+     font-weight: 500;
+     white-space: normal;
+     /* Allow text wrapping */
+     line-height: 1.4;
+     z-index: 2;
+     transition: background 0.3s ease;
+}
+
+/* Hover Effect on Repository Card */
 .repos-grid a:hover {
-     transform: scale(1.15);
-     /* Increase size on hover */
-     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+     transform: scale(1.1) rotate(1deg);
+     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
 }
 
-/* Custom Scrollbar (optional) */
-.repos-grid::-webkit-scrollbar {
-     height: 8px;
+/* Hover Effect for Overlay */
+.repos-grid a:hover .repo-overlay {
+     background: rgba(0, 0, 0, 0.6);
 }
 
-.repos-grid::-webkit-scrollbar-thumb {
-     background-color: rgba(0, 0, 0, 0.2);
-     border-radius: 4px;
-}
-
-/* Responsive Adjustment for Smaller Devices */
-@media (max-width: 600px) {
-     .repos-grid a {
-          width: 90%;
-          /* Use most of the screen width on smaller devices */
+/* Fade In and Slide Animation */
+@keyframes fadeInSlide {
+     from {
+          opacity: 0;
+          transform: translateY(30px);
      }
-}
-< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Top Repositories</title><style>
 
-/* Section Background (full width) */
-.top-repos-section {
-     width: 100%;
-     background-color: #f8f9fa;
-     padding: 3rem 0;
-}
-
-/* Container to restrict content width and center it */
-.container {
-     max-width: 1140px;
-     margin: 0 auto;
-     padding: 0 15px;
-}
-
-/* Section Title */
-.section-title {
-     text-align: center;
-     font-size: 2.5rem;
-     font-weight: 700;
-     margin-bottom: 2rem;
-     color: #333;
-}
-
-/* Horizontal Row Layout for Repository Cards */
-.repos-grid {
-     display: flex;
-     flex-wrap: nowrap;
-     /* Force one row */
-     overflow-x: auto;
-     /* Enable horizontal scrolling on smaller screens */
-     gap: 1.5rem;
-     padding-bottom: 1rem;
-}
-
-/* Individual Repository Card Styling */
-.repos-grid a {
-     flex: 0 0 auto;
-     /* Prevent cards from shrinking */
-     width: 300px;
-     /* Fixed width on larger screens */
-     display: block;
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Repository Card Image Styling */
-.repos-grid a img {
-     width: 100%;
-     height: auto;
-     display: block;
-     border-radius: 8px;
-}
-
-/* Hover Effect: Scale up and add shadow */
-.repos-grid a:hover {
-     transform: scale(1.15);
-     /* Increase size on hover */
-     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
-}
-
-/* Custom Scrollbar (optional) */
-.repos-grid::-webkit-scrollbar {
-     height: 8px;
-}
-
-.repos-grid::-webkit-scrollbar-thumb {
-     background-color: rgba(0, 0, 0, 0.2);
-     border-radius: 4px;
-}
-
-/* Responsive Adjustment for Smaller Devices */
-@media (max-width: 600px) {
-     .repos-grid a {
-          width: 90%;
-          /* Use most of the screen width on smaller devices */
+     to {
+          opacity: 1;
+          transform: translateY(0);
      }
 }
 
+/* Custom Horizontal Scrollbar (Optional for WebKit Browsers) */
+.repos-grid::-webkit-scrollbar {
+     height: 10px;
+}
+
+.repos-grid::-webkit-scrollbar-thumb {
+     background-color: rgba(0, 0, 0, 0.3);
+     border-radius: 5px;
+}
+
+/* Responsive Adjustments for Smaller Devices */
+@media (max-width: 600px) {
+     .repos-grid a {
+          width: 90%;
+     }
+
+     .repos-grid a img {
+          width: 100%;
+          height: 200px;
+     }
+}
