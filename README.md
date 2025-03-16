@@ -164,14 +164,6 @@ Lestest Video on Youtube -->
 Today Commit Count: **47**
 
 
-<!--That is git hub tosy commits-->
-<!-- 
-![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/stats/widget.svg) -->
-
-
-# 📊 GitHub Daily Commit Stats
-
-<img height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/>
 
 ## 🚀 Today's Commit Activity
 
