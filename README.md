@@ -364,3 +364,17 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 <!-- now complete -->
 <!-- Profile End -->
+## 🚀 Today's Commit Activity
+
+| 🔹 Repository Name | 📝 Commits Today |
+|-------------------|---------------|
+| **Github-Profile-Creator** | 2 commits |
+| **iamAntimPal** | 30 commits |
+| **IWP-Acedemy-Student-Work** | 1 commits |
+| **LeetCode_Daily_Task** | 1 commits |
+| **Python-Programs** | 1 commits |
+
+
+## 📊 Commit Distribution
+
+![Commit Pie Chart](https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=dailycommit_dashboard&theme=radical)
