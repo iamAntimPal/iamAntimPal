@@ -1,3 +1,10 @@
- document.addEventListener("DOMContentLoaded", function() {
-        AOS.init({ once: true });
-    });
+ // GSAP Animation for smooth fade-in
+  document.addEventListener("DOMContentLoaded", function() {
+    gsap.from(".tech-category", { opacity: 0, y: 50, duration: 1, stagger: 0.3 });
+  });
+
+
+    const toggleButton = document.getElementById('toggle-theme');
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });

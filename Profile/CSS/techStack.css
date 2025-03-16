@@ -1,78 +1,50 @@
-:root {
-     --dark-bg: #1a1a1a;
-     --accent: #64ffda;
-     --card-bg: #2d2d2d;
-     --hover-bg: #3a3a3a;
+body {
+     transition: background 0.3s, color 0.3s;
 }
 
 .tech-stack {
-     padding: 4rem 2rem;
-     background: var(--dark-bg);
-     min-height: 100vh;
+     display: inline;
+     text-align: center;
+     padding: 2rem;
 }
 
 .section-title {
-     color: var(--accent);
-     text-align: center;
-     /* margin-bottom: 3rem; */
-     position: relative;
-}
-
-.section-title::after {
-     content: '';
-     display: flex;
-     width: 80px;
-     height: 3px;
-     background: var(--accent);
-     margin: 0.5rem auto;
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 2rem;
 }
 
 .tech-grid {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-     gap: 2rem;
+     display: flex;
+     margin-left: 30px;
+     margin-right: 30px;
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+     gap: 1rem;
 }
 
 .tech-category {
-     background: var(--card-bg);
-     border-radius: 10px;
-     padding: 2rem;
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-     transition: transform 0.3s ease;
-}
-
-.tech-category:hover {
-     transform: translateY(-10px);
+     background: rgba(255, 255, 255, 0.1);
+     padding: 1rem;
+     border-radius: 8px;
 }
 
 .tech-items {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-     gap: 1.5rem;
-     margin-top: 1rem;
-}
-
-.tech-item {
-     text-align: center;
-     padding: 1rem;
-     border-radius: 8px;
-     transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-}
-
-.tech-item:hover {
-     transform: translateY(-15px);
-     background: var(--hover-bg);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 0.5rem;
 }
 
 .tech-item img {
-     width: 100%;
+     max-width: 100%;
      height: auto;
-     transition: transform 0.3s ease;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-     .tech-grid {
-          grid-template-columns: 1fr;
-     }
+#toggle-theme {
+     padding: 10px 20px;
+     margin: 10px 0;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-size: 1rem;
 }
