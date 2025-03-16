@@ -157,6 +157,12 @@ Lestest Video on Youtube -->
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 </p>
+
+## Daily Commit Counter
+
+
+Today Commit Count: **0**
+
 <!-- the end of stats-->
 <!-- This is for github stats-->
 
