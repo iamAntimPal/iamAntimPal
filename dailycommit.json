@@ -1,0 +1,6 @@
+{
+     "schemaVersion": 1,
+     "label": "Top Repo Today",
+     "message": "RepoName: X commits",
+     "color": "blue"
+}
