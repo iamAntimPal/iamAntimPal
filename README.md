@@ -166,7 +166,7 @@ Today Commit Count: **47**
 
 <!--That is git hub tosy commits-->
 
-![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/stats/widget.svg)
+![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/stats/widget.svg)
 
 
 
