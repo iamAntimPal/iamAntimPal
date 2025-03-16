@@ -1,0 +1,23 @@
+name: Generate Daily Commit Dashboard
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install puppeteer
+      - run: node generateDashboard.js
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dailycommit_dashboard.png
+          git commit -m "Update daily commit dashboard" || exit 0
+          git push

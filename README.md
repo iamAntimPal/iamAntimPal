@@ -168,6 +168,12 @@ Today Commit Count: **47**
 
 [![Top Repo Today](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/main/dailycommit.json)](https://github.com/iamAntimPal/iamAntimPal)
 
+<img height="200" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/main/dailycommit.json" alt="Today's Commit Count" />
+
+
+## Today's Commit Stats
+
+<img height="200" src="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/main/dailycommit_dashboard.png" alt="Daily Commit Dashboard" />
 
 <!-- the end of stats-->
 <!-- This is for github stats-->

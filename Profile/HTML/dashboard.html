@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Commit Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      body { margin: 0; padding: 20px; background: #121212; color: #fff; font-family: sans-serif; }
+      .container { max-width: 800px; margin: auto; text-align: center; }
+      h1 { margin-bottom: 20px; }
+      canvas { background: #1a1a1a; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Daily Commit Dashboard</h1>
+      <p id="commitCount">Today's Commits: 0</p>
+      <canvas id="commitChart" width="400" height="400"></canvas>
+    </div>
+    <script>
+      // Replace this simulated data with real data as needed.
+      const commitCount = 50;
+      document.getElementById('commitCount').textContent = `Today's Commits: ${commitCount}`;
+      const ctx = document.getElementById('commitChart').getContext('2d');
+      const data = {
+        labels: ['Repo A', 'Repo B', 'Repo C', 'Repo D'],
+        datasets: [{
+          data: [20, 10, 15, 5],
+          backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+        }]
+      };
+      new Chart(ctx, {
+        type: 'pie',
+        data: data,
+        options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+      });
+    </script>
+  </body>
+</html>
