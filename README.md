@@ -165,9 +165,36 @@ Today Commit Count: **47**
 
 
 <!--That is git hub tosy commits-->
+<!-- 
+![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/stats/widget.svg) -->
 
-![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/stats/widget.svg)
 
+# 📊 GitHub Daily Commit Stats
+
+<img height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/>
+
+## 🚀 Today's Commit Activity
+
+| 🔹 Repository Name | 📝 Commits Today |
+| ----------------- | --------------- |
+| **Repo 1**        | XX commits      |
+| **Repo 2**        | XX commits      |
+| **Repo 3**        | XX commits      |
+| **Repo 4**        | XX commits      |
+| **Repo 5**        | XX commits      |
+
+---
+
+## 📊 Commit Distribution
+
+<img height="200" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=dailycommit_dashboard&theme=radical"/>
+
+> **Note:** This table updates dynamically to reflect your latest commit activity.
+
+---
+
+💡 **Tip:** Keep pushing code every day to maintain your streak! 🚀🔥
+<!---->
 
 
 <!-- ## Today's Top Repository Commit Count
