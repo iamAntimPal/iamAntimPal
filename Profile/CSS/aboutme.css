@@ -1,144 +1,106 @@
+/* About Section */
 .about-section {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 50px 20px;
-     background-color: #121212;
-     color: #fff;
-     text-align: center;
+     padding: 60px 20px;
+     background: #010101;
 }
 
 .about-container {
      display: flex;
      flex-wrap: wrap;
-     max-width: 1000px;
-     gap: 30px;
      align-items: center;
      justify-content: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     gap: 40px;
+}
+
+.about-image {
+     flex: 1 1 500px;
+     text-align: center;
+}
+
+.about-image a {
+     display: inline-block;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image a:hover .about-text:hover{
+     transform: scale(1.4);
+     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+     width: 100%;
+     height: auto;
+     display: block;
 }
 
 .about-text {
-     flex: 1;
-     max-width: 500px;
+     flex: 1 1 500px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #333;
+     line-height: 1.6;
+     animation: fadeIn 1s ease-out;
 }
 
-.about-image img {
-     width: 200px;
-     border-radius: 50%;
-     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+.section-title {
+     font-size: 50px;
+     margin-bottom: 20px;
+     position: relative;
+     display: inline-block;
+}
+
+.section-title::after {
+     content: \"\";
+     position: absolute;
+     left: 0;
+     bottom: -5px;
+     width: 50%;
+     height: 3px;
+     background: #ff7e5f;
+     border-radius: 2px;
 }
 
 .btn-contact {
      display: inline-block;
-     padding: 10px 20px;
-     margin-top: 10px;
-     background: #ff9800;
+     margin-top: 20px;
+     padding: 12px 30px;
+     background: #ff7e5f;
      color: #fff;
-     border-radius: 5px;
      text-decoration: none;
-     font-weight: bold;
-     transition: 0.3s;
+     font-weight: 600;
+     border-radius: 30px;
+     transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .btn-contact:hover {
-     background: #e68900;
+     background: #eb6841;
+     transform: translateY(-3px);
 }
 
+@keyframes fadeIn {
+     from {
+          opacity: 0;
+          transform: translateY(20px);
+     }
 
-/* Responsive Design */
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
      .about-container {
           flex-direction: column;
-          text-align: center;
+          gap: 20px;
      }
 
-     .about-image img {
-          width: 150px;
-          /* Reduce size for smaller screens */
+     .section-title {
+          font-size: 28px;
      }
-
-     .about-text {
-          max-width: 90%;
-     }
-}
-
-@media (max-width: 480px) {
-     .about-section {
-          padding: 30px 15px;
-     }
-
-     .about-image img {
-          width: 120px;
-          /* Further reduce image size for very small screens */
-     }
-
-     .btn-contact {
-          padding: 8px 16px;
-          font-size: 14px;
-     }
-}
-
-/* About Section Container */
-.about-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-/* Profile Image Container */
-.about-image {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Circular Border Animation */
-.image-border {
-    position: relative;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(45deg, #007bff, #ff00ff);
-    animation: rotateBorder 4s linear infinite;
-}
-
-/* Profile Image */
-.profile-img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-    transition: 0.3s ease-in-out;
-    border: 0px solid white;
-}
-
-/* Hover Effect */
-.profile-img:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 20px rgba(0, 123, 255, 0.5);
-}
-
-/* Circle Border Animation */
-@keyframes rotateBorder {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(50deg);
-    }
-    50% {
-         transform: rotate(0deg);
-    }
-    75% {
-         transform: rotate(-50deg);
-    }
-    100% {
-         transform: rotate(0deg);
-    }
 }
