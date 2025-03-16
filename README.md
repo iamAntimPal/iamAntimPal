@@ -164,9 +164,13 @@ Lestest Video on Youtube -->
 Today Commit Count: **47**
 
 
-## Today's Top Repository Commit Count
 
-[![Top Repo Today](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/main/dailycommit.json)](https://github.com/iamAntimPal/iamAntimPal)
+
+
+
+<!-- ## Today's Top Repository Commit Count
+
+[![Top Repo Today](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/main/dailycommit.json)](https://github.com/iamAntimPal/iamAntimPal) -->
 
 
 
