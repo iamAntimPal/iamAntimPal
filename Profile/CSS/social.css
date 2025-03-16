@@ -1,0 +1,25 @@
+/* Social Stats Styling */
+.social-stats {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 15px;
+     padding: 15px;
+     background: #0d1823;
+     border-radius: 10px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease-in-out;
+}
+
+/* Icons Styling */
+.social-stats .icon {
+     height: 30px;
+     transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Animation */
+.social-stats .icon:hover {
+     transform: scale(1.1);
+     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+}

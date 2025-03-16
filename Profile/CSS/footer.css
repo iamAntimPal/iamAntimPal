@@ -96,3 +96,26 @@ body[data-theme="light"] .footer {
      margin: 0;
      font-size: 1rem;
 }
+
+/* Visitor Counter Styles */
+.visitor-counter {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Poppins', sans-serif;
+     font-size: 18px;
+     font-weight: 500;
+     background-color: #043d76;
+     padding: 15px;
+     border-radius: 10px;
+     max-width: 200px;
+     margin: auto;
+}
+
+/* Image Styling */
+/* .visitor-counter img {
+     margin-top: 5px;
+     width: 100px;
+     height: auto;
+} */
