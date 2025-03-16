@@ -54,3 +54,39 @@
           transform: translateY(0);
      }
 }
+/* adding banner for AntimPal.png and  */
+
+.profile-section {
+     padding: 50px 20px;
+     text-align: center;
+}
+
+.profile-container {
+     display: inline-block;
+     animation: fadeInScale 1s ease-out forwards;
+}
+
+.profile-image {
+     width: 100%;
+     max-width: 80%;
+     border-radius: 10px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+     transform: scale(1.05);
+}
+
+@keyframes fadeInScale {
+     from {
+          opacity: 0;
+          transform: scale(0.8);
+     }
+
+     to {
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+

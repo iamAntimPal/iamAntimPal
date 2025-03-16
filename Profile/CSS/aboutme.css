@@ -27,7 +27,7 @@
      transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-image a:hover .about-text:hover{
+.about-image a:hover{
      transform: scale(1.4);
      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
@@ -41,7 +41,7 @@
 .about-text {
      flex: 1 1 500px;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     color: #333;
+     color: #ffffff;
      line-height: 1.6;
      animation: fadeIn 1s ease-out;
 }
