@@ -1,0 +1,62 @@
+.about-section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 20px;
+     background-color: #121212;
+     color: #fff;
+     text-align: center;
+}
+
+.about-container {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 1000px;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+}
+
+.about-text {
+     flex: 1;
+     max-width: 500px;
+}
+
+.about-image img {
+     width: 200px;
+     border-radius: 50%;
+     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.btn-contact {
+     display: inline-block;
+     padding: 10px 20px;
+     margin-top: 10px;
+     background: #ff9800;
+     color: #fff;
+     border-radius: 5px;
+     text-decoration: none;
+     font-weight: bold;
+     transition: 0.3s;
+}
+
+.btn-contact:hover {
+     background: #e68900;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+     .about-me-container {
+          flex-direction: column;
+          text-align: center;
+     }
+
+     .about-me-image {
+          max-width: 200px;
+     }
+
+     .about-me-content {
+          max-width: 90%;
+     }
+}
+
