@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./stats.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./toprepo.css">
+    <!-- AOS Library (Ensure this script is loaded before initialization) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 </head>
 <body data-theme="dark">
 
@@ -63,23 +67,34 @@
     </div>
 
 
-<!-- Top Repositories Section -->
-<section id="top-repos" class="top-repos-section py-5">
-  <div class="container">
-    <h2 class="section-title">Top Repositories</h2>
-    <div id="repos-container" class="repos-grid">
-      <!-- Example Repo Card (dynamically generated content should follow this structure) -->
-      <!--
-      <a href="https://github.com/iamAntimPal/RepoName" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=RepoName&theme=dark" alt="RepoName">
-        <div class="repo-overlay">
-          RepoName
-        </div>
-      </a>
-      -->
+
+
+    <!-- Tech Stack Section -->
+<section id="tech-stack" class="tech-stack-section">
+    <h2 class="section-title">💻 Tech Stack</h2>
+    <div class="tech-stack-container" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" class="tech-icon">
+        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" class="tech-icon">
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" class="tech-icon">
+        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" class="tech-icon">
+        <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" class="tech-icon">
+        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" class="tech-icon">
+        <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" class="tech-icon">
+        <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" class="tech-icon">
+        <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" class="tech-icon">
     </div>
-  </div>
 </section>
+
+
+<!-- Top Repositories Section -->
+    <section id="top-repos" class="top-repos-section py-5">
+      <div class="container">
+        <h2 class="section-title">Top Repositories</h2>
+        <div id="repos-container" class="repos-grid">
+          <!-- Repository cards will be injected here dynamically -->
+        </div>
+      </div>
+    </section>
 
 
 

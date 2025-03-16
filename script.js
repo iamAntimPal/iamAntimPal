@@ -3,7 +3,6 @@
 document.body.classList.toggle('dark-mode');
 
 document.body.classList.toggle('light-mode');
-
 // Toggle Theme Function
 function toggleTheme() {
     const body = document.body;
@@ -34,8 +33,7 @@ document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-
-// Fetch and display top 3 repositories dynamically
+// Fetch and display top 4 repositories dynamically
 async function fetchTopRepos() {
   const username = 'iamAntimPal';
   try {
@@ -46,8 +44,8 @@ async function fetchTopRepos() {
     // Sort repositories by star count in descending order
     repos.sort((a, b) => b.stargazers_count - a.stargazers_count);
     
-    // Select the top 3 repositories
-    const topRepos = repos.slice(0, 3);
+    // Select the top 4 repositories (changed from 3 to 4)
+    const topRepos = repos.slice(0, 4);
     
     // Get the container element where repos will be added
     const container = document.getElementById('repos-container');
