@@ -367,3 +367,15 @@ Pandas                  1 repo              █░░░░░░░░░░░
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100"/>
 </p>
+## 🚀 Today's Commit Activity
+
+| 🔹 Repository Name | 📝 Commits Today |
+|-------------------|---------------|
+| **Github-Profile-Creator** | 11 commits |
+| **iamAntimPal** | 30 commits |
+| **Profile** | 1 commits |
+
+
+## 📊 Commit Distribution
+
+![Commit Pie Chart](https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=dailycommit_dashboard&theme=radical)
