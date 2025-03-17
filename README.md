@@ -1,10 +1,4 @@
 
-<!-- Banner Section-->
-<div align="center">
-<img align="center" witdh="auto" src="./assets/welcome-header.gif">
-<img alt="banner" src="assets/banner.png"/>
-</div>
-
 <!--
 
 <h1 align="center">
@@ -204,15 +198,7 @@ Today Commit Count: **1**
 
 
 
-## Top Repositories
 
-
-<a href="https://github.com/iamAntimPal">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
-</a>
-<a href="https://github.com/iamAntimPal/Hotel-Management">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=dark" />
-</a>
 
 ---
  <details>	
