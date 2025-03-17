@@ -27,8 +27,8 @@
 
 <a href="#"> <img height="30" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
 <a href="#"> <img height="30" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
-<a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
-<a href="#"> <img height="30" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
+<a href="www.youtube.com/@OptimismEducator"> <img height="30" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
+<a href="www.youtube.com/@OptimismEducator"> <img height="30" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
 
 </div>
 
