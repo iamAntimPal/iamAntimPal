@@ -368,11 +368,6 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
-| **Github-Profile-Creator** | 2 commits |
-| **iamAntimPal** | 30 commits |
-| **IWP-Acedemy-Student-Work** | 1 commits |
-| **LeetCode_Daily_Task** | 1 commits |
-| **Python-Programs** | 1 commits |
 
 
 ## 📊 Commit Distribution
