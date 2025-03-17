@@ -23,7 +23,11 @@
 
 <div align="center">
 <a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
-<img src="https://komarev.com/ghpvc/?username=iamAntimPal" alt="https://github.com/ileriayo" />
+
+<!-- Adding profile viewer -->
+
+
+<!-- <img src="https://komarev.com/ghpvc/?username=iamAntimPal" alt="https://github.com/ileriayo" /> -->
 
 <a href="#"> <img height="30" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
 <a href="#"> <img height="30" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
