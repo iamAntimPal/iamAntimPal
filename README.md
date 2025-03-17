@@ -376,6 +376,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 |-------------------|---------------|
 | **Github-Profile-Creator** | 11 commits |
 | **iamAntimPal** | 30 commits |
+| **LeetCode_Daily_Task** | 4 commits |
 | **Profile** | 1 commits |
 
 
