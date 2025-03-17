@@ -1,4 +1,9 @@
-
+<!-- Banner Section-->
+ <div align="center">
+ <img align="center" witdh="auto" src="./assets/welcome-header.gif">
+ <img alt="banner" src="assets/banner.png"/>
+ </div>
+ 
 <!--
 
 <h1 align="center">
@@ -152,6 +157,18 @@ Lestest Video on Youtube -->
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 </p>
+
+
+## Top Repositories
+ 
+ 
+ <a href="https://github.com/iamAntimPal">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
+ </a>
+ <a href="https://github.com/iamAntimPal/Hotel-Management">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=dark" />
+ </a>
+ 
 
 ## Daily Commit Counter
 
