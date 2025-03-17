@@ -183,7 +183,7 @@ Today Commit Count: **1**
 <!-- 
 ![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/stats/widget.svg) -->
 
-
+<!--
 ## 📊 Commit Distribution
 
 <img height="200" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=dailycommit_dashboard&theme=radical"/>
@@ -191,7 +191,7 @@ Today Commit Count: **1**
 ---
 
 💡 **Tip:** Keep pushing code every day to maintain your streak! 🚀🔥
-<!---->
+-->
 
 
 <!-- ## Today's Top Repository Commit Count
