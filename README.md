@@ -162,7 +162,7 @@ Lestest Video on Youtube -->
 ## Daily Commit Counter
 
 
-Today Commit Count: **47**
+Today Commit Count: **1**
 
 
 <!--That is git hub tosy commits-->
