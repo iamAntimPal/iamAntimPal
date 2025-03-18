@@ -44,7 +44,7 @@
       padding: 20px;
       border-radius: 10px;
       width: 380px; /* Fixed width as specified */
-      position: fixed; /* Fixed on desktop */
+      position: fixed;
       left: 20px;
       top: 20px;
       text-align: center;
@@ -130,17 +130,22 @@
       text-align: center;
     }
     
-    /* ===== Profile Section (Large Profile Image) ===== */
+    /* ===== Profile Section (Clickable Image & Increased Font Size) ===== */
     .profile-section {
       text-align: center;
     }
     .profile-section .profile-container a img.profile-image {
-      width: 300px; /* Increased size for better visibility */
+      width: 300px; /* Increased to 300px for better visibility */
       border-radius: 50%;
       transition: transform 0.3s;
     }
     .profile-section .profile-container a:hover img.profile-image {
       transform: scale(1.05);
+    }
+    /* Increase font sizes in Profile Section */
+    .profile-section h2, 
+    .profile-section p {
+      font-size: 1.5em;
     }
     
     /* ===== Badges Dashboard ===== */
@@ -267,7 +272,7 @@
   <div class="container">
     <!-- ===== Left Sidebar (Fixed on Desktop, Top on Mobile) ===== -->
     <aside class="left-sidebar">
-      <!-- Profile Info (populated via JS) -->
+      <!-- Profile Info (populated via JavaScript) -->
       <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
       <h2 id="username">Antim Pal</h2>
       <p id="bio"></p>
@@ -288,7 +293,7 @@
         <li>🚀 YOLO</li>
         <li>🤝 Pair Extraordinaire</li>
       </ul>
-      <!-- Social Stats (Enlarged Badges) -->
+      <!-- Social Stats Badges -->
       <div class="social-stats">
         <a href="#">
           <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
@@ -335,7 +340,7 @@
         </div>
       </section>
 
-      <!-- ===== Social Stats Section (Repeated, Centered) ===== -->
+      <!-- ===== Social Stats Section ===== -->
       <div class="social-stats">
         <a href="#">
           <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
@@ -445,7 +450,7 @@
       <!-- ===== New Section: Yearly GitHub Data ===== -->
       <section id="yearly-data" class="yearly-data-section">
         <h2 class="section-title">📊 Yearly GitHub Data</h2>
-        <!-- You can replace the image below with your custom visualization or contributions graph -->
+        <!-- Replace the image below with your custom visualization or contributions graph -->
         <img src="https://ghchart.rshah.org/iamAntimPal" alt="Yearly Contributions Chart" />
       </section>
 
