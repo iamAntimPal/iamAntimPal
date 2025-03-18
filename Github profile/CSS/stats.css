@@ -5,7 +5,6 @@
      /* Dark background */
      color: #ffffff;
      width: 100%;
-     display: block;
 }
 
 .github-stats-section .container {
@@ -15,13 +14,17 @@
      text-align: center;
 }
 
+/* Sticky Section Title */
 .section-title {
+     position: sticky;
+     top: 0;
+     background-color: #161b22;
+     z-index: 10;
      font-size: 2em;
      margin-bottom: 30px;
      color: #ffffff;
      border-bottom: 2px solid #238636;
-     padding-bottom: 10px;
-     text-align: center;
+     padding: 10px 0;
 }
 
 /* Stats Grid */
@@ -53,17 +56,17 @@
 }
 
 .stats-item img:hover {
-     transform: scale(1.05);
+     transform: scale(1.02);
 }
 
-/* Full-width items for larger stats (for screens above 768px) */
+/* Full-width items for larger stats */
 @media (min-width: 768px) {
      .stats-item.full-width {
           grid-column: 1 / -1;
      }
 }
 
-/* GitHub Trophies Animation */
+/* GitHub Trophies Animation (if applicable) */
 .github-trophies-container img {
      opacity: 0;
      transform: scale(0.95);
