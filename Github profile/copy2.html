@@ -64,12 +64,13 @@
       margin: 10px 0;
     }
     
-    /* Social Links Container with reduced size */
+    /* Social Links Container with Reduced Size */
     .social-links {
       display: flex;
       justify-content: center;
       gap: 10px;
       padding: 5px;
+      margin-top: 8%;
     }
     .social-links a {
       padding: 6px 4px;
@@ -90,25 +91,43 @@
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
     
-    .left-sidebar .follow-button {
+    /* Follow Button: Increased Size & Animation */
+    .follow-button {
       background-color: #238636;
       color: #fff;
       border: none;
-      padding: 5px 10px;
+      padding: 10px 20px;
+      font-size: 1.2em;
       border-radius: 5px;
       cursor: pointer;
-      margin: 10px 0;
+      transition: transform 0.3s, background-color 0.3s;
+      margin-left: 20px;
     }
-    .left-sidebar .follow-button:hover {
+    .follow-button:hover {
       background-color: #2ea043;
-      transition: background-color 0.3s, color 0.3s;
-      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
     }
-    .left-sidebar .social-stats a img {
+    
+    /* Social Stats Badges */
+    .social-stats a img {
       margin: 5px 0;
-      /* Increase badge size */
       width: 150px;
       height: auto;
+    }
+    
+    /* Follow Stats Container (for Followers & Following Count) */
+    .follow-stats {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px 0;
+      letter-spacing: 0.5px;
+      transition: color 0.3s;
+    }
+    .follow-stats span {
+      color: #58a6ff;
+    }
+    .follow-stats:hover {
+      color: #238636;
     }
     
     /* Achievements List with Logo Images as Links */
@@ -128,24 +147,34 @@
       width: 90px;
     }
     .achievement-logo {
-      width: 70px;
+      width: 90px;  /* Increased size */
       height: auto;
       transition: transform 0.3s ease;
-      margin-bottom: 10px;
     }
+    .achievement-logo a {
+      text-decoration: none;
+    } 
+
     .achievement-logo:hover {
-      transform: scale(1.3);
+      transform: scale(1.1);
     }
     .achievements li span {
       margin-top: 5px;
-      font-size: 14px;
-      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #61dafb;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
     }
     
     /* ===== Main Content Area ===== */
     .content {
       flex: 1;
-      margin-left: 420px; /* leave space for left sidebar + some gap */
+      margin-left: 420px; /* leave space for left sidebar + gap */
       padding: 20px;
       overflow-y: auto;
       max-height: 100vh;
@@ -189,12 +218,11 @@
       text-align: center;
     }
     .profile-section .profile-container a img.profile-image {
-      width: 300px; /* Increased to 300px for better visibility */
-      border-radius: 50%;
+      width: 700px; /* Increased for better visibility */
       transition: transform 0.3s;
     }
     .profile-section .profile-container a:hover img.profile-image {
-      transform: scale(1.05);
+      transform: scale(1.3);
     }
     .profile-section h2, 
     .profile-section p {
@@ -359,7 +387,7 @@
         <button class="follow-button">Follow</button>
       </div>
       <p id="bio" style="font-size:16px;"></p>
-      <p>Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
+      <p class="follow-stats">Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
 
       <!-- Social Links (Smaller Size) -->
       <div class="social-links">
@@ -373,31 +401,13 @@
       <h3>Achievements</h3>
       <ul class="achievements">
         <li>
-          <a href="https://example.com/pull-shark" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/pull-shark" target="_blank">
             <img src="./git/pull shark.jpeg" alt="Pull Shark" class="achievement-logo" />
             <span>Pull Shark</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/galaxy-brain" target="_blank">
-            <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" />
-            <span>Galaxy Brain</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://example.com/yolo" target="_blank">
-            <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" />
-            <span>YOLO</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://example.com/pair-extraordinaire" target="_blank">
-            <img src="./git/pair.jpeg" alt="Pair Extraordinaire" class="achievement-logo" />
-            <span>Pair Extraordinaire</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://example.com/quickdraw" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/quickdraw" target="_blank">
             <img src="./git/quickdraw.png" alt="Quickdraw" class="achievement-logo" />
             <span>Quickdraw</span>
           </a>
@@ -412,6 +422,25 @@
           <a href="https://example.com/open-sourcerer" target="_blank">
             <img src="./git/ridal.png" alt="Open Sourcerer" class="achievement-logo" />
             <span>Open Sourcerer</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/galaxy-brain" target="_blank">
+            <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" />
+            <span>Galaxy Brain</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/pair-extraordinaire" target="_blank">
+            <img src="./git/pair.jpeg" alt="Pair Extraordinaire" class="achievement-logo" />
+            <span>Pair Extraordinaire</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/yolo" target="_blank">
+            <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" />
+            <span>YOLO</span>
           </a>
         </li>
       </ul>
@@ -436,7 +465,7 @@
     <!-- ===== Main Content Area ===== -->
     <main class="content">
 
-      <!-- ===== Menu Bar at the Top ===== -->
+       <!-- ===== Menu Bar at the Top ===== -->
       <nav class="menu">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -452,10 +481,10 @@
         <img src="../assets/welcome-header.gif" alt="Welcome Banner" />
       </div>
       <div class="banner">
-        <img src="../assets/second-banner.gif" alt="Second Banner" />
+        <img src="./image/banner.png" alt="Second Banner" />
       </div>
+     
 
-      
       <!-- ===== Profile Section (Clickable Image Linking to GitHub Trophies) ===== -->
       <section id="profile" class="profile-section">
         <div class="profile-container">
@@ -575,7 +604,7 @@
       <!-- ===== New Section: Yearly GitHub Data ===== -->
       <section id="yearly-data" class="yearly-data-section">
         <h2 class="section-title">📊 Yearly GitHub Data</h2>
-        <!-- Replace the image below with your custom visualization or contributions graph -->
+        <!-- Replace with your custom visualization or contributions graph -->
         <img src="https://ghchart.rshah.org/iamAntimPal" alt="Yearly Contributions Chart" />
       </section>
 
@@ -631,7 +660,7 @@
       const chatBody = document.getElementById("chatBody");
       const message = chatInput.value.trim();
       if (message) {
-        // Append user message to chat body (You can integrate ChatGPT API here)
+        // Append user message to chat body (Extend for ChatGPT API integration)
         const userMsg = document.createElement("p");
         userMsg.textContent = "You: " + message;
         chatBody.appendChild(userMsg);
