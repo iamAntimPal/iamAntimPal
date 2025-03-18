@@ -374,7 +374,9 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
-| **iamAntimPal** | 23 commits |
+| **Antim-Portfolio** | 3 commits |
+| **Github-Profile** | 2 commits |
+| **iamAntimPal** | 26 commits |
 
 
 ## 📊 Commit Distribution
