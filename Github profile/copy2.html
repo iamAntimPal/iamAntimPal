@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./CSS/skills.css">
   <link rel="stylesheet" href="./CSS/youtube.css">
   <link rel="stylesheet" href="./CSS/stats.css">
+  <link rel="stylesheet" href="./CSS/Toprepo.css">
   <style>
     
   </style>
@@ -477,10 +478,18 @@
     </div>
   </section>
 
-      <section id="pinned">
-        <h2 class="section-title">Pinned</h2>
-        <p><!-- Your pinned repositories if you wish to include them --></p>
-      </section>
+      <!-- Top Repositories Section -->
+  <!-- Top Repositories Section -->
+  <section id="top-repos" class="top-repos-section">
+    <div class="container">
+      <h2 class="section-title">Top Repositories</h2>
+      <div id="repos-container" class="repos-grid">
+        <!-- Repository cards will be injected here dynamically -->
+      </div>
+    </div>
+  </section>
+
+
       <section id="contact">
         <h2 class="section-title">Contact</h2>
         <p><!-- Your contact information here --></p>
@@ -490,7 +499,11 @@
 
   <!-- ===== JavaScript: Chat Widget & GitHub API Data Fetch ===== -->
   <script type="text/javascript" src="./Javascript/main.js"></script>"
-  <!-- Chat Widget HTML (Fixed at Bottom-Right) -->
+  <script type="text/javascript" src="./Javascript/toprpo.js"></script>"
+  
+
+
+
   <div id="chatWidget">
     <div id="chatHeader" style="background-color: #238636; padding: 10px; text-align: center; font-weight: bold; cursor: pointer;">Chat with me</div>
     <div id="chatBody" style="flex: 1; padding: 10px; overflow-y: auto;">
