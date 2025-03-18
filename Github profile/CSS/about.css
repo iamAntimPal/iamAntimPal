@@ -1,0 +1,48 @@
+/* About Section Styling */
+#about {
+     padding: 40px;
+     background: #f9f9f9;
+     text-align: center;
+     font-family: Arial, sans-serif;
+}
+
+.about-container {
+     max-width: 800px;
+     margin: 0 auto;
+}
+
+.gif-container {
+     margin-bottom: 20px;
+}
+
+.scale-animation {
+     width: 200px;
+     height: auto;
+     animation: scale 3s infinite alternate;
+}
+
+/* Keyframes for the scale animation */
+@keyframes scale {
+     from {
+          transform: scale(1);
+     }
+
+     to {
+          transform: scale(1.1);
+     }
+}
+
+.about-content p {
+     font-size: 1.1em;
+     margin: 10px 0;
+     line-height: 1.5;
+}
+
+.about-content a {
+     color: #007BFF;
+     text-decoration: none;
+}
+
+.about-content a:hover {
+     text-decoration: underline;
+}
