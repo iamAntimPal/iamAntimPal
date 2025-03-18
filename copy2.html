@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antim Pal - GitHub Profile</title>
+  <style>
+    /* ===== Base Reset & Global Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      overflow-x: hidden;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    /* ===== Scrollbar Hiding (for Webkit & Firefox) ===== */
+    .content {
+      scrollbar-width: none; /* Firefox */
+    }
+    .content::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+
+    /* ===== Container Layout ===== */
+    .container {
+      display: flex;
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    
+    /* ===== Left Sidebar ===== */
+    .left-sidebar {
+      background-color: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      width: 450px; /* Fixed width as specified */
+      position: fixed;
+      left: 20px;
+      top: 20px;
+      text-align: center;
+    }
+    .left-sidebar img.profile-img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .left-sidebar h2,
+    .left-sidebar p,
+    .left-sidebar h3 {
+      margin: 10px 0;
+    }
+    /* Social Links Container */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  /* Base Styling for Links */
+  .social-links a {
+    padding: 10px 8px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  /* Background Colors */
+  .github { background: #333; }          /* GitHub (Dark Gray) */
+  .linkedin { background: #0077b5; }     /* LinkedIn (Blue) */
+  .youtube { background: #FF0000; }      /* YouTube (Red) */
+  .leetcode { background: #f89c0e; }     /* LeetCode (Orange) */
+
+  /* Hover Effects */
+  .social-links a:hover {
+    transform: scale(1.1); /* Slight Zoom */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+    .left-sidebar .follow-button {
+      background-color: #238636;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px 0;
+    }
+    .left-sidebar .follow-button:hover {
+      background-color: #2ea043;
+    }
+    .left-sidebar .social-stats a img {
+      margin: 5px 0;
+      /* Increase badge size */
+      width: 150px;
+      height: auto;
+    }
+    
+    /* ===== Main Content Area ===== */
+    .content {
+      flex: 1;
+      margin-left: 420px; /* leave space for left sidebar + some gap */
+      padding: 20px;
+      overflow-y: auto;
+      max-height: 100vh;
+    }
+    
+    /* ===== Menu Bar at the Top ===== */
+    .menu {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .menu a {
+      background-color: #161b22;
+      color: #58a6ff;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .menu a:hover {
+      background-color: #238636;
+      color: #fff;
+    }
+    
+    /* ===== Sections Styling ===== */
+    section {
+      margin-bottom: 40px;
+    }
+    .section-title {
+      border-bottom: 2px solid #238636;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    
+    /* ===== Profile Section (Clickable Image & Increased Font Size) ===== */
+    .profile-section {
+      text-align: center;
+    }
+    .profile-section .profile-container a img.profile-image {
+      width: 300px; /* Increased to 300px for better visibility */
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+    .profile-section .profile-container a:hover img.profile-image {
+      transform: scale(1.05);
+    }
+    /* Increase font sizes in Profile Section */
+    .profile-section h2, 
+    .profile-section p {
+      font-size: 1.5em;
+    }
+    
+    /* ===== Badges Dashboard ===== */
+    .badges-dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      margin-bottom: 40px;
+    }
+    .badges-dashboard .project-info {
+      background-color: #2d2d2d;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .badges-dashboard .project-info h3 {
+      color: #61dafb;
+      margin-bottom: 1rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+    }
+    .badges-dashboard .project-info a {
+      display: block;
+      margin: 0.75rem 0;
+      transition: transform 0.2s;
+    }
+    .badges-dashboard .project-info a img {
+      height: 30px;
+    }
+    
+    /* ===== GitHub Trophies Section ===== */
+    .github-trophies-section {
+      text-align: center;
+    }
+    .github-trophies-section .github-trophies {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* ===== Tech I Work On Section ===== */
+    .tech-section .tech-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .tech-section .tech-container a img {
+      width: 50px;
+      height: 50px;
+      transition: transform 0.3s;
+    }
+    .tech-section .tech-container a:hover img {
+      transform: scale(1.1);
+    }
+    
+    /* ===== New Section: Yearly GitHub Data ===== */
+    .yearly-data-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .yearly-data-section img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    /* ===== Responsive Design ===== */
+    @media (max-width: 768px) {
+      /* Left sidebar becomes static and moves to the top */
+      .left-sidebar {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      /* Main content area adjusts margin */
+      .content {
+        margin-left: 0;
+      }
+      .container {
+        flex-direction: column;
+      }
+    }
+    
+    /* ===== Dark Mode Toggle Styles ===== */
+    .dark-mode-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #238636;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    /* Dark Mode overrides */
+    .dark-mode {
+      background-color: #181818;
+      color: #e0e0e0;
+    }
+    .dark-mode .left-sidebar,
+    .dark-mode .menu,
+    .dark-mode .badges-dashboard,
+    .dark-mode .follow-button {
+      background-color: #333;
+    }
+    .dark-mode .menu a {
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Dark Mode Toggle Button -->
+  <button class="dark-mode-toggle" id="darkToggle">Toggle Dark Mode</button>
+  
+  <!-- Main Container: Left Sidebar and Main Content -->
+  <div class="container">
+    <!-- ===== Left Sidebar (Fixed on Desktop, Top on Mobile) ===== -->
+    <aside class="left-sidebar">
+      <!-- Profile Info (populated via JavaScript) -->
+      <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
+      <h1 id="username" style="font-size:36px">Antim Pal</h1>
+      <p id="bio" style="font-size:16px"></p>
+      <p>Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
+      <button class="follow-button">Follow</button>
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="https://github.com/iamAntimPal" target="_blank" class="github">GitHub</a>
+        <a href="https://www.linkedin.com/in/antim-pal/" target="_blank" class="linkedin">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank" class="youtube">YouTube</a>
+        <a href="https://leetcode.com/iamAntimPal/" target="_blank" class="leetcode">LeetCode</a>
+      </div>
+      <!-- Achievements List -->
+      <h3>Achievements</h3>
+      <ul>
+        <li>🏆 Pull Shark</li>
+        <li>🧠 Galaxy Brain</li>
+        <li>🚀 YOLO</li>
+        <li>🤝 Pair Extraordinaire</li>
+      </ul>
+      <!-- Social Stats Badges -->
+      <div class="social-stats">
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" alt="GitHub Stars" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" alt="YouTube Views" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=Subscribers&style=social" alt="YouTube Subscribers" />
+        </a>
+      </div>
+    </aside>
+
+    <!-- ===== Main Content Area ===== -->
+    <main class="content">
+      <!-- ===== Banner Sections (Full Width Banners) ===== -->
+      <div class="banner">
+        <img src="../assets/welcome-header.gif" alt="Welcome Banner" />
+      </div>
+      <div class="banner">
+        <img src="../assets/second-banner.gif" alt="Second Banner" />
+      </div>
+
+      <!-- ===== Menu Bar at the Top ===== -->
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#youtube">YouTube</a>
+        <a href="#stats">Stats</a>
+        <a href="#pinned">Pinned</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- ===== Profile Section (Clickable Image Linking to GitHub Trophies) ===== -->
+      <section id="profile" class="profile-section">
+        <div class="profile-container">
+          <a href="#github-trophies">
+            <img src="../assets/Antim_pal.png" alt="Hello, I'm Antim Pal. I do open source!" class="profile-image" />
+          </a>
+        </div>
+      </section>
+
+      <!-- ===== Social Stats Section ===== -->
+      <div class="social-stats">
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" alt="GitHub Stars" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" alt="YouTube Views" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=Subscribers&style=social" alt="YouTube Subscribers" />
+        </a>
+      </div>
+
+      <!-- ===== Badges Dashboard Section ===== -->
+      <div class="badges-dashboard">
+        <div class="project-info">
+          <h3>🚀 Project Info</h3>
+          <a href="https://www.python.org/">
+            <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python" alt="Python 3.8+" />
+          </a>
+          <a href="LICENSE">
+            <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+          </a>
+          <a href="https://code.visualstudio.com/">
+            <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== GitHub Trophies Section ===== -->
+      <section id="github-trophies" class="github-trophies-section">
+        <h2 class="section-title">🏆 GitHub Trophies</h2>
+        <div class="github-trophies-container">
+          <img src="https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" class="github-trophies" />
+        </div>
+      </section>
+
+      <!-- ===== Tech I Work On Section ===== -->
+      <section id="tech-stack" class="tech-section">
+        <h2 class="section-title">🧑‍💻 Tech I Work On</h2>
+        <div class="tech-container">
+          <a href="https://www.w3schools.com/cpp/" target="_blank" title="C++">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++">
+          </a>
+          <a href="https://www.w3schools.com/css/" target="_blank" title="CSS3">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3">
+          </a>
+          <a href="https://www.w3.org/html/" target="_blank" title="HTML5">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5">
+          </a>
+          <a href="https://www.java.com" target="_blank" title="Java">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java">
+          </a>
+          <a href="https://mariadb.org/" target="_blank" title="MariaDB">
+            <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB">
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank" title="MongoDB">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB">
+          </a>
+          <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" title="SQL Server">
+            <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="MSSQL">
+          </a>
+          <a href="https://www.mysql.com/" target="_blank" title="MySQL">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+          </a>
+          <a href="https://pandas.pydata.org/" target="_blank" title="Pandas">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas">
+          </a>
+          <a href="https://www.postgresql.org" target="_blank" title="PostgreSQL">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL">
+          </a>
+          <a href="https://www.python.org" target="_blank" title="Python">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
+          </a>
+          <a href="https://scikit-learn.org/" target="_blank" title="Scikit Learn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit Learn">
+          </a>
+          <a href="https://seaborn.pydata.org/" target="_blank" title="Seaborn">
+            <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn">
+          </a>
+          <a href="#" target="_blank" title="IntelliJ IDEA">
+            <img src="https://cdn.worldvectorlogo.com/logos/intellij-idea-1.svg" alt="IntelliJ IDEA">
+          </a>
+          <a href="#" target="_blank" title="VS Code">
+            <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code">
+          </a>
+          <a href="https://git-scm.com/" target="_blank" title="Git">
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+          </a>
+          <a href="https://github.com/" target="_blank" title="GitHub">
+            <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="GitHub">
+          </a>
+          <a href="https://www.linux.org/" target="_blank" title="Linux">
+            <img src="https://brandlogos.net/wp-content/uploads/2020/03/Linux-logo.png" alt="Linux">
+          </a>
+          <a href="https://ubuntu.com/" target="_blank" title="Ubuntu">
+            <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="Ubuntu">
+          </a>
+        </div>
+      </section>
+
+      <!-- ===== New Section: Yearly GitHub Data ===== -->
+      <section id="yearly-data" class="yearly-data-section">
+        <h2 class="section-title">📊 Yearly GitHub Data</h2>
+        <!-- Replace the image below with your custom visualization or contributions graph -->
+        <img src="https://ghchart.rshah.org/iamAntimPal" alt="Yearly Contributions Chart" />
+      </section>
+
+      <!-- ===== Placeholder Sections for Additional Content ===== -->
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <p><!-- Your about content here --></p>
+      </section>
+      <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p><!-- Your skills content here --></p>
+      </section>
+      <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p><!-- Your projects content here --></p>
+      </section>
+      <section id="youtube">
+        <h2 class="section-title">YouTube</h2>
+        <p><!-- Embed your YouTube videos or channel link here --></p>
+      </section>
+      <section id="stats">
+        <h2 class="section-title">Stats</h2>
+        <p><!-- Additional stats if needed --></p>
+      </section>
+      <section id="pinned">
+        <h2 class="section-title">Pinned</h2>
+        <p><!-- Your pinned repositories if you wish to include them --></p>
+      </section>
+      <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p><!-- Your contact information here --></p>
+      </section>
+    </main>
+  </div>
+
+  <!-- ===== JavaScript: Dark Mode Toggle & GitHub API Data Fetch ===== -->
+  <script>
+    // Dark Mode Toggle Functionality
+    const darkToggle = document.getElementById("darkToggle");
+    darkToggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+    
+    // Fetch GitHub Profile Data to populate the left sidebar
+    document.addEventListener("DOMContentLoaded", async () => {
+      const username = "iamAntimPal";
+      const apiUrl = `https://api.github.com/users/${username}`;
+      try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        document.getElementById("profileImage").src = data.avatar_url;
+        document.getElementById("username").textContent = data.name || username;
+        document.getElementById("bio").textContent = data.bio || "No bio available.";
+        document.getElementById("followers").textContent = data.followers;
+        document.getElementById("following").textContent = data.following;
+      } catch (error) {
+        console.error("Error fetching GitHub profile:", error);
+      }
+    });
+  </script>
+</body>
+</html>
