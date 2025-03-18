@@ -50,8 +50,8 @@
       text-align: center;
     }
     .left-sidebar img.profile-img {
-      width: 100px;
-      height: 100px;
+      width: 300px;
+      height: 300px;
       border-radius: 50%;
       margin-bottom: 10px;
     }
@@ -61,11 +61,12 @@
       margin: 10px 0;
     }
     .left-sidebar .social-links a {
-      display: block;
+      display: inline-block;
       margin: 5px 0;
       color: #58a6ff;
       text-decoration: none;
     }
+    
     .left-sidebar .social-links a:hover {
       text-decoration: underline;
     }
@@ -274,8 +275,8 @@
     <aside class="left-sidebar">
       <!-- Profile Info (populated via JavaScript) -->
       <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
-      <h2 id="username">Antim Pal</h2>
-      <p id="bio"></p>
+      <h1 id="username" style="font-size:36px">Antim Pal</h1>
+      <p id="bio" style="font-size:16px"></p>
       <p>Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
       <button class="follow-button">Follow</button>
       <!-- Social Links -->
