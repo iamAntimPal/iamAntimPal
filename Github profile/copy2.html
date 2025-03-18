@@ -22,11 +22,12 @@
       transition: background-color 0.3s, color 0.3s;
     }
     
-    /* ===== Scrollbar Hiding (for Webkit & Firefox) ===== */
-    .content {
+    /* ===== Scrollbar Hiding for Main Content & Left Sidebar ===== */
+    .content, .left-sidebar {
       scrollbar-width: none; /* Firefox */
     }
-    .content::-webkit-scrollbar {
+    .content::-webkit-scrollbar,
+    .left-sidebar::-webkit-scrollbar {
       display: none; /* Chrome, Safari, Opera */
     }
 
@@ -43,15 +44,17 @@
       background-color: #161b22;
       padding: 20px;
       border-radius: 10px;
-      width: 450px; /* Fixed width as specified */
+      width: 400px; /* Fixed width as specified */
       position: fixed;
       left: 20px;
       top: 20px;
       text-align: center;
+      max-height: calc(100vh - 40px);
+      overflow-y: auto;
     }
     .left-sidebar img.profile-img {
-      width: 300px;
-      height: 300px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       margin-bottom: 10px;
     }
@@ -60,36 +63,33 @@
     .left-sidebar h3 {
       margin: 10px 0;
     }
-    /* Social Links Container */
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    padding: 20px;
-  }
-
-  /* Base Styling for Links */
-  .social-links a {
-    padding: 10px 8px;
-    border-radius: 15px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 16px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  }
-
-  /* Background Colors */
-  .github { background: #333; }          /* GitHub (Dark Gray) */
-  .linkedin { background: #0077b5; }     /* LinkedIn (Blue) */
-  .youtube { background: #FF0000; }      /* YouTube (Red) */
-  .leetcode { background: #f89c0e; }     /* LeetCode (Orange) */
-
-  /* Hover Effects */
-  .social-links a:hover {
-    transform: scale(1.1); /* Slight Zoom */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  }
+    
+    /* Social Links Container with reduced size */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 5px;
+    }
+    .social-links a {
+      padding: 6px 4px;
+      border-radius: 15px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    /* Background Colors for Social Links */
+    .github { background: #333; }
+    .linkedin { background: #0077b5; }
+    .youtube { background: #FF0000; }
+    .leetcode { background: #f89c0e; }
+    .social-links a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+    
     .left-sidebar .follow-button {
       background-color: #238636;
       color: #fff;
@@ -101,11 +101,31 @@
     }
     .left-sidebar .follow-button:hover {
       background-color: #2ea043;
+      transition: background-color 0.3s, color 0.3s;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
     }
     .left-sidebar .social-stats a img {
       margin: 5px 0;
       /* Increase badge size */
       width: 150px;
+      height: auto;
+    }
+    
+    /* Achievements List with Logo Images */
+    .achievements {
+      list-style: none;
+      padding: 0;
+    }
+    .achievements li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin: 8px 0;
+      font-size: 16px;
+    }
+    .achievement-logo {
+      width: 24px;
       height: auto;
     }
     
@@ -163,7 +183,6 @@
     .profile-section .profile-container a:hover img.profile-image {
       transform: scale(1.05);
     }
-    /* Increase font sizes in Profile Section */
     .profile-section h2, 
     .profile-section p {
       font-size: 1.5em;
@@ -246,6 +265,8 @@
         position: static;
         width: 100%;
         margin-bottom: 20px;
+        max-height: none;
+        overflow: visible;
       }
       /* Main content area adjusts margin */
       .content {
@@ -295,25 +316,48 @@
     <aside class="left-sidebar">
       <!-- Profile Info (populated via JavaScript) -->
       <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
-      <h1 id="username" style="font-size:36px">Antim Pal</h1>
+      <div class="username" style="display:flex; align-items:center; justify-content:center;">
+        <h1 id="username" style="font-size:36px">Antim Pal</h1>
+        <button class="follow-button">Follow</button>
+      </div>
       <p id="bio" style="font-size:16px"></p>
       <p>Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
-      <button class="follow-button">Follow</button>
-      <!-- Social Links -->
+
+      <!-- Social Links (Smaller Size) -->
       <div class="social-links">
         <a href="https://github.com/iamAntimPal" target="_blank" class="github">GitHub</a>
         <a href="https://www.linkedin.com/in/antim-pal/" target="_blank" class="linkedin">LinkedIn</a>
         <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank" class="youtube">YouTube</a>
         <a href="https://leetcode.com/iamAntimPal/" target="_blank" class="leetcode">LeetCode</a>
       </div>
-      <!-- Achievements List -->
+
+      <!-- Achievements List with Logos -->
       <h3>Achievements</h3>
-      <ul>
-        <li>🏆 Pull Shark</li>
-        <li>🧠 Galaxy Brain</li>
-        <li>🚀 YOLO</li>
-        <li>🤝 Pair Extraordinaire</li>
+      <ul class="achievements">
+        <li>
+          <img src="./git/pull shark.jpeg" alt="Pull Shark" class="achievement-logo" /> Pull Shark
+        </li>
+        <li>
+          <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" /> Galaxy Brain
+        </li>
+        <li>
+          <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" /> YOLO
+        </li>
+        <li>
+          <img src="./git/pair extraordinare.jpeg" alt="Pair Extraordinaire" class="achievement-logo" /> Pair Extraordinaire
+        </li>
+        <li>
+          <img src="./git/QuickDraw.png" alt="Quickdraw" class="achievement-logo" /> Quickdraw
+        </li> 
+        <li>
+          <img src="./git/star.png" alt="Starstruck " class="achievement-logo" /> Starstruck 
+        </li>
+        <li>
+          <img src="./git/ridal.png" alt="Open Sourcerer" class="achievement-logo" /> Open Sourcerer 
+        </li>
+              
       </ul>
+      
       <!-- Social Stats Badges -->
       <div class="social-stats">
         <a href="#">
