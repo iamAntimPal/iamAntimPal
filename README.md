@@ -176,12 +176,7 @@ Lestest Video on Youtube -->
  <a href="https://github.com/iamAntimPal/Hotel-Management">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Hotel-Management&theme=dark" />
  </a>
- 
 
-## Daily Commit Counter
-
-
-Today Commit Count: **1**
 
 
 <!--That is git hub tosy commits-->
