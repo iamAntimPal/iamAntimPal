@@ -1,0 +1,44 @@
+/* ===== Skills Section Styling ===== */
+.skills-section {
+     padding: 20px;
+     text-align: center;
+     background-color: #1a1a1a;
+     border-radius: 15px;
+     margin-bottom: 40px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     font-family: Arial, sans-serif;
+}
+
+.skills-section h2 {
+     margin-bottom: 20px;
+     font-size: 2em;
+     color: #61dafb;
+}
+
+.tech-badges {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+}
+
+.tech-badges a {
+     display: inline-block;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-badges a:hover {
+     transform: scale(1.05);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tech-badges img {
+     height: 32px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+     .tech-badges img {
+          height: 28px;
+     }
+}
