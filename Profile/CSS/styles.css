@@ -300,6 +300,7 @@ body {
      font-weight: 700;
      margin-bottom: 2rem;
      background: var(--gradient-text);
+     background-size: 100%;;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
