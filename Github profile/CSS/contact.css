@@ -25,6 +25,7 @@
      flex-wrap: wrap;
      justify-content: center;
      gap: 15px;
+     border-radius: 20px;
 }
 
 .contact-link {
