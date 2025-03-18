@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./CSS/youtube.css">
   <link rel="stylesheet" href="./CSS/stats.css">
   <link rel="stylesheet" href="./CSS/Toprepo.css">
+  <link rel="stylesheet" href="./CSS/profile-graph.css">
   <style>
     
   </style>
@@ -35,7 +36,8 @@
       <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
       <div class="username-container" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
         <h1 id="username" style="font-size:36px;">Antim Pal</h1>
-        <button class="follow-button">Follow</button>
+        <button class="follow-button" onclick="followGithub()">Follow</button>
+
       </div>
       <p id="bio" style="font-size:16px;"></p>
       <p class="follow-stats">Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
@@ -45,50 +47,50 @@
         <a href="https://github.com/iamAntimPal" target="_blank" class="github">GitHub</a>
         <a href="https://www.linkedin.com/in/antim-pal/" target="_blank" class="linkedin">LinkedIn</a>
         <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank" class="youtube">YouTube</a>
-        <a href="https://leetcode.com/iamAntimPal/" target="_blank" class="leetcode">LeetCode</a>
+        <a href="https://leetcode.com/u/antim_pal/" target="_blank" class="leetcode">LeetCode</a>
       </div>
 
       <!-- Achievements List with Logos as Links -->
       <h3>Achievements</h3>
       <ul class="achievements">
         <li>
-          <a href="https://example.com/pull-shark" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/pull-shark" target="_blank">
             <img src="./git/pull shark.jpeg" alt="Pull Shark" class="achievement-logo" />
             <span>Pull Shark</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/galaxy-brain" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/galaxy-brain" target="_blank">
             <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" />
             <span>Galaxy Brain</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/yolo" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/yolo" target="_blank">
             <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" />
             <span>YOLO</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/pair-extraordinaire" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/pair-extraordinaire" target="_blank">
             <img src="./git/pair.jpeg" alt="Pair Extraordinaire" class="achievement-logo" />
             <span>Pair Extraordinaire</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/quickdraw" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/quickdraw" target="_blank">
             <img src="./git/quickdraw.png" alt="Quickdraw" class="achievement-logo" />
             <span>Quickdraw</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/starstruck" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/quickdraw" target="_blank">
             <img src="./git/star.png" alt="Starstruck" class="achievement-logo" />
             <span>Starstruck</span>
           </a>
         </li>
         <li>
-          <a href="https://example.com/open-sourcerer" target="_blank">
+          <a href="https://github.com/users/iamAntimPal/achievements/yolo" target="_blank">
             <img src="./git/ridal.png" alt="Open Sourcerer" class="achievement-logo" />
             <span>Open Sourcerer</span>
           </a>
@@ -114,15 +116,6 @@
 
     <!-- ===== Main Content Area ===== -->
     <main class="content">
-      <!-- ===== Banner Sections (Full Width Banners) ===== -->
-      <div class="banner">
-        <img src="../assets/welcome-header.gif" alt="Welcome Banner" />
-      </div>
-      <div class="banner">
-        <img src="../assets/second-banner.gif" alt="Second Banner" />
-      </div>
-
-      <!-- ===== Menu Bar at the Top ===== -->
       <nav class="menu">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -132,6 +125,16 @@
         <a href="#pinned">Pinned</a>
         <a href="#contact">Contact</a>
       </nav>
+      <!-- ===== Banner Sections (Full Width Banners) ===== -->
+      <div class="banner">
+        <img src="../assets/welcome-header.gif" alt="Welcome Banner" style="width: 100%;" />
+      </div>
+      <div class="banner">
+        <img src="./image/banner.png" style="width: 100%;" alt="Second Banner" class="profile-image" />
+      </div>
+
+      <!-- ===== Menu Bar at the Top ===== -->
+      
 
       <!-- ===== Profile Section (Clickable Image Linking to GitHub Trophies) ===== -->
       <section id="profile" class="profile-section">
@@ -264,7 +267,6 @@
 <!-- About Section -->
 <section id="about" class="about-section">
   <div class="about-container">
-    <h2>About Us</h2>
     <div class="about-image">
       <img src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" alt="Animated About" />
     </div>
@@ -280,6 +282,10 @@
     </div>
   </div>
 </section>
+<!-- GitHub Profile Summary Card -->
+<div class="profile-graph-container">
+    <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" alt="GitHub Profile Graph">
+  </div>
 
 
       <!-- Skills Section -->

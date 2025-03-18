@@ -53,3 +53,12 @@
         console.error("Error fetching GitHub profile:", error);
       }
     });
+
+
+    function followGithub() {
+    // Note:
+    // Directly following a GitHub profile programmatically requires proper OAuth authentication
+    // and API integration, which isn't possible with a simple button click.
+    // This function opens your GitHub profile so the user can follow you manually.
+    window.open("https://github.com/iamAntimPal", "_blank");
+  }
