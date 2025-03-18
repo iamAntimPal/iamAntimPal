@@ -1,48 +1,46 @@
-/* About Section Styling */
-#about {
-     padding: 40px;
-     background: #f9f9f9;
-     text-align: center;
-     font-family: Arial, sans-serif;
+/* ===== About Section Styling ===== */
+.about-section {
+     padding: 40px 20px;
+     background-color: #1a1a1a;
+     border-radius: 15px;
+     margin-bottom: 40px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .about-container {
-     max-width: 800px;
-     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 20px;
+     justify-content: center;
 }
 
-.gif-container {
-     margin-bottom: 20px;
+.about-image img {
+     width: 400px;
+     border-radius: 15px;
+     transition: transform 0.3s ease;
 }
 
-.scale-animation {
-     width: 200px;
-     height: auto;
-     animation: scale 3s infinite alternate;
+.about-image img:hover {
+     transform: scale(1.5);
 }
 
-/* Keyframes for the scale animation */
-@keyframes scale {
-     from {
-          transform: scale(1);
-     }
-
-     to {
-          transform: scale(1.1);
-     }
+.about-content {
+     max-width: 600px;
+     font-size: 1.2em;
+     line-height: 1.6;
 }
 
 .about-content p {
-     font-size: 1.1em;
      margin: 10px 0;
-     line-height: 1.5;
 }
 
 .about-content a {
-     color: #007BFF;
+     color: #58a6ff;
      text-decoration: none;
+     transition: color 0.3s;
 }
 
 .about-content a:hover {
-     text-decoration: underline;
+     color: #238636;
 }
