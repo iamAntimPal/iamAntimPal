@@ -111,28 +111,40 @@
       height: auto;
     }
     
-    /* Achievements List with Logo Images */
+    /* Achievements List with Larger Logo Images and Labels */
     .achievements {
       list-style: none;
       padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
     }
     .achievements li {
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
-      gap: 5px;
-      margin: 8px 0;
-      font-size: 16px;
+      width: 90px;
     }
     .achievement-logo {
-      width: 24px;
+      width: 90px;
       height: auto;
+      transition: transform 0.3s ease;
+    }
+    .achievement-logo:hover {
+      transform: scale(1.1);
+    }
+    .achievements li span {
+      margin-top: 5px;
+      font-size: 14px;
+      text-align: center;
     }
     
     /* ===== Main Content Area ===== */
     .content {
       flex: 1;
-      margin-left: 420px; /* leave space for left sidebar + some gap */
+      margin-left: 420px; /* leave space for left sidebar + gap */
       padding: 20px;
       overflow-y: auto;
       max-height: 100vh;
@@ -260,7 +272,6 @@
     
     /* ===== Responsive Design ===== */
     @media (max-width: 768px) {
-      /* Left sidebar becomes static and moves to the top */
       .left-sidebar {
         position: static;
         width: 100%;
@@ -268,7 +279,6 @@
         max-height: none;
         overflow: visible;
       }
-      /* Main content area adjusts margin */
       .content {
         margin-left: 0;
       }
@@ -277,38 +287,65 @@
       }
     }
     
-    /* ===== Dark Mode Toggle Styles ===== */
-    .dark-mode-toggle {
+    /* ===== Chat Widget Styles (Placeholder for ChatGPT Integration) ===== */
+    #chatWidget {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background-color: #238636;
-      color: #fff;
-      border: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
+      width: 300px;
+      max-height: 400px;
+      background-color: #161b22;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
       z-index: 1000;
     }
-    /* Dark Mode overrides */
-    .dark-mode {
-      background-color: #181818;
-      color: #e0e0e0;
+    #chatHeader {
+      background-color: #238636;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
     }
-    .dark-mode .left-sidebar,
-    .dark-mode .menu,
-    .dark-mode .badges-dashboard,
-    .dark-mode .follow-button {
-      background-color: #333;
+    #chatBody {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
     }
-    .dark-mode .menu a {
-      color: #e0e0e0;
+    #chatInputContainer {
+      display: flex;
+      border-top: 1px solid #333;
     }
+    #chatInput {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      outline: none;
+    }
+    #chatSend {
+      padding: 8px;
+      background-color: #238636;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+    }
+    
   </style>
 </head>
 <body>
-  <!-- Dark Mode Toggle Button -->
-  <button class="dark-mode-toggle" id="darkToggle">Toggle Dark Mode</button>
+  <!-- Chat Widget (Placeholder for ChatGPT Integration) -->
+  <div id="chatWidget">
+    <div id="chatHeader">Chat with me</div>
+    <div id="chatBody">
+      <p style="text-align:center; font-size:14px;">Welcome! Ask me anything.</p>
+    </div>
+    <div id="chatInputContainer">
+      <input type="text" id="chatInput" placeholder="Type your question..." />
+      <button id="chatSend">Send</button>
+    </div>
+  </div>
   
   <!-- Main Container: Left Sidebar and Main Content -->
   <div class="container">
@@ -316,11 +353,11 @@
     <aside class="left-sidebar">
       <!-- Profile Info (populated via JavaScript) -->
       <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
-      <div class="username" style="display:flex; align-items:center; justify-content:center;">
-        <h1 id="username" style="font-size:36px">Antim Pal</h1>
+      <div class="username-container" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <h1 id="username" style="font-size:36px;">Antim Pal</h1>
         <button class="follow-button">Follow</button>
       </div>
-      <p id="bio" style="font-size:16px"></p>
+      <p id="bio" style="font-size:16px;"></p>
       <p>Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
 
       <!-- Social Links (Smaller Size) -->
@@ -331,31 +368,37 @@
         <a href="https://leetcode.com/iamAntimPal/" target="_blank" class="leetcode">LeetCode</a>
       </div>
 
-      <!-- Achievements List with Logos -->
+      <!-- Achievements List with Larger Logos -->
       <h3>Achievements</h3>
       <ul class="achievements">
         <li>
-          <img src="./git/pull shark.jpeg" alt="Pull Shark" class="achievement-logo" /> Pull Shark
+          <img src="./git/pull shark.jpeg" alt="Pull Shark" class="achievement-logo" />
+          <span>Pull Shark</span>
         </li>
         <li>
-          <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" /> Galaxy Brain
+          <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" />
+          <span>Galaxy Brain</span>
         </li>
         <li>
-          <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" /> YOLO
+          <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" />
+          <span>YOLO</span>
         </li>
         <li>
-          <img src="./git/pair extraordinare.jpeg" alt="Pair Extraordinaire" class="achievement-logo" /> Pair Extraordinaire
+          <img src="./git/pair.jpeg" alt="Pair Extraordinaire" class="achievement-logo" />
+          <span>Pair Extraordinaire</span>
         </li>
         <li>
-          <img src="./git/QuickDraw.png" alt="Quickdraw" class="achievement-logo" /> Quickdraw
-        </li> 
-        <li>
-          <img src="./git/star.png" alt="Starstruck " class="achievement-logo" /> Starstruck 
+          <img src="./git/quickdraw.png" alt="Quickdraw" class="achievement-logo" />
+          <span>Quickdraw</span>
         </li>
         <li>
-          <img src="./git/ridal.png" alt="Open Sourcerer" class="achievement-logo" /> Open Sourcerer 
+          <img src="./git/star.png" alt="Starstruck" class="achievement-logo" />
+          <span>Starstruck</span>
         </li>
-              
+        <li>
+          <img src="./git/ridal.png" alt="Open Sourcerer" class="achievement-logo" />
+          <span>Open Sourcerer</span>
+        </li>
       </ul>
       
       <!-- Social Stats Badges -->
@@ -515,7 +558,7 @@
       <!-- ===== New Section: Yearly GitHub Data ===== -->
       <section id="yearly-data" class="yearly-data-section">
         <h2 class="section-title">📊 Yearly GitHub Data</h2>
-        <!-- Replace the image below with your custom visualization or contributions graph -->
+        <!-- Replace with your custom visualization or contributions graph -->
         <img src="https://ghchart.rshah.org/iamAntimPal" alt="Yearly Contributions Chart" />
       </section>
 
@@ -528,14 +571,10 @@
         <h2 class="section-title">Skills</h2>
         <p><!-- Your skills content here --></p>
       </section>
-
-
       <section id="projects">
         <h2 class="section-title">Projects</h2>
         <p><!-- Your projects content here --></p>
       </section>
-
-
       <section id="youtube">
         <h2 class="section-title">YouTube</h2>
         <p><!-- Embed your YouTube videos or channel link here --></p>
@@ -555,14 +594,47 @@
     </main>
   </div>
 
-  <!-- ===== JavaScript: Dark Mode Toggle & GitHub API Data Fetch ===== -->
+  <!-- ===== JavaScript: Chat Widget & GitHub API Data Fetch ===== -->
   <script>
-    // Dark Mode Toggle Functionality
-    const darkToggle = document.getElementById("darkToggle");
-    darkToggle.addEventListener("click", () => {
-      document.body.classList.toggle("dark-mode");
+    // Simple Chat Widget Functionality (Placeholder for ChatGPT integration)
+    const chatHeader = document.getElementById("chatHeader");
+    const chatWidget = document.getElementById("chatWidget");
+    chatHeader.addEventListener("click", () => {
+      // Toggle chat widget open/close
+      if (chatWidget.style.height === "400px") {
+        chatWidget.style.height = "40px";
+      } else {
+        chatWidget.style.height = "400px";
+      }
     });
     
+    const chatSend = document.getElementById("chatSend");
+    chatSend.addEventListener("click", () => {
+      const chatInput = document.getElementById("chatInput");
+      const chatBody = document.getElementById("chatBody");
+      const message = chatInput.value.trim();
+      if (message) {
+        // Append user message to chat body (Extend for ChatGPT API integration)
+        const userMsg = document.createElement("p");
+        userMsg.textContent = "You: " + message;
+        chatBody.appendChild(userMsg);
+        chatInput.value = "";
+        // Simulated response (Replace with ChatGPT API call)
+        setTimeout(() => {
+          const botMsg = document.createElement("p");
+          botMsg.textContent = "Bot: This is a placeholder response.";
+          chatBody.appendChild(botMsg);
+          chatBody.scrollTop = chatBody.scrollHeight;
+        }, 1000);
+      }
+    });
+    
+    // Automatically open chat widget in minimized mode
+    window.addEventListener("load", () => {
+      document.getElementById("chatWidget").style.height = "40px";
+      document.getElementById("chatWidget").style.display = "flex";
+    });
+
     // Fetch GitHub Profile Data to populate the left sidebar
     document.addEventListener("DOMContentLoaded", async () => {
       const username = "iamAntimPal";
@@ -580,5 +652,17 @@
       }
     });
   </script>
+  
+  <!-- Chat Widget HTML (Fixed at Bottom-Right) -->
+  <div id="chatWidget">
+    <div id="chatHeader" style="background-color: #238636; padding: 10px; text-align: center; font-weight: bold; cursor: pointer;">Chat with me</div>
+    <div id="chatBody" style="flex: 1; padding: 10px; overflow-y: auto;">
+      <p style="text-align:center; font-size:14px;">Welcome! Ask me anything.</p>
+    </div>
+    <div id="chatInputContainer" style="display: flex; border-top: 1px solid #333;">
+      <input type="text" id="chatInput" placeholder="Type your question..." style="flex:1; padding:8px; border:none; outline:none;" />
+      <button id="chatSend" style="padding:8px; background-color: #238636; border:none; cursor:pointer; color:#fff;">Send</button>
+    </div>
+  </div>
 </body>
 </html>
