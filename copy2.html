@@ -43,7 +43,7 @@
       background-color: #161b22;
       padding: 20px;
       border-radius: 10px;
-      width: 380px; /* Fixed width as specified */
+      width: 450px; /* Fixed width as specified */
       position: fixed;
       left: 20px;
       top: 20px;
@@ -60,16 +60,36 @@
     .left-sidebar h3 {
       margin: 10px 0;
     }
-    .left-sidebar .social-links a {
-      display: inline-block;
-      margin: 5px 0;
-      color: #58a6ff;
-      text-decoration: none;
-    }
-    
-    .left-sidebar .social-links a:hover {
-      text-decoration: underline;
-    }
+    /* Social Links Container */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  /* Base Styling for Links */
+  .social-links a {
+    padding: 10px 8px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  /* Background Colors */
+  .github { background: #333; }          /* GitHub (Dark Gray) */
+  .linkedin { background: #0077b5; }     /* LinkedIn (Blue) */
+  .youtube { background: #FF0000; }      /* YouTube (Red) */
+  .leetcode { background: #f89c0e; }     /* LeetCode (Orange) */
+
+  /* Hover Effects */
+  .social-links a:hover {
+    transform: scale(1.1); /* Slight Zoom */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
     .left-sidebar .follow-button {
       background-color: #238636;
       color: #fff;
@@ -281,10 +301,10 @@
       <button class="follow-button">Follow</button>
       <!-- Social Links -->
       <div class="social-links">
-        <a href="https://github.com/iamAntimPal" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/antim-pal/" target="_blank">LinkedIn</a>
-        <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank">YouTube</a>
-        <a href="https://leetcode.com/iamAntimPal/" target="_blank">LeetCode</a>
+        <a href="https://github.com/iamAntimPal" target="_blank" class="github">GitHub</a>
+        <a href="https://www.linkedin.com/in/antim-pal/" target="_blank" class="linkedin">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank" class="youtube">YouTube</a>
+        <a href="https://leetcode.com/iamAntimPal/" target="_blank" class="leetcode">LeetCode</a>
       </div>
       <!-- Achievements List -->
       <h3>Achievements</h3>
