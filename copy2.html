@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antim Pal - GitHub Profile</title>
+  <!-- Inline CSS for demonstration. You can move this to style.css if desired -->
+  <style>
+    /* Base styles and dark mode colors */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    /* Container for three columns: left sidebar, main content, right sidebar */
+    .container {
+      display: flex;
+      width: 90%;
+      max-width: 1200px;
+      margin-top: 20px;
+    }
+    /* LEFT SIDEBAR - Fixed on desktop, moves to top on mobile */
+    .left-sidebar {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      position: fixed;
+      left: 20px;
+      top: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .left-sidebar img.profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .left-sidebar h2, 
+    .left-sidebar p, 
+    .left-sidebar h3 {
+      margin: 10px 0;
+    }
+    .left-sidebar .social-links a {
+      display: block;
+      padding: 5px;
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    .left-sidebar .social-links a:hover {
+      text-decoration: underline;
+    }
+    .left-sidebar .follow-button {
+      background: #238636;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .left-sidebar .follow-button:hover {
+      background: #2ea043;
+    }
+    .left-sidebar .social-stats a img {
+      margin: 5px 0;
+    }
+    /* MAIN CONTENT AREA */
+    .content {
+      flex: 1;
+      margin: 20px 300px 20px 300px; /* leave space for fixed sidebars */
+      padding: 20px;
+      overflow-y: auto;
+    }
+    /* Navigation Menu */
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .menu a {
+      color: #58a6ff;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      background: #161b22;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .menu a:hover {
+      background: #238636;
+      color: white;
+    }
+    /* Sections styling */
+    section {
+      margin-bottom: 40px;
+    }
+    h2.section-title {
+      border-bottom: 2px solid #238636;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    /* BADGES DASHBOARD - using grid layout */
+    .badges-dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      background: #1a1a1a;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      margin: 2rem 0;
+    }
+    .badges-dashboard .project-info {
+      background: #2d2d2d;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .badges-dashboard .project-info h3 {
+      color: #61dafb;
+      margin-bottom: 1rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+    }
+    .badges-dashboard .project-info a {
+      display: block;
+      margin: 0.75rem 0;
+      transition: transform 0.2s;
+    }
+    .badges-dashboard .project-info a img {
+      height: 30px;
+    }
+    /* GITHUB TROPHIES SECTION */
+    .github-trophies-section {
+      text-align: center;
+    }
+    .github-trophies-section .github-trophies {
+      max-width: 100%;
+      height: auto;
+    }
+    /* TECH STACK SECTION */
+    .tech-section .tech-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .tech-section .tech-container a img {
+      width: 50px;
+      height: 50px;
+      transition: transform 0.3s;
+    }
+    .tech-section .tech-container a:hover img {
+      transform: scale(1.1);
+    }
+    /* RIGHT SIDEBAR - Banners (scrollable if overflow) */
+    .right-sidebar {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      position: fixed;
+      right: 20px;
+      top: 20px;
+      width: 250px;
+      text-align: center;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .right-sidebar .banner {
+      margin-bottom: 20px;
+    }
+    .right-sidebar .banner img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    /* PROFILE SECTION (clickable image linking to trophies) */
+    .profile-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .profile-section .profile-container a img.profile-image {
+      width: 150px;
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+    .profile-section .profile-container a:hover img.profile-image {
+      transform: scale(1.05);
+    }
+    /* DARK MODE TOGGLE BUTTON */
+    .dark-mode-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #238636;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .left-sidebar, .right-sidebar {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .content {
+        margin: 0;
+      }
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Dark Mode Toggle Button -->
+  <button class="dark-mode-toggle" id="toggle-dark">Toggle Dark Mode</button>
+
+  <!-- Main container holds left sidebar, main content, and right sidebar -->
+  <div class="container">
+    <!-- LEFT SIDEBAR (Fixed on desktop, moves to top on mobile) -->
+    <aside class="left-sidebar">
+      <!-- Profile Info (fetched via JS) -->
+      <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
+      <h2 id="username">Antim Pal</h2>
+      <p id="bio"></p>
+      <p>Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
+      <button class="follow-button">Follow</button>
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="https://github.com/iamAntimPal" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/antim-pal/" target="_blank">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank">YouTube</a>
+        <a href="https://leetcode.com/iamAntimPal/" target="_blank">LeetCode</a>
+      </div>
+      <!-- Achievements List -->
+      <h3>Achievements</h3>
+      <ul>
+        <li>🏆 Pull Shark</li>
+        <li>🧠 Galaxy Brain</li>
+        <li>🚀 YOLO</li>
+        <li>🤝 Pair Extraordinaire</li>
+      </ul>
+      <!-- Social Stats Badges -->
+      <div class="social-stats">
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" alt="GitHub Stars" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" alt="YouTube Views" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=Subscribers&style=social" alt="YouTube Subscribers" />
+        </a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT AREA (Scrolls independently) -->
+    <main class="content">
+      <!-- Navigation Menu -->
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#youtube">YouTube</a>
+        <a href="#stats">Stats</a>
+        <a href="#pinned">Pinned</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Profile Section (Clickable image linking to GitHub Trophies) -->
+      <section id="profile" class="profile-section">
+        <div class="profile-container">
+          <a href="#github-trophies">
+            <img src="../assets/Antim_pal.png" alt="Hello, I'm Antim Pal. I do open source!" class="profile-image" />
+          </a>
+        </div>
+      </section>
+
+      <!-- Social Stats Section (repeated if desired in main content) -->
+      <div class="social-stats">
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" alt="GitHub Stars" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" alt="YouTube Views" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=Subscribers&style=social" alt="YouTube Subscribers" />
+        </a>
+      </div>
+
+      <!-- Badges Dashboard Section -->
+      <div class="badges-dashboard">
+        <div class="project-info">
+          <h3>🚀 Project Info</h3>
+          <a href="https://www.python.org/">
+            <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python" alt="Python 3.8+" />
+          </a>
+          <a href="LICENSE">
+            <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+          </a>
+          <a href="https://code.visualstudio.com/">
+            <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code" />
+          </a>
+        </div>
+      </div>
+
+      <!-- GitHub Trophies Section -->
+      <section id="github-trophies" class="github-trophies-section" data-aos="zoom-in">
+        <h2 class="section-title">🏆 GitHub Trophies</h2>
+        <div class="github-trophies-container">
+          <img src="https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" class="github-trophies" />
+        </div>
+      </section>
+
+      <!-- Tech I Work On Section -->
+      <section id="tech-stack" class="tech-section" data-aos="fade-up">
+        <h2 class="section-title">🧑‍💻 Tech I Work On</h2>
+        <div class="tech-container">
+          <!-- Example for C++ -->
+          <a href="https://www.w3schools.com/cpp/" target="_blank" title="C++">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+          </a>
+          <!-- Repeat similar blocks for CSS3, HTML5, Java, MariaDB, MongoDB, SQL Server, MySQL, Pandas, PostgreSQL, Python, Scikit Learn, Seaborn, IntelliJ IDEA, VS Code, Git, GitHub, Linux, Ubuntu -->
+        </div>
+      </section>
+
+      <!-- Placeholder sections for About, Skills, Projects, YouTube, Stats, Pinned, Contact -->
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <p><!-- Your about content here --></p>
+      </section>
+      <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p><!-- Your skills content here --></p>
+      </section>
+      <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p><!-- Your projects content here --></p>
+      </section>
+      <section id="youtube">
+        <h2 class="section-title">YouTube</h2>
+        <p><!-- Embed your YouTube videos or channel link here --></p>
+      </section>
+      <section id="stats">
+        <h2 class="section-title">Stats</h2>
+        <p><!-- Additional stats if needed --></p>
+      </section>
+      <section id="pinned">
+        <h2 class="section-title">Pinned</h2>
+        <p><!-- Your pinned repositories if you wish to include them --></p>
+      </section>
+      <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p><!-- Your contact information here --></p>
+      </section>
+    </main>
+
+    <!-- RIGHT SIDEBAR (Banners scroll if content overflows) -->
+    <aside class="right-sidebar">
+      <!-- Banner Section: Welcome Header GIF -->
+      <div class="banner" id="banner">
+        <img src="../assets/welcome-header.gif" alt="Welcome Banner" width="100%" />
+      </div>
+      <!-- Second Banner Section (Replace image path as needed) -->
+      <div class="banner">
+        <img src="../assets/another-banner.gif" alt="Another Banner" width="100%" />
+      </div>
+    </aside>
+  </div>
+
+  <!-- JavaScript Section -->
+  <script>
+    // Dark Mode Toggle: toggles a class on the body element
+    const toggleButton = document.getElementById('toggle-dark');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      // Optionally, you can save the mode in localStorage to persist the user preference
+    });
+
+    // Fetch GitHub Profile Data and update left sidebar
+    document.addEventListener("DOMContentLoaded", async function () {
+      const username = "iamAntimPal";
+      const apiUrl = `https://api.github.com/users/${username}`;
+      
+      try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        document.getElementById("profileImage").src = data.avatar_url;
+        document.getElementById("username").textContent = data.name || username;
+        document.getElementById("bio").textContent = data.bio || "No bio available.";
+        document.getElementById("followers").textContent = data.followers;
+        document.getElementById("following").textContent = data.following;
+      } catch (error) {
+        console.error("Error fetching GitHub profile:", error);
+      }
+    });
+  </script>
+</body>
+</html>
