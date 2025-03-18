@@ -1,0 +1,23 @@
+.profile-graph-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     /* Optional: add a max-width to control the container's size */
+     max-width: 100%;
+     margin: 0 auto;
+}
+
+.profile-graph-container img {
+     width: 100%;
+     max-width: 860px;
+     /* adjust this as needed */
+     height: auto;
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease;
+}
+
+.profile-graph-container img:hover {
+     transform: scale(1.1);
+}

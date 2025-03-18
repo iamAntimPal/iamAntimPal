@@ -247,13 +247,13 @@ section {
 }
 
 .profile-section .profile-container a img.profile-image {
-     width: 300px;
-     border-radius: 50%;
+     width: 100%;
+     /* border-radius: 50%; */
      transition: transform 0.3s;
 }
 
 .profile-section .profile-container a:hover img.profile-image {
-     transform: scale(1.05);
+     transform: scale(1.1);
 }
 
 .profile-section h2,
