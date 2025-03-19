@@ -1,7 +1,7 @@
 <!-- Banner Section-->
  <div align="center">
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
- <img alt="banner" src="assets/banner.png"/>
+ <!--<img alt="banner" src="assets/banner.png"/>  -->
  </div>
  
 <!--
