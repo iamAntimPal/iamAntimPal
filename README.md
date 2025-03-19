@@ -81,9 +81,8 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <div>
  <h3 align="left"> <img height="25" src="./assets/cat.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
 
-- 🏦 I'm a Data Analyst who worked for Intern Career startup in India 
-      <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer**
+     
+- 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 🌱 I’m currently learning:- **Data Science Machine Learning**
 - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
 
