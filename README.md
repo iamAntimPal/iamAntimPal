@@ -34,7 +34,24 @@
 
 
 <!-- My Discription-->
-<h3 align="center" >I am qualified with foundational knowledge in statistical analysis, data cleaning, and data modeling techniques. Proficient in programming languages such as Python and SQL, I am eager to apply my skills to manipulate and analyze data effectively. I am passionate about learning and gaining experience in creating interactive dashboards and visualizations using tools like Power BI. My strong analytical and problem-solving abilities make me well-equipped to derive insights from complex datasets and contribute positively to data-driven decision-making processes.</h3>
+
+I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
+
+I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
+
+## What I Do
+
+- **Software Development:**  
+  I specialize in Python and web development, writing clean, maintainable code for scalable applications.
+
+- **Graphic Design:**  
+  I create compelling visuals and user experiences with Adobe Photoshop, Illustrator, and InDesign.
+
+- **Data & Database Management:**  
+  Skilled in managing databases with **MySQL**, **PostgreSQL**, **MariaDB**, and **MongoDB**, and proficient in data analytics using **Pandas**, **Scikit Learn**, and **Seaborn**.
+
+- **Modern Tools & Teaching:**  
+  I leverage modern development tools like **Visual Studio Code**, **IntelliJ IDEA**, **Sublime Text**, and **PowerBI**. Additionally, I teach students key skills in graphic design, Python, web design, and data analytics.
 
 <!-- Adding Follower and youtube option -->
 <!-- 
@@ -64,11 +81,12 @@
 <div>
  <h3 align="left"> <img height="25" src="./assets/cat.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
 
-- 🏦 I'm a Data Analyst who worked for Intern Career startup in India 
-      <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer**
+     
+- 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 🌱 I’m currently learning:- **Data Science Machine Learning**
-- 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
+- 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [Visit My PortFolio](https://iamantimpal.github.io/Antim-Portfolio/)
+- [Visit My GitHub](https://iamantimpal.github.io/Github-Profile/)
+
 
 - 💬 Ask me about:- **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
 
@@ -219,7 +237,7 @@ Lestest Video on Youtube -->
     <summary><b>📈 Get my Code stats</b></summary><br>
 <!--START_SECTION:waka-->
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.4%20million%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.2%20million%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
