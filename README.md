@@ -374,6 +374,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
+| **Github-Profile** | 5 commits |
 | **LeetCode-in-Python** | 1 commits |
 
 
