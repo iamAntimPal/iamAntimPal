@@ -84,7 +84,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
      
 - 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 🌱 I’m currently learning:- **Data Science Machine Learning**
-- 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [https://iamantimpal.github.io/Antim-Portfolio/](https://iamantimpal.github.io/Antim-Portfolio/)
+- 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [Visit My PortFolio](https://iamantimpal.github.io/Antim-Portfolio/)
+- [Visit My GitHub](https://iamantimpal.github.io/Github-Profile/)
+
 
 - 💬 Ask me about:- **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
 
