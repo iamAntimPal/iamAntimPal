@@ -1,7 +1,7 @@
 <!-- Banner Section-->
  <div align="center">
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
- <img alt="banner" src="assets/banner.png"/>
+ <!-- <img alt="banner" src="assets/banner.png"/> -->
  </div>
  
 <!--
@@ -15,9 +15,6 @@
 <!-- adding name -->
 <p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/Antim_pal.png" /></a></p>
 
-
-
-<h1 align="center" > I'm a Training Specialist at IWP Academy⚡</h1>
 
 <!-- banner that is have follower and youtube-->
 
@@ -35,9 +32,6 @@
 <a href="https://www.youtube.com/@OptimismEducator"> <img height="30" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
 
 </div>
-
-ok
-that
 
 
 <!-- My Discription-->
