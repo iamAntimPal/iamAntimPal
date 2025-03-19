@@ -1,8 +1,7 @@
 <!-- Banner Section-->
  <div align="center">
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
- <!-- <img alt="banner" src="assets/banner.png"/> -->
- </div>
+
  
 <!--
 
@@ -52,7 +51,8 @@
 
 <!-- Antim Pal Summary -->
 <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
-
+  <!-- Activity Graph with improved styling -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=4.5" />
 <!-- Gif Section -->
 <!-- GIF -->
 <!-- <img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" /><br> -->
