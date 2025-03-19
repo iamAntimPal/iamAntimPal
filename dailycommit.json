@@ -1,7 +1,11 @@
 [
   {
     "repo": "Github-Profile",
-    "count": 9
+    "count": 11
+  },
+  {
+    "repo": "iamAntimPal",
+    "count": 2
   },
   {
     "repo": "LeetCode-in-Python",
@@ -10,10 +14,6 @@
   {
     "repo": "Optimism-Educators-Discussions",
     "count": 2
-  },
-  {
-    "repo": "iamAntimPal",
-    "count": 1
   },
   {
     "repo": "Optimism-Educators",
