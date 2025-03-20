@@ -378,6 +378,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 | **Github-Profile** | 30 commits |
 | **Graphic-Designer-Pro** | 5 commits |
 | **iamAntimPal** | 25 commits |
+| **LeetCode_SQL_Database** | 4 commits |
 
 
 ## 📊 Commit Distribution
