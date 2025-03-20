@@ -61,19 +61,6 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ---
 
-
-- **Software Development:**  
-  I specialize in Python and web development, writing clean, maintainable code for scalable applications.
-
-- **Graphic Design:**  
-  I create compelling visuals and user experiences with Adobe Photoshop, Illustrator, and InDesign.
-
-- **Data & Database Management:**  
-  Skilled in managing databases with **MySQL**, **PostgreSQL**, **MariaDB**, and **MongoDB**, and proficient in data analytics using **Pandas**, **Scikit Learn**, and **Seaborn**.
-
-- **Modern Tools & Teaching:**  
-  I leverage modern development tools like **Visual Studio Code**, **IntelliJ IDEA**, **Sublime Text**, and **PowerBI**. Additionally, I teach students key skills in graphic design, Python, web design, and data analytics.
-
 <!-- Adding Follower and youtube option -->
 <!-- 
 <p align="center">
