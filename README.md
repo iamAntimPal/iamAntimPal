@@ -374,13 +374,9 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
-| **Github-Profile** | 13 commits |
-| **Graphic-Designer-Pro** | 14 commits |
-| **iamAntimPal** | 18 commits |
-| **LeetCode-in-Python** | 2 commits |
-| **Optimism-Educators** | 1 commits |
-| **Optimism-Educators-Discussions** | 2 commits |
-| **Python-Solving** | 1 commits |
+| **Github-Profile** | 2 commits |
+| **Graphic-Designer-Pro** | 5 commits |
+| **iamAntimPal** | 7 commits |
 
 
 ## 📊 Commit Distribution
