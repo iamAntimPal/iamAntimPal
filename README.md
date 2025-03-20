@@ -89,26 +89,24 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 [<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/iamAntimPal?tab=repositories)
 
-
 <div>
- <h3 align="left"> <img height="25" src="./assets/cat.gif" width="45" />  About Me: <img src="./assets/hot.gif"></h3>
+  <h3 align="left">
+    <img height="25" src="./assets/cat.gif" width="45" /> About Me: <img src="./assets/hot.gif">
+  </h3>
 
-     
-- 🔭 I’m currently working on:- **Graphic Designer And Data Analytics Trainer** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 🌱 I’m currently learning:- **Data Science Machine Learning**
-- 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [Visit My PortFolio](https://iamantimpal.github.io/Antim-Portfolio/)
-- [Visit My GitHub](https://iamantimpal.github.io/Github-Profile/)
+  - 🔭 I’m currently working on: **Graphic Designer And Data Analytics Trainer** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+  - 🌱 I’m currently learning: **Data Science Machine Learning**
+  - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [Visit My PortFolio](https://iamantimpal.github.io/Antim-Portfolio/) [Visit My GitHub](https://iamantimpal.github.io/Github-Profile/)
 
+  - 💬 Ask me about: **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
 
-- 💬 Ask me about:- **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
-
-- 📫 How to reach me:- **antimpal01617121@gmail.com**
+  - 📫 How to reach me: **antimpal01617121@gmail.com**
   
-- 📫 Join Whatsapp Group:- [**Whatsapp App**](https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK) 
+  - 📫 Join Whatsapp Group: [**Whatsapp App**](https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK) 
 
-- ⚡ Fun fact: **My GitHub is more active then my phone!😂**
+  - ⚡ Fun fact: **My GitHub is more active than my phone!😂**
 </div>
-  
+
 ## 🧑‍💻 Tech I work on :
 
 
