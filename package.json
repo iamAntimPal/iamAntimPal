@@ -1,0 +1,13 @@
+{
+  "name": "github-stats",
+  "version": "1.0.0",
+  "description": "Generate GitHub Contribution Stats",
+  "main": "generate-stats.js",
+  "scripts": {
+    "generate": "node generate-stats.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "svg-pie-chart": "^1.0.0"
+  }
+}
