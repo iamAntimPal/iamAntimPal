@@ -59,6 +59,11 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - **Databases:** MySQL, PostgreSQL, MariaDB, MongoDB  
 - **Data Analytics:** Skilled in using Pandas, Scikit Learn, and Seaborn
 
+## Modern Tools & Teaching
+
+- **Development Tools:** Visual Studio Code, IntelliJ IDEA, Sublime Text, PowerBI  
+- **Teaching:** Educating students in Graphic Design, Python, Web Design, and Data Analytics
+
 ---
 
 <!-- Adding Follower and youtube option -->
