@@ -376,7 +376,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 |-------------------|---------------|
 | **Github-Profile** | 2 commits |
 | **Graphic-Designer-Pro** | 5 commits |
-| **iamAntimPal** | 7 commits |
+| **iamAntimPal** | 18 commits |
 
 
 ## 📊 Commit Distribution
