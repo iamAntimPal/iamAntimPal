@@ -1,0 +1,135 @@
+.profile-graph-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     /* Optional: add a max-width to control the container's size */
+     max-width: 100%;
+     margin: 0 auto;
+}
+
+.profile-graph-container img {
+     width: 100%;
+     max-width: 860px;
+     /* adjust this as needed */
+     height: auto;
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease;
+}
+
+.profile-graph-container img:hover {
+     transform: scale(1.1);
+}
+
+/* ===== Yearly GitHub Data Section Styling ===== */
+.yearly-data-section {
+     padding: 40px 20px;
+     background-color: #161b22;
+     /* Dark background */
+     color: #ffffff;
+     text-align: center;
+}
+
+.section-title {
+     position: sticky;
+     top: 0;
+     background-color: #161b22;
+     z-index: 10;
+     font-size: 2em;
+     margin-bottom: 30px;
+     color: #ffffff;
+     border-bottom: 2px solid #238636;
+     padding: 10px 0;
+}
+
+.yearly-data-container {
+     background: #1a1a1a;
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     display: inline-block;
+     transition: transform 0.3s ease;
+}
+
+.yearly-data-container:hover {
+     transform: scale(1.02);
+}
+
+.yearly-data-container img {
+     width: 100%;
+     max-width: 800px;
+     height: auto;
+     border-radius: 10px;
+     /* Apply CSS filter to darken chart */
+     filter: brightness(0.6) contrast(1.2);
+     transition: transform 0.3s ease;
+}
+
+.yearly-data-container img:hover {
+     transform: scale(1.02);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+     .yearly-data-container {
+          padding: 15px;
+     }
+
+     .yearly-data-container img {
+          max-width: 100%;
+     }
+}
+
+/* ===== Picture Element Styling means Snake game style ===== */
+/* Picture Element Styling */
+/* Global Container */
+.container1 {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+}
+
+/* Picture Element Styling */
+picture {
+     display: block;
+     max-width: 600px;
+     /* Adjust as needed */
+     margin: 0 auto;
+     padding: 20px 0;
+}
+
+/* Animation Keyframes for fade-in and scale */
+@keyframes fadeInScale {
+     from {
+          opacity: 0;
+          transform: scale(0.95);
+     }
+
+     to {
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+
+/* Picture Image Styling */
+picture img {
+     width: 100%;
+     height: auto;
+     display: block;
+     animation: fadeInScale 1s ease-out;
+     transition: transform 0.3s ease;
+}
+
+picture img:hover {
+     transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+     picture {
+          max-width: 90%;
+          padding: 10px 0;
+     }
+}

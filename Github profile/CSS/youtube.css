@@ -1,0 +1,115 @@
+/* ===== YouTube Section Styling ===== */
+.youtube-section {
+     padding: 40px 20px;
+     background-color: #161b22;
+     /* Dark background */
+     text-align: center;
+     font-family: Arial, sans-serif;
+     color: #c9d1d9;
+}
+
+.section-title {
+     font-size: 2em;
+     margin-bottom: 20px;
+     color: #ffffff;
+     border-bottom: 2px solid #238636;
+     padding-bottom: 10px;
+     position: sticky;
+     top: 0;
+     background-color: #161b22;
+     z-index: 10;
+}
+
+/* Subscribe Banner */
+.subscribe-banner {
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+
+.banner-img {
+     width: 50px;
+     transition: transform 0.3s ease;
+}
+
+.banner-img:hover {
+     transform: scale(1.1);
+}
+
+.subscribe-link {
+     display: inline-block;
+     transition: transform 0.3s ease;
+}
+
+.subscribe-link:hover {
+     transform: scale(1.05);
+}
+
+/* Videos Grid */
+.videos-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 20px;
+     margin-top: 20px;
+}
+
+/* Video Item Styling */
+.video-item {
+     position: relative;
+     overflow: hidden;
+     border-radius: 10px;
+     background-color: #1f2428;
+     padding: 10px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     opacity: 0;
+     transform: translateY(20px);
+     animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.video-item:hover {
+     transform: scale(1.03);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.video-item iframe {
+     width: 100%;
+     height: 200px;
+     border: none;
+     transition: transform 0.3s ease;
+}
+
+.video-item iframe:hover {
+     transform: scale(1.02);
+}
+
+.video-title {
+     margin-top: 8px;
+     font-size: 1.1em;
+     color: #ffffff;
+     transition: color 0.3s ease;
+}
+
+.video-title:hover {
+     color: #238636;
+}
+
+/* Entry Animation */
+@keyframes fadeInUp {
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+     .video-item iframe {
+          height: 180px;
+     }
+
+     .videos-grid {
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     }
+}

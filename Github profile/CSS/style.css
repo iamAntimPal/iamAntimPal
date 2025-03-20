@@ -1,0 +1,423 @@
+/* ===== Base Reset & Global Styles ===== */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html,
+body {
+     height: 100%;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     background-color: #0d1117;
+     color: #c9d1d9;
+     overflow-x: hidden;
+     transition: background-color 0.3s, color 0.3s;
+}
+
+/* ===== Scrollbar Hiding for Main Content & Left Sidebar ===== */
+.content,
+.left-sidebar {
+     scrollbar-width: none;
+     /* Firefox */
+}
+
+.content::-webkit-scrollbar,
+.left-sidebar::-webkit-scrollbar {
+     display: none;
+     /* Chrome, Safari, Opera */
+}
+
+/* ===== Container Layout ===== */
+.container {
+     display: flex;
+     width: 100%;
+     /* Changed from 90% to fill full width */
+     max-width: 1200px;
+     margin: 20px auto;
+}
+
+/* ===== Left Sidebar ===== */
+.left-sidebar {
+     background-color: #161b22;
+     padding: 20px;
+     border-radius: 10px;
+     width: 400px;
+     /* Fixed width as specified */
+     position: fixed;
+     left: 20px;
+     top: 20px;
+     text-align: center;
+     max-height: calc(100vh - 40px);
+     overflow-y: auto;
+}
+
+.left-sidebar img.profile-img {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+}
+
+.left-sidebar h2,
+.left-sidebar p,
+.left-sidebar h3 {
+     margin: 10px 0;
+}
+
+/* Social Links Container with Reduced Size */
+.social-links {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     padding: 5px;
+}
+
+.social-links a {
+     padding: 6px 4px;
+     border-radius: 15px;
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 14px;
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Background Colors for Social Links */
+.github {
+     background: #333;
+}
+
+.linkedin {
+     background: #0077b5;
+}
+
+.youtube {
+     background: #FF0000;
+}
+
+.leetcode {
+     background: #f89c0e;
+}
+
+.social-links a:hover {
+     transform: scale(1.1);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Follow Button: Increased Size, Spacing & Animation */
+.follow-button {
+     background-color: #238636;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     font-size: 1.2em;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: transform 0.3s, background-color 0.3s;
+     margin-left: 20px;
+}
+
+.follow-button:hover {
+     background-color: #2ea043;
+     transform: scale(1.05);
+}
+
+/* Social Stats Badges */
+.social-stats a img {
+     margin: 5px 0;
+     width: 150px;
+     height: auto;
+}
+
+/* Follow Stats Styling */
+.follow-stats {
+     font-size: 1.2em;
+     font-weight: bold;
+     margin: 10px 0;
+     letter-spacing: 0.5px;
+     transition: color 0.3s;
+}
+
+.follow-stats span {
+     color: #58a6ff;
+}
+
+.follow-stats:hover {
+     color: #238636;
+}
+
+/* Achievements List with Logos as Links */
+.achievements {
+     list-style: none;
+     padding: 0;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+     margin-top: 10px;
+}
+
+.achievements li {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 90px;
+}
+
+.achievement-logo {
+     width: 90px;
+     /* Increased to 90px */
+     height: auto;
+     transition: transform 0.3s ease;
+}
+
+.achievement-logo:hover {
+     transform: scale(1.1);
+}
+
+.achievements li span {
+     margin-top: 5px;
+     font-size: 18px;
+     font-weight: bold;
+     color: #61dafb;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+     opacity: 0;
+     animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+     to {
+          opacity: 1;
+     }
+}
+
+/* ===== Main Content Area ===== */
+.content {
+     flex: 1;
+     margin-left: 420px;
+     /* leave space for left sidebar + gap */
+     padding: 20px;
+     overflow-y: auto;
+     max-height: 100vh;
+}
+
+/* ===== Menu Bar at the Top ===== */
+.menu {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 15px;
+     margin-bottom: 20px;
+}
+
+.menu a {
+     background-color: #161b22;
+     color: #58a6ff;
+     text-decoration: none;
+     padding: 10px 15px;
+     border-radius: 5px;
+     transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+     background-color: #238636;
+     color: #fff;
+}
+
+/* ===== Sections Styling ===== */
+section {
+     margin-bottom: 40px;
+}
+
+.section-title {
+     border-bottom: 2px solid #238636;
+     padding-bottom: 5px;
+     margin-bottom: 15px;
+     font-size: 1.5em;
+     text-align: center;
+}
+
+/* ===== Profile Section (Clickable Image & Increased Font Size) ===== */
+.profile-section {
+     text-align: center;
+}
+
+.profile-section .profile-container a img.profile-image {
+     width: 100%;
+     /* border-radius: 50%; */
+     transition: transform 0.3s;
+}
+
+.profile-section .profile-container a:hover img.profile-image {
+     transform: scale(1.1);
+}
+
+.profile-section h2,
+.profile-section p {
+     font-size: 1.5em;
+}
+
+/* ===== Badges Dashboard ===== */
+.badges-dashboard {
+     display: flex;
+     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+     gap: 1.5rem;
+     padding: 2rem;
+     background-color: #1a1a1a;
+     border-radius: 15px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     margin-bottom: 40px;
+}
+
+.badges-dashboard .project-info {
+     background-color: #2d2d2d;
+     padding: 1.5rem;
+     border-radius: 10px;
+     transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.badges-dashboard .project-info h3 {
+     color: #61dafb;
+     margin-bottom: 1rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 600;
+}
+
+.badges-dashboard .project-info a {
+     display: block;
+     margin: 0.75rem 0;
+     transition: transform 0.2s;
+}
+
+.badges-dashboard .project-info a img {
+     height: 30px;
+}
+
+/* ===== GitHub Trophies Section with Animation ===== */
+.github-trophies-section {
+     text-align: center;
+}
+
+.github-trophies-container img {
+     max-width: 100%;
+     height: auto;
+     opacity: 0;
+     transform: scale(0.95);
+     animation: trophyFadeIn 1s ease-out forwards;
+}
+
+@keyframes trophyFadeIn {
+     to {
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+
+/* ===== Tech I Work On Section ===== */
+.tech-section .tech-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 15px;
+}
+
+.tech-section .tech-container a img {
+     width: 50px;
+     height: 50px;
+     transition: transform 0.3s;
+}
+
+.tech-section .tech-container a:hover img {
+     transform: scale(1.1);
+}
+
+/* ===== New Section: Yearly GitHub Data Styling ===== */
+.yearly-data-section {
+     text-align: center;
+     margin-bottom: 40px;
+     background-color: #1a1a1a;
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.yearly-data-section img {
+     width: 100%;
+     max-width: 800px;
+     height: auto;
+     border-radius: 10px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+     .left-sidebar {
+          position: static;
+          width: 100%;
+          margin-bottom: 20px;
+          max-height: none;
+          overflow: visible;
+     }
+
+     .content {
+          margin-left: 0;
+     }
+
+     .container {
+          flex-direction: column;
+     }
+}
+
+/* ===== Chat Widget Styles (Placeholder for ChatGPT Integration) ===== */
+#chatWidget {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 300px;
+     max-height: 400px;
+     background-color: #161b22;
+     border-radius: 10px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+     display: none;
+     flex-direction: column;
+     overflow: hidden;
+     z-index: 1000;
+}
+
+#chatHeader {
+     background-color: #238636;
+     padding: 10px;
+     text-align: center;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+#chatBody {
+     flex: 1;
+     padding: 10px;
+     overflow-y: auto;
+}
+
+#chatInputContainer {
+     display: flex;
+     border-top: 1px solid #333;
+}
+
+#chatInput {
+     flex: 1;
+     padding: 8px;
+     border: none;
+     outline: none;
+}
+
+#chatSend {
+     padding: 8px;
+     background-color: #238636;
+     border: none;
+     cursor: pointer;
+     color: #fff;
+}

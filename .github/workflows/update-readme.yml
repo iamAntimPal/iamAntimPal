@@ -1,0 +1,55 @@
+name: Update Daily Commit Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Commit Stats
+        run: |
+          # GitHub API to fetch commits for today
+          TODAY=$(date -u +"%Y-%m-%dT00:00:00Z")
+          TOKEN="${{ secrets.GITHUB_TOKEN }}"
+          USER="iamAntimPal"
+          
+          echo "Fetching today's commits..."
+          
+          repos=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/users/$USER/repos?per_page=100" | jq -r '.[].name')
+          
+          # Create commit stats table
+          TABLE="| 🔹 Repository Name | 📝 Commits Today |\n|-------------------|---------------|\n"
+          JSON_OUTPUT="[]"
+          
+          for repo in $repos; do
+            commit_count=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/repos/$USER/$repo/commits?since=$TODAY" | jq '. | length')
+            if [ "$commit_count" -gt 0 ]; then
+              TABLE+="| **$repo** | $commit_count commits |\n"
+              JSON_OUTPUT=$(echo "$JSON_OUTPUT" | jq --arg repo "$repo" --argjson count "$commit_count" '. + [{"repo": $repo, "count": $count}]')
+            fi
+          done
+
+          # Sort JSON data by commit count (descending order)
+          JSON_OUTPUT=$(echo "$JSON_OUTPUT" | jq 'sort_by(-.count)')
+
+          # Update README.md
+          sed -i '/## 🚀 Today.s Commit Activity/,$d' README.md
+          echo -e "## 🚀 Today's Commit Activity\n\n$TABLE\n\n## 📊 Commit Distribution\n\n![Commit Pie Chart](https://github-readme-stats.vercel.app/api/pin/?username=$USER&repo=dailycommit_dashboard&theme=radical)" >> README.md
+          
+          # Save JSON for external use
+          echo "$JSON_OUTPUT" > dailycommit.json
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add README.md dailycommit.json
+          git commit -m "🔄 Auto-update daily commit stats"
+          git push

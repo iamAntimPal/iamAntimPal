@@ -1,0 +1,92 @@
+/* Banner Section */
+.banner {
+     text-align: center;
+     padding: 40px 20px;
+     background: linear-gradient(60deg, #d54387, #69b3c9, #ff7eb3);
+     color: white;
+     border-radius: 20px;
+     margin: 0 30px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Name Styling */
+.gradient-name {
+     font-size: 100px;
+     /* Increased size */
+     font-weight: 700;
+     text-transform: uppercase;
+     background: linear-gradient(90deg, #ffffff, #f8d800);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: fadeIn 1s ease-in-out;
+}
+
+/* Subtitle Styling */
+.subtitle {
+     font-size: 50px;
+     /* Increased size */
+     font-weight: 500;
+     margin-top: 10px;
+     animation: slideIn 1s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+     from {
+          opacity: 0;
+          transform: scale(0.9);
+     }
+
+     to {
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+
+@keyframes slideIn {
+     from {
+          opacity: 0;
+          transform: translateY(-10px);
+     }
+
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+/* adding banner for AntimPal.png and  */
+
+.profile-section {
+     padding: 50px 20px;
+     text-align: center;
+}
+
+.profile-container {
+     display: inline-block;
+     animation: fadeInScale 1s ease-out forwards;
+}
+
+.profile-image {
+     width: 100%;
+     max-width: 80%;
+     border-radius: 10px;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+     transform: scale(1.05);
+}
+
+@keyframes fadeInScale {
+     from {
+          opacity: 0;
+          transform: scale(0.8);
+     }
+
+     to {
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+

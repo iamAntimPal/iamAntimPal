@@ -1,0 +1,62 @@
+/* Utility Classes */
+.py-5 {
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+}
+
+.container {
+     max-width: 1140px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+.section-title {
+     text-align: center;
+     font-size: 2.5rem;
+     font-weight: 700;
+     margin-bottom: 2rem;
+     color: #333;
+}
+
+/* GitHub Stats Section Styles */
+.github-stats-section {
+     background-color: #f8f9fa;
+     padding: 3rem 0;
+     transition: background-color 0.3s ease;
+}
+
+/* Responsive Grid Layout */
+.stats-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 1.5rem;
+     align-items: start;
+}
+
+/* Stats Item Card */
+.stats-item {
+     background: rgba(255, 255, 255, 0.1);
+     padding: 1rem;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     transition: transform 0.3s ease;
+}
+
+.stats-item:hover {
+     transform: scale(1.02);
+}
+
+/* Responsive Images */
+.stats-item img {
+     width: 100%;
+     height: auto;
+     border-radius: 5px;
+}
+
+/* Media Query for Smaller Devices */
+@media (max-width: 768px) {
+     .section-title {
+          font-size: 2rem;
+     }
+}

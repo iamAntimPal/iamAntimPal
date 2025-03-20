@@ -1,0 +1,86 @@
+/* ===== GitHub Stats Section Styling ===== */
+.github-stats-section {
+     padding: 40px 20px;
+     background-color: #161b22;
+     /* Dark background */
+     color: #ffffff;
+     width: 100%;
+}
+
+.github-stats-section .container {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.section-title {
+     font-size: 2em;
+     margin-bottom: 30px;
+     color: #ffffff;
+     border-bottom: 2px solid #238636;
+     padding-bottom: 10px;
+     text-align: center;
+}
+
+/* Stats Grid */
+.stats-grid {
+     display: grid;
+     gap: 20px;
+     text-align: center;
+     padding: 10px;
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+}
+
+/* Stats Item Styling */
+.stats-item {
+     background-color: #1f2428;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-item:hover {
+     transform: scale(1.05);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.stats-item img {
+     max-width: 100%;
+     border-radius: 5px;
+     transition: transform 0.3s ease;
+}
+
+.stats-item img:hover {
+     transform: scale(1.05);
+}
+
+/* Full-width items for larger stats (for screens above 768px) */
+@media (min-width: 768px) {
+     .stats-item.full-width {
+          grid-column: 1 / -1;
+     }
+}
+
+/* GitHub Trophies Animation */
+.github-trophies-container img {
+     opacity: 0;
+     transform: scale(0.95);
+     animation: trophyFadeIn 1s ease-out forwards;
+}
+
+@keyframes trophyFadeIn {
+     to {
+          opacity: 1;
+          transform: scale(1);
+     }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+     .stats-grid {
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     }
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antim Pal - GitHub Profile</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/about.css">
+  <link rel="stylesheet" href="./CSS/skills.css">
+  <link rel="stylesheet" href="./CSS/youtube.css">
+  <link rel="stylesheet" href="./CSS/stats.css">
+  <link rel="stylesheet" href="./CSS/Toprepo.css">
+  <link rel="stylesheet" href="./CSS/profile-graph.css">
+  <link rel="stylesheet" href="./CSS/contact.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <!-- Chat Widget (Placeholder for ChatGPT Integration) -->
+  <div id="chatWidget">
+    <div id="chatHeader">Chat with me</div>
+    <div id="chatBody">
+      <p style="text-align:center; font-size:14px;">Welcome! Ask me anything.</p>
+    </div>
+    <div id="chatInputContainer">
+      <input type="text" id="chatInput" placeholder="Type your question..." />
+      <button id="chatSend">Send</button>
+    </div>
+  </div>
+  
+  <!-- Main Container: Left Sidebar and Main Content -->
+  <div class="container">
+    <!-- ===== Left Sidebar (Fixed on Desktop, Top on Mobile) ===== -->
+    <aside class="left-sidebar">
+      <!-- Profile Info (populated via JavaScript) -->
+      <img id="profileImage" class="profile-img" src="" alt="GitHub Profile" />
+      <div class="username-container" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <h1 id="username" style="font-size:36px;">Antim Pal</h1>
+        <button class="follow-button" onclick="followGithub()">Follow</button>
+
+      </div>
+      <p id="bio" style="font-size:16px;"></p>
+      <p class="follow-stats">Followers: <span id="followers"></span> | Following: <span id="following"></span></p>
+
+      <!-- Social Links (Smaller Size) -->
+      <div class="social-links">
+        <a href="https://github.com/iamAntimPal" target="_blank" class="github">GitHub</a>
+        <a href="https://www.linkedin.com/in/antim-pal/" target="_blank" class="linkedin">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCNUqyKS4ku8veMMYxEqg-pg" target="_blank" class="youtube">YouTube</a>
+        <a href="https://leetcode.com/u/antim_pal/" target="_blank" class="leetcode">LeetCode</a>
+      </div>
+
+      <!-- Achievements List with Logos as Links -->
+      <h3>Achievements</h3>
+      <ul class="achievements">
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/pull-shark" target="_blank">
+            <img src="./git/pull shark.jpeg" alt="Pull Shark" class="achievement-logo" />
+            <span>Pull Shark</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/galaxy-brain" target="_blank">
+            <img src="./git/glaxy brain.png" alt="Galaxy Brain" class="achievement-logo" />
+            <span>Galaxy Brain</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/yolo" target="_blank">
+            <img src="./git/yolo.jpeg" alt="YOLO" class="achievement-logo" />
+            <span>YOLO</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/pair-extraordinaire" target="_blank">
+            <img src="./git/pair.jpeg" alt="Pair Extraordinaire" class="achievement-logo" />
+            <span>Pair Extraordinaire</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/quickdraw" target="_blank">
+            <img src="./git/quickdraw.png" alt="Quickdraw" class="achievement-logo" />
+            <span>Quickdraw</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/quickdraw" target="_blank">
+            <img src="./git/star.png" alt="Starstruck" class="achievement-logo" />
+            <span>Starstruck</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/users/iamAntimPal/achievements/yolo" target="_blank">
+            <img src="./git/ridal.png" alt="Open Sourcerer" class="achievement-logo" />
+            <span>Open Sourcerer</span>
+          </a>
+        </li>
+      </ul>
+      
+      <!-- Social Stats Badges -->
+      <div class="social-stats">
+        <a href="https://github.com/iamAntimPal?tab=follow">
+          <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
+        </a>
+        <a href="https://github.com/iamAntimPal?tab=repositories">
+          <img class="icon" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" alt="GitHub Stars" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" alt="YouTube Views" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=Subscribers&style=social" alt="YouTube Subscribers" />
+        </a>
+      </div>
+    </aside>
+
+    <!-- ===== Main Content Area ===== -->
+    <main class="content">
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#youtube">YouTube</a>
+        <a href="#stats">Stats</a>
+        <a href="#pinned">Pinned</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!-- ===== Banner Sections (Full Width Banners) ===== -->
+      <div class="banner">
+        <img src="../assets/welcome-header.gif" alt="Welcome Banner" style="width: 100%;" />
+      </div>
+      <div class="banner">
+        <img src="./image/banner.png" style="width: 100%;" alt="Second Banner" class="profile-image" />
+      </div>
+
+      <!-- ===== Menu Bar at the Top ===== -->
+      
+
+      <!-- ===== Profile Section (Clickable Image Linking to GitHub Trophies) ===== -->
+      <section id="profile" class="profile-section">
+        <div class="profile-container">
+          <a href="#github-trophies">
+            <img src="../assets/Antim_pal.png" alt="Hello, I'm Antim Pal. I do open source!" class="profile-image" />
+          </a>
+        </div>
+      </section>
+
+      <!-- ===== Placeholder Sections for Additional Content ===== -->
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" alt="Animated About" />
+    </div>
+    <div class="about-content">
+      <p>🏦 I'm a Data Analyst who worked for Intern Career startup in India</p>
+      <p>🔭 I’m currently working on: <a href="https://iamantimpal.github.io/Antim-Portfolio/" target="_blank">Graphic Designer And Data Analytics Trainer</a></p>
+      <p>🌱 I’m currently learning: Data Science & Machine Learning</p>
+      <p>👨‍💻 All of my projects are available at: <a href="https://iamantimpal.github.io/Antim-Portfolio/" target="_blank">Antim Portfolio</a></p>
+      <p>💬 Ask me about: NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustrator, InDesign, MySQL</p>
+      <p>📫 How to reach me: <a href="mailto:antimpal01617121@gmail.com">antimpal01617121@gmail.com</a></p>
+      <p>📫 Join Whatsapp Group: <a href="https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK" target="_blank">Join Now</a></p>
+      <p>⚡ Fun fact: My GitHub is more active than my phone! 😂</p>
+      <!-- ===== Social Stats Section ===== -->
+      <div style="align-items: center; display: flex; gap: 20px; justify-content: center; margin-top: 20px; text-align: center; ; flex-wrap: wrap; font-size: 20px;">
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/followers/iamAntimPal?label=Followers&style=social" alt="GitHub Followers" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" alt="GitHub Stars" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" alt="YouTube Views" />
+        </a>
+        <a href="#">
+          <img class="icon" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=Subscribers&style=social" alt="YouTube Subscribers" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- ===== Badges Dashboard Section =====
+      <div class="badges-dashboard">
+        <div class="project-info">
+          <h3>🚀 Project Info</h3>
+          <a href="https://www.python.org/">
+            <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python" alt="Python 3.8+" />
+          </a>
+          <a href="LICENSE">
+            <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+          </a>
+          <a href="https://code.visualstudio.com/">
+            <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+          </a>
+        </div>
+      </div> -->
+
+      <!-- ===== GitHub Trophies Section with Animation ===== -->
+      <section id="github-trophies" class="github-trophies-section">
+        <h2 class="section-title">🏆 GitHub Trophies</h2>
+        <div class="github-trophies-container">
+          <img src="https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" class="github-trophies" />
+        </div>
+      </section>
+
+      <!-- ===== Tech I Work On Section ===== -->
+      <section id="tech-stack" class="tech-section">
+        <h2 class="section-title">🧑‍💻 Tech I Work On</h2>
+        <div class="tech-container">
+          <a href="https://www.w3schools.com/cpp/" target="_blank" title="C++">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++">
+          </a>
+          <a href="https://www.w3schools.com/css/" target="_blank" title="CSS3">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3">
+          </a>
+          <a href="https://www.w3.org/html/" target="_blank" title="HTML5">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5">
+          </a>
+          <a href="https://www.java.com" target="_blank" title="Java">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java">
+          </a>
+          <a href="https://mariadb.org/" target="_blank" title="MariaDB">
+            <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB">
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank" title="MongoDB">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB">
+          </a>
+          <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" title="SQL Server">
+            <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="MSSQL">
+          </a>
+          <a href="https://www.mysql.com/" target="_blank" title="MySQL">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+          </a>
+          <a href="https://pandas.pydata.org/" target="_blank" title="Pandas">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas">
+          </a>
+          <a href="https://www.postgresql.org" target="_blank" title="PostgreSQL">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL">
+          </a>
+          <a href="https://www.python.org" target="_blank" title="Python">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
+          </a>
+          <a href="https://scikit-learn.org/" target="_blank" title="Scikit Learn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit Learn">
+          </a>
+          <a href="https://seaborn.pydata.org/" target="_blank" title="Seaborn">
+            <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn">
+          </a>
+          <a href="#" target="_blank" title="IntelliJ IDEA">
+            <img src="https://cdn.worldvectorlogo.com/logos/intellij-idea-1.svg" alt="IntelliJ IDEA">
+          </a>
+          <a href="#" target="_blank" title="VS Code">
+            <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code">
+          </a>
+          <a href="https://git-scm.com/" target="_blank" title="Git">
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+          </a>
+          <a href="https://github.com/" target="_blank" title="GitHub">
+            <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="GitHub">
+          </a>
+          <a href="https://www.linux.org/" target="_blank" title="Linux">
+            <img src="https://brandlogos.net/wp-content/uploads/2020/03/Linux-logo.png" alt="Linux">
+          </a>
+          <a href="https://ubuntu.com/" target="_blank" title="Ubuntu">
+            <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="Ubuntu">
+          </a>
+        </div>
+      </section>
+
+    
+
+<!-- GitHub Profile Summary Card -->
+<div class="profile-graph-container">
+    <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" alt="GitHub Profile Graph">
+  </div>
+
+
+      <!-- Skills Section -->
+  <section id="tech-stack" class="skills-section">
+    <h2>💻 Tech Stack:</h2>
+    <div class="tech-badges">
+      <a href="https://example.com/skill/cplusplus" target="_blank">
+        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+      </a>
+      <a href="https://example.com/skill/python" target="_blank">
+        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+      </a>
+      <a href="https://example.com/skill/javascript" target="_blank">
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+      </a>
+      <a href="https://example.com/skill/html5" target="_blank">
+        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+      </a>
+      <a href="https://example.com/skill/css3" target="_blank">
+        <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+      </a>
+      <a href="https://example.com/skill/adobe" target="_blank">
+        <img src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white" alt="Adobe">
+      </a>
+      <a href="https://example.com/skill/canva" target="_blank">
+        <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" alt="Canva">
+      </a>
+      <a href="https://example.com/skill/dreamweaver" target="_blank">
+        <img src="https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white" alt="Adobe Dreamweaver">
+      </a>
+      <a href="https://example.com/skill/illustrator" target="_blank">
+        <img src="https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" alt="Adobe Illustrator">
+      </a>
+      <a href="https://example.com/skill/indesign" target="_blank">
+        <img src="https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366" alt="Adobe InDesign">
+      </a>
+      <a href="https://example.com/skill/photoshop" target="_blank">
+        <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" alt="Adobe Photoshop">
+      </a>
+      <a href="https://example.com/skill/matplotlib" target="_blank">
+        <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib">
+      </a>
+      <a href="https://example.com/skill/numpy" target="_blank">
+        <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+      </a>
+      <a href="https://example.com/skill/pandas" target="_blank">
+        <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+      </a>
+      <a href="https://example.com/skill/scikit-learn" target="_blank">
+        <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+      </a>
+      <a href="https://example.com/skill/plotly" target="_blank">
+        <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly">
+      </a>
+      <a href="https://example.com/skill/tensorflow" target="_blank">
+        <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow">
+      </a>
+      <a href="https://example.com/skill/git" target="_blank">
+        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+      </a>
+      <a href="https://example.com/skill/github" target="_blank">
+        <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+      </a>
+      <a href="https://example.com/skill/github-actions" target="_blank">
+        <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+      </a>
+      <a href="https://example.com/skill/java" target="_blank">
+        <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+      </a>
+      <a href="https://example.com/skill/markdown" target="_blank">
+        <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown">
+      </a>
+      <a href="https://example.com/skill/anaconda" target="_blank">
+        <img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda">
+      </a>
+      <a href="https://example.com/skill/apache-hadoop" target="_blank">
+        <img src="https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Apache Hadoop">
+      </a>
+      <a href="https://example.com/skill/bootstrap" target="_blank">
+        <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+      </a>
+      <a href="https://example.com/skill/django" target="_blank">
+        <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+      </a>
+      <a href="https://example.com/skill/flask" target="_blank">
+        <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+      </a>
+      <a href="https://example.com/skill/mariadb" target="_blank">
+        <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB">
+      </a>
+      <a href="https://example.com/skill/mongodb" target="_blank">
+        <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+      </a>
+      <a href="https://example.com/skill/mysql" target="_blank">
+        <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+      </a>
+    </div>
+  </section>
+      <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p><!-- Your projects content here --></p>
+      </section>
+      <!-- YouTube Section -->
+   <!-- YouTube Section -->
+  <!-- YouTube Section -->
+  <section id="youtube" class="youtube-section">
+    <!-- Subscribe Banner -->
+    <div class="subscribe-banner">
+      <img src="./image/hot.gif" alt="Hot" class="banner-img">
+      <a href="https://www.youtube.com/@OptimismEducator?sub_confirmation=1" target="_blank" class="subscribe-link">
+        <img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white" alt="Subscribe For More">
+      </a>
+      <img src="./image/hot.gif" alt="Hot" class="banner-img">
+    </div>
+
+    <!-- Videos Section -->
+    <h2 class="section-title">Recent Videos</h2>
+    <div id="videos-grid" class="videos-grid">
+      <!-- Video cards will be inserted dynamically -->
+    </div>
+  </section>
+       <!-- GitHub Stats Section -->
+  <section id="stats" class="github-stats-section">
+    <div class="container">
+      
+      <div class="stats-grid">
+        <h2 class="section-title">GitHub Stats</h2>
+        <!-- GitHub Stats Card (full width) -->
+        <div class="stats-item full-width github-stats">
+          <a href="https://github.com/iamAntimPal#gh-dark-mode-only" target="_blank">
+            <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" 
+                 alt="Antim Pal's GitHub Stats">
+          </a>
+        </div>
+        <!-- Top Languages Card -->
+        <div class="stats-item">
+          <a href="https://github.com/iamAntimPal#top-languages" target="_blank">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515" 
+                 alt="Top Languages">
+          </a>
+        </div>
+        <!-- Repos Per Language Card -->
+        <div class="stats-item">
+          <a href="https://github.com/iamAntimPal#repos-per-language" target="_blank">
+            <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical" 
+                 alt="Repos Per Language">
+          </a>
+        </div>
+        <!-- Most Commit Language Card -->
+        <div class="stats-item">
+          <a href="https://github.com/iamAntimPal#most-commit-language" target="_blank">
+            <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical" 
+                 alt="Most Commit Language">
+          </a>
+        </div>
+        <!-- Productive Time Card -->
+        <div class="stats-item">
+          <a href="https://github.com/iamAntimPal#productive-time" target="_blank">
+            <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8" 
+                 alt="Productive Time">
+          </a>
+        </div>
+        <!-- Contributor Stats Card (full width) -->
+        <div class="stats-item full-width">
+          <a href="https://github.com/iamAntimPal#contributor-stats" target="_blank">
+            <img src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true" 
+                 alt="Contributor Stats">
+          </a>
+        </div>
+        <!-- Streak Stats Card (full width) -->
+        <div class="stats-item full-width">
+          <a href="https://github.com/iamAntimPal#streak-stats" target="_blank">
+            <img src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" 
+                 alt="Streak Stats">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Top Repositories Section -->
+  <!-- Top Repositories Section -->
+  <section id="top-repos" class="top-repos-section">
+    <div class="container">
+      <div class="row"><h2 class="section-title">Top Repositories</h2></div>
+      <div id="repos-container" class="repos-grid">
+        
+        <!-- Repository cards will be injected here dynamically -->
+      </div>
+    </div>
+  </section>
+ <!-- Yearly GitHub Data Section -->
+  <section id="yearly-data" class="yearly-data-section">
+    <h2 class="section-title">📊 Yearly GitHub Data</h2>
+    <div class="yearly-data-container">
+      <img src="https://ghchart.rshah.org/iamAntimPal" alt="Yearly Contributions Chart">
+    </div>
+  </section>
+  <div class="container">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg">
+    <img alt="github-snake" src="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg">
+  </picture>
+</div>
+
+
+        <!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    
+    <div class="contact-badges">
+      <!-- My Gmail -->
+      <a href="mailto:antimpal01617121@gmail.com" class="contact-link">
+        <img class="contact-badge" height="30" src="https://img.shields.io/badge/Gmail-antimpal01617121?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+      </a>
+      <!-- LinkedIn Badge -->
+      <a href="https://www.linkedin.com/in/antim-pal/" target="_blank" class="contact-link">
+        <img class="contact-badge" height="30" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+      <!-- HackerRank Badge -->
+      <a href="https://www.hackerrank.com/profile/antimpal01617121/" target="_blank" class="contact-link">
+        <img class="contact-badge" height="30" src="https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank">
+      </a>
+      <!-- LeetCode Badge -->
+      <a href="https://leetcode.com/antim_pal/" target="_blank" class="contact-link">
+        <img class="contact-badge" height="30" src="https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white" alt="LeetCode">
+      </a>
+      <!-- WhatsApp Group Badge -->
+      <a href="https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK" target="_blank" class="contact-link">
+        <img class="contact-badge" height="30" src="https://img.shields.io/badge/Join%20WhatsApp%20Group-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp Group">
+      </a>
+    </div>
+  </div>
+</section>
+    </main>
+  </div>
+
+  <!-- ===== JavaScript: Chat Widget & GitHub API Data Fetch ===== -->
+  <script type="text/javascript" src="./Javascript/main.js"></script>"
+  <script type="text/javascript" src="./Javascript/toprpo.js"></script>"
+  <script type="text/javascript" src="./Javascript/youtube.js"></script>"
+  
+
+
+
+  <div id="chatWidget">
+    <div id="chatHeader" style="background-color: #238636; padding: 10px; text-align: center; font-weight: bold; cursor: pointer;">Chat with me</div>
+    <div id="chatBody" style="flex: 1; padding: 10px; overflow-y: auto;">
+      <p style="text-align:center; font-size:14px;">Welcome! Ask me anything.</p>
+    </div>
+    <div id="chatInputContainer" style="display: flex; border-top: 1px solid #333;">
+      <input type="text" id="chatInput" placeholder="Type your question..." style="flex:1; padding:8px; border:none; outline:none;" />
+      <button id="chatSend" style="padding:8px; background-color: #238636; border:none; cursor:pointer; color:#fff;">Send</button>
+    </div>
+  </div>
+</body>
+</html>

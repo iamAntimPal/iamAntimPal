@@ -1,0 +1,24 @@
+.github-trophies-section {
+     text-align: center;
+     padding: 50px 20px;
+}
+
+.github-trophies-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.github-trophies {
+     max-width: 100%;
+     height: auto;
+     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+     cursor: pointer;
+     will-change: transform;
+}
+
+.github-trophies:hover {
+     transform: scale(1.05);
+     filter: brightness(1.2);
+}

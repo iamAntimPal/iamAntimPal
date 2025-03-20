@@ -1,0 +1,109 @@
+/* Top Repositories Section: Transparent Background */
+.top-repos-section {
+     width: 100%;
+     background: transparent;
+     padding: 4rem 0;
+}
+
+/* Container: Centers content and limits maximum width */
+.container {
+     max-width: 1440px;
+     margin: 0 auto;
+     padding: 0 30px;
+}
+
+/* Section Title Styling */
+.section-title {
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 700;
+     margin-bottom: 2.5rem;
+     color: #333;
+}
+
+/* Repositories Grid: 2x2 Grid Layout */
+.repos-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 2rem;
+}
+
+/* Repository Card Styling */
+.repos-grid a {
+     position: relative;
+     display: block;
+     width: 500px;
+     /* Fixed width */
+     /* Remove fixed height to let the card adjust and show all content */
+     overflow: hidden;
+     border-radius: 12px;
+     background: #fff;
+     text-decoration: none;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     /* Initial animation state */
+     opacity: 0;
+     transform: translateY(30px);
+     animation: fadeInSlide 1s ease forwards;
+}
+
+/* Repository Card Image */
+.repos-grid a img {
+     width: 100%;
+     height: auto;
+     display: block;
+     border-radius: 12px;
+     transition: transform 0.3s ease;
+}
+
+/* Overlay for Repository Name */
+.repos-grid a .repo-overlay {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.4);
+     /* 40% opaque overlay */
+     color: #fff;
+     padding: 0.5rem 1rem;
+     font-size: 1.2rem;
+     font-weight: 500;
+     white-space: normal;
+     line-height: 1.4;
+     transition: background 0.3s ease;
+}
+
+/* Hover Effect: Scale Up, Rotate Slightly, and Enhance Shadow */
+.repos-grid a:hover {
+     transform: scale(1.05) rotate(1deg);
+     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Hover Effect for Overlay: Darker Background */
+.repos-grid a:hover .repo-overlay {
+     background: rgba(0, 0, 0, 0.6);
+}
+
+/* Fade In and Slide Animation */
+@keyframes fadeInSlide {
+     from {
+          opacity: 0;
+          transform: translateY(30px);
+     }
+
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+
+/* Responsive Adjustments: On Small Screens, show one column */
+@media (max-width: 600px) {
+     .repos-grid {
+          grid-template-columns: 1fr;
+     }
+
+     .repos-grid a {
+          width: 90%;
+          margin: 0 auto;
+     }
+}
