@@ -15,17 +15,19 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          #!/bin/bash
           mkdir -p stats
           echo "Fetching repository data..."
+          # Example: List repositories (adjust according to your needs)
           gh repo list --json nameWithOwner,url --limit 100 > stats/repos.json
 
-      - name: Generate SVG
+      - name: Install Node Dependencies and Generate SVG
         uses: docker://node:20
+        working-directory: ${{ github.workspace }}
         with:
-          args: |
+          args: >
             /bin/bash -c "
-            npm install -g github-contributions-api svg-pie-chart
+            npm install &&
+            npm install -g svg-pie-chart &&
             node generate-stats.js
             "
 
