@@ -38,7 +38,9 @@ I'm passionate about creating robust, scalable applications and visually engagin
 
 I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
 
-## What I Do
+ <details>	
+    <summary><b>📈 What I Do</b></summary><br>
+
 
 ## Software Development
 
@@ -63,6 +65,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 - **Development Tools:** Visual Studio Code, IntelliJ IDEA, Sublime Text, PowerBI  
 - **Teaching:** Educating students in Graphic Design, Python, Web Design, and Data Analytics
+</details>
 
 ---
 
