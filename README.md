@@ -219,7 +219,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 
  <a href="https://github.com/iamAntimPal/Hotel-Management">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=Graphic-Designer-Pro&theme=dark" />
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
  </a>
 
 
