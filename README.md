@@ -214,11 +214,14 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
  </a>
 <a href="https://github.com/iamAntimPal/iamAntimPal">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-in-Python&theme=dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-Python-Solutions&theme=dark" />
 </a>
 
 
  <a href="https://github.com/iamAntimPal/Hotel-Management">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
+ </a>
+  <a href="https://github.com/iamAntimPal/Hotel-Management">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
  </a>
 
