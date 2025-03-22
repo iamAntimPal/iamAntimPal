@@ -163,27 +163,27 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- Latest 6 Videos Section -->
 <h2 align="center">Latest Videos</h2>
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID1" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID1/hqdefault.jpg" alt="Video 1" width="300"/>
+  <a href="https://www.youtube.com/watch?v=hUe1iD5rpno" target="_blank">
+    <img src="https://img.youtube.com/vi/hUe1iD5rpno/hqdefault.jpg" alt="Video 1" width="300"/>
   </a>
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID2" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID2/hqdefault.jpg" alt="Video 2" width="300"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID3" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID3/hqdefault.jpg" alt="Video 3" width="300"/>
-  </a>
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID4" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID4/hqdefault.jpg" alt="Video 4" width="300"/>
+  <a href="https://www.youtube.com/watch?v=SKgahaGHtlI" target="_blank">
+    <img src="https://img.youtube.com/vi/SKgahaGHtlI/hqdefault.jpg" alt="Video 2" width="300"/>
   </a>
 </p>
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID5" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID5/hqdefault.jpg" alt="Video 5" width="300"/>
+  <a href="https://www.youtube.com/watch?v=4Bub9PwFRXU" target="_blank">
+    <img src="https://img.youtube.com/vi/4Bub9PwFRXU/hqdefault.jpg" alt="Video 3" width="300"/>
   </a>
-  <a href="https://www.youtube.com/watch?v=VIDEO_ID6" target="_blank">
-    <img src="https://img.youtube.com/vi/VIDEO_ID6/hqdefault.jpg" alt="Video 6" width="300"/>
+  <a href="https://www.youtube.com/watch?v=xL85kMWcbJM" target="_blank">
+    <img src="https://img.youtube.com/vi/xL85kMWcbJM/hqdefault.jpg" alt="Video 4" width="300"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=SKgahaGHtlI" target="_blank">
+    <img src="https://img.youtube.com/vi/SKgahaGHtlI/hqdefault.jpg" alt="Video 5" width="300"/>
+  </a>
+  <a href="https://www.youtube.com/watch?v=hUe1iD5rpno" target="_blank">
+    <img src="https://img.youtube.com/vi/hUe1iD5rpno/hqdefault.jpg" alt="Video 6" width="300"/>
   </a>
 </p>
 
@@ -191,13 +191,13 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 
 <!-- END YOUTUBE-CARDS -->
-<img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif">
+<!-- <img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif"> -->
 
 <!-- END YOUTUBE-CARDS End -->
 
-
+<!-- 
 ## <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
-<p align="center" >
+<p align="center" > -->
   
 <!-- this is adding github stats icon-->
 <!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
