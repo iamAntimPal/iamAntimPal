@@ -148,13 +148,49 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
-### 📺 Latest YouTube Videos
-<!--
-Lestest Video on Youtube -->
+<details>
+<summary style="font-size:25px; font-weight:bolder;">📺 Latest YouTube Videos</summary>
+<!-- YouTube Channel Badges -->
+<p align="center">
+  <a href="https://www.youtube.com/@OptimismEducator?sub_confirmation=1">
+    <img alt="YouTube Subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/>
+  </a>
+  <a href="https://www.youtube.com/@OptimismEducator">
+    <img alt="YouTube Views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"/>
+  </a>
+</p>
+
+<!-- Latest 6 Videos Section -->
+<h2 align="center">Latest Videos</h2>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID1" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID1/hqdefault.jpg" alt="Video 1" width="300"/>
+  </a>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID2" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID2/hqdefault.jpg" alt="Video 2" width="300"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID3" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID3/hqdefault.jpg" alt="Video 3" width="300"/>
+  </a>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID4" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID4/hqdefault.jpg" alt="Video 4" width="300"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID5" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID5/hqdefault.jpg" alt="Video 5" width="300"/>
+  </a>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID6" target="_blank">
+    <img src="https://img.youtube.com/vi/VIDEO_ID6/hqdefault.jpg" alt="Video 6" width="300"/>
+  </a>
+</p>
+
+</details>
 
 
 <!-- END YOUTUBE-CARDS -->
-
 <img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif">
 
 <!-- END YOUTUBE-CARDS End -->
