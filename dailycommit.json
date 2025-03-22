@@ -1,7 +1,11 @@
 [
   {
     "repo": "Github-Profile",
-    "count": 8
+    "count": 10
+  },
+  {
+    "repo": "LeetCode-in-Python",
+    "count": 6
   },
   {
     "repo": "LeetCode_Daily_Task",
