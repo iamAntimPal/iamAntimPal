@@ -219,9 +219,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 
  <a href="https://github.com/iamAntimPal/Hotel-Management">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=&theme=dark" />
  </a>
-  <a href="https://github.com/iamAntimPal/Hotel-Management">
+  <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
  </a>
 
