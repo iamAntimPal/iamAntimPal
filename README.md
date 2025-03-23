@@ -213,13 +213,13 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
  <a href="https://github.com/iamAntimPal">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
  </a>
-<a href="https://github.com/iamAntimPal/iamAntimPal">
+<a href="https://github.com/iamAntimPal/LeetCode-Python-Solutions">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-Python-Solutions&theme=dark" />
 </a>
 
 
- <a href="https://github.com/iamAntimPal/Hotel-Management">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=&theme=dark" />
+ <a href="https://github.com/iamAntimPal/LeetCode-in-Python">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-in-Python&theme=dark" />
  </a>
   <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
