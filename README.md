@@ -261,12 +261,6 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 </div>
 
-<!-- <img alt="github strick" src="https://github-readme-streak-stats.herokuapp.com/?user=iamAntimPal&theme=dark"/> -->
-
-
-
-
-
 
 ---
  <details>	
@@ -336,6 +330,13 @@ Pandas                  1 repo              █░░░░░░░░░░░
 <!--START_SECTION:waka-->
 
 <img height="25" src="./assets/unicorn.gif"> **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 15-March-2025
+
+### Skill Progress
+<svg width="100%" height="20">
+  <rect width="70%" height="20" fill="green"></rect>
+  <rect width="30%" height="20" fill="lightgray" x="70%"></rect>
+</svg>
+
 
 ---
 ## Portfolio Website
