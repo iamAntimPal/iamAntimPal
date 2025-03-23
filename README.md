@@ -329,13 +329,19 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 <!--START_SECTION:waka-->
 
-<img height="25" src="./assets/unicorn.gif"> **Year Progress** { █████████████████████████▁▁▁▁▁▁▁▁▁ } 75.78 % as on ⏰ 15-March-2025
+<img height="25" src="./assets/unicorn.gif"> **Year Progress** { <div style="background-color: #e0e0e0; border-radius: 8px; width: 100%; max-width: 400px;">
+  <div style="width: 75%; background-color: #4caf50; padding: 10px 0; border-radius: 8px; text-align: center; color: white;">
+    75%
+  </div>
+</div>
+ 75.78 % as on ⏰ 15-March-2025
 
 ### Skill Progress
 <svg width="100%" height="20">
   <rect width="70%" height="20" fill="green"></rect>
   <rect width="30%" height="20" fill="lightgray" x="70%"></rect>
 </svg>
+
 
 
 ---
