@@ -104,9 +104,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**📊 My GitHub Stats**](#-my-github-stats)
 - [**🔥 Top Repositories**](#Top-Repositories)
 - [**📈 Get My Code Stats**](#My-Github-Stats:)
-- [**🌐 Portfolio Website**](#-portfolio-website)
-- [**📞 Contact Me**](#-contact-me)
-- [**📝 My Latest Blog Posts**](#-my-latest-blog-posts)
+- [**🌐 Portfolio Website**](#Portfolio-Website)
+- [**📞 Contact Me**](#contact)
+- [**📝 My Latest Blog Posts**](#-My-Latest-Blog-posts:)
 - [**👀 Visitor Count**](#-visitor-count)
 
 🚀 **Feel free to fork this template and make it your own!** 😎
