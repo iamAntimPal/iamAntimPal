@@ -228,8 +228,8 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 
 <!--That is git hub tosy commits-->
-<!-- 
-![GitHub Contribution Stats](https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/stats/widget.svg) -->
+
+
 
 <!--
 ## 📊 Commit Distribution
@@ -253,7 +253,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- This is for github stats-->
 
 
-<!-- <img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/> -->
+<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
 
 
 
@@ -374,8 +374,6 @@ Pandas                  1 repo              █░░░░░░░░░░░
   <img height="30" src="https://img.shields.io/badge/Join%20WhatsApp%20Group-25D366?style=flat&logo=whatsapp&logoColor=white" />
 </a>
 
-<!-- [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
-
 
 <!--
 ---
@@ -395,9 +393,12 @@ Pandas                  1 repo              █░░░░░░░░░░░
 </picture>
 
 
+<details>
+<summary><h2> <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:</h2><summary>
 
-### <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:
 
+
+</details>
 <!-- Visiter count -->
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <p>Visitor Count</p>
