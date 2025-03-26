@@ -92,6 +92,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
   - ⚡ Fun fact: **My GitHub is more active than my phone!😂**
 </div>
+---
 
 ## **📖 Table of Contents**  
 - [**📌 What I Do**](#-what-i-do)
@@ -101,7 +102,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**🧑‍💻 Tech I Work On**](#-tech-i-work-on)
 - [**📺 Latest YouTube Videos**](#-latest-youtube-videos)
 - [**📊 My GitHub Stats**](#-my-github-stats)
-- [**🔥 Top Repositories**](#-top-repositories)
+- [**🔥 Top Repositories**](#Top-Repositories)
 - [**📈 Get My Code Stats**](#-get-my-code-stats)
 - [**🌐 Portfolio Website**](#-portfolio-website)
 - [**📞 Contact Me**](#-contact-me)
