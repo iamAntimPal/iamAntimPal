@@ -181,15 +181,16 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- END YOUTUBE-CARDS -->
 <!-- <img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif"> -->
 
-<!-- END YOUTUBE-CARDS End -->
+<details>
+<summary>
 
-<!-- 
+
 ## <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
-<p align="center" > -->
+<p align="center" >
   
-<!-- this is adding github stats icon-->
-<!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
-
+<!-- this is adding github stats icon--->
+## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
+</summary>
 <a href="https://github.com/iamAntimPal#gh-dark-mode-only">
 <img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
 </a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
@@ -205,7 +206,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 </p>
-
+</details>
 
 ## Top Repositories
  
