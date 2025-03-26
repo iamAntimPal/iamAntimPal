@@ -325,8 +325,6 @@ Pandas                  1 repo              █░░░░░░░░░░░
 <!--END_SECTION:waka-->
    </details> 
 
-
-
 <!--START_SECTION:waka-->
 
 <img height="25" src="./assets/unicorn.gif"> **Year Progress** { <div style="background-color: #e0e0e0; border-radius: 8px; width: 100%; max-width: 400px;">
