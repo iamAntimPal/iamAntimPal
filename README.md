@@ -137,7 +137,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ---
 <details>
-<summary style="font-size:25px; font-weight:bolder;">📺 Latest YouTube Videos</summary>
+<summary style="font-size:25px; font-weight:bolder;"><h1>📺 Latest YouTube Videos<h1></summary>
 <!-- YouTube Channel Badges -->
 <p align="center">
   <a href="https://www.youtube.com/@OptimismEducator?sub_confirmation=1">
