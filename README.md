@@ -103,7 +103,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**📺 Latest YouTube Videos**](#-latest-youtube-videos)
 - [**📊 My GitHub Stats**](#-my-github-stats)
 - [**🔥 Top Repositories**](#Top-Repositories)
-- [**📈 Get My Code Stats**](#My-Github-Stats:)
+- [**📈 Get My Code Stats**](#-Get-my-Code-stats)
 - [**🌐 Portfolio Website**](#Portfolio-Website)
 - [**📞 Contact Me**](#contact)
 - [**📝 My Latest Blog Posts**](#-My-Latest-Blog-posts:)
