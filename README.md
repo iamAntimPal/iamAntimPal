@@ -42,21 +42,21 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
     <summary><h1><b>📈 What I Do</b></h1></summary><br>
 
 
-## Software Development
+## 🚀Software Development
 
 - **Specialization:** Python & Web Development  
 - **Approach:** Writing clean, maintainable code for scalable applications
 
 
 
-## Graphic Design
+## 🎨Graphic Design
 
 - **Expertise:** Creating compelling visuals and engaging user experiences  
 - **Tools:** Adobe Photoshop, Illustrator, InDesign
 
 
 
-## Data & Database Management
+## 📊Data & Database Management
 
 - **Databases:** MySQL, PostgreSQL, MariaDB, MongoDB  
 - **Data Analytics:** Skilled in using Pandas, Scikit Learn, and Seaborn
