@@ -374,8 +374,6 @@ Pandas                  1 repo              █░░░░░░░░░░░
   <img height="30" src="https://img.shields.io/badge/Join%20WhatsApp%20Group-25D366?style=flat&logo=whatsapp&logoColor=white" />
 </a>
 
-<!-- [![Kittinan's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
-
 
 <!--
 ---
