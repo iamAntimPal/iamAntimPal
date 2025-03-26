@@ -103,11 +103,11 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**📺 Latest YouTube Videos**](#-latest-youtube-videos)
 - [**📊 My GitHub Stats**](#-my-github-stats)
 - [**🔥 Top Repositories**](#Top-Repositories)
-- [**📈 Get My Code Stats**](#-Get-my-Code-stats)
+- [**📈 Get My Code Stats**](#Get-my-Code-stats)
 - [**🌐 Portfolio Website**](#Portfolio-Website)
 - [**📞 Contact Me**](#contact)
 - [**📝 My Latest Blog Posts**](#-My-Latest-Blog-posts:)
-- [**👀 Visitor Count**](#-visitor-count)
+- [**👀 Visitor Count**](#Visitor-Count)
 
 🚀 **Feel free to fork this template and make it your own!** 😎
 ---
@@ -277,7 +277,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ---
  <details>	
-    <summary><b>📈 Get my Code stats</b></summary><br>
+    <summary><h1>📈 Get my Code stats</h1></summary><br>
 <!--START_SECTION:waka-->
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.2%20million%20lines%20of%20code-blue)
@@ -414,7 +414,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 </details>
 <!-- Visiter count -->
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  <p>Visitor Count</p>
+  <h3>Visitor Count</h3>
   <img src="https://profile-counter.glitch.me/iamAntimPal/count.svg"alt="Profile Visitor Count" />
 </div>
 
