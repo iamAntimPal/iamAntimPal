@@ -54,8 +54,6 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - **Expertise:** Creating compelling visuals and engaging user experiences  
 - **Tools:** Adobe Photoshop, Illustrator, InDesign
 
-
-
 ## 📊Data & Database Management
 
 - **Databases:** MySQL, PostgreSQL, MariaDB, MongoDB  
@@ -69,14 +67,11 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ---
 
-
 <!-- Antim Pal Summary -->
 <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
   <!-- Activity Graph with improved styling -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=4.5" />
 <!-- Gif Section -->
-<!-- GIF -->
-<!-- <img align="right" height="300" width="500" src="https://raw.githubusercontent.com/mikonoid/mikonoid/main/images/gifs/coder3.gif" /><br> -->
 
 [<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/iamAntimPal?tab=repositories)
 
@@ -98,6 +93,23 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
   - ⚡ Fun fact: **My GitHub is more active than my phone!😂**
 </div>
 
+## **📖 Table of Contents**  
+- [**📌 What I Do**](#What-I-Do)
+- [**📖 Table of Contents**](#-table-of-contents)
+- [**🏆 GitHub Trophies**](#-github-trophies)
+- [**💻 Tech Stack**](#-tech-stack)
+- [**🧑‍💻 Tech I Work On**](#-tech-i-work-on)
+- [**📺 Latest YouTube Videos**](#-latest-youtube-videos)
+- [**📊 My GitHub Stats**](#-my-github-stats)
+- [**🔥 Top Repositories**](#-top-repositories)
+- [**📈 Get My Code Stats**](#-get-my-code-stats)
+- [**🌐 Portfolio Website**](#-portfolio-website)
+- [**📞 Contact Me**](#-contact-me)
+- [**📝 My Latest Blog Posts**](#-my-latest-blog-posts)
+- [**👀 Visitor Count**](#-visitor-count)
+  - [🚀 **Feel free to fork this template and make it your own!** 😎](#-feel-free-to-fork-this-template-and-make-it-your-own-)
+
+---
 ## 🧑‍💻 Tech I work on :
 
 
