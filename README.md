@@ -33,7 +33,7 @@
 
 
 <!-- My Discription-->
-<p>
+<p font-size="20px">
 I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
 
 I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
