@@ -70,7 +70,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- Antim Pal Summary -->
 <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
   <!-- Activity Graph with improved styling -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=4.5" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" />
 <!-- Gif Section -->
 
 [<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/iamAntimPal?tab=repositories)
