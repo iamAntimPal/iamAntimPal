@@ -96,7 +96,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 ---
 
 ## **📖 Table of Contents**
-<div align="left">  
+ 
 - [**📌 What I Do**](#-what-i-do)
 - [**📖 Table of Contents**](#-table-of-contents)
 - [**🏆 GitHub Trophies**](#-github-trophies)
@@ -110,7 +110,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**📞 Contact Me**](#contact)
 - [**📝 My Latest Blog Posts**](#welcome-to-the-my-blog)
 - [**👀 Visitor Count**](#Visitor-Count)
-</div>
+
 🚀 **Feel free to fork this template and make it your own!** 😎
 ---
 ## 🧑‍💻 Tech I work on :
