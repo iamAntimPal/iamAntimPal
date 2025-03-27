@@ -195,14 +195,14 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- END YOUTUBE-CARDS -->
 <img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif">
 ---
-<details>
-<summary>
+
+
 
 <h1><img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
-</h1></summary>
+</h1>
 <p align="center" >
 <!-- this is adding github stats icon--->
-## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
+<!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
 
 <a href="https://github.com/iamAntimPal#gh-dark-mode-only">
 <img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
@@ -254,31 +254,16 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 💡 **Tip:** Keep pushing code every day to maintain your streak! 🚀🔥
 -->
-
-
-<!-- ## Today's Top Repository Commit Count
-
-[![Top Repo Today](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/main/dailycommit.json)](https://github.com/iamAntimPal/iamAntimPal) -->
-
-
-
-
-<!-- the end of stats-->
 <!-- This is for github stats-->
 
-
 <img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
-
-
 
 <!-- Git hub stats -->
 
 </div>
 
-
 ---
- <details>	
-    <summary><h1>📈 Get my Code stats</h1></summary><br>
+<details><summary><h1>📈 Get my Code stats</h1></summary><br>
 <!--START_SECTION:waka-->
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.2%20million%20lines%20of%20code-blue)
@@ -346,15 +331,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
     75%
   </div>
 </div>
- 75.78 % as on ⏰ 15-March-2025
-
-### Skill Progress
-<svg width="100%" height="20">
-  <rect width="70%" height="20" fill="green"></rect>
-  <rect width="30%" height="20" fill="lightgray" x="70%"></rect>
-</svg>
-
-
+ 75.78 % as on ⏰ 27-March-2025
 
 ---
 ## Portfolio Website
