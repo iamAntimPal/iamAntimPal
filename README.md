@@ -101,7 +101,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**🏆 GitHub Trophies**](#-github-trophies)
 - [**🧑‍💻 Tech I Work On**](#-tech-i-work-on)
 - [**💻 Tech Stack**](#-tech-stack)
-- [**📺 Latest YouTube Videos**](#Tech-I-work-on-:)
+- [**📺 Latest YouTube Videos**](#Latest-YouTube-Videos)
 - [**📊 My GitHub Stats**](#-my-github-stats)
 - [**🔥 Top Repositories**](#Top-Repositories)
 - [**📈 Get My Code Stats**](#Get-my-Code-stats)
