@@ -107,7 +107,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - [**📈 Get My Code Stats**](#Get-my-Code-stats)
 - [**🌐 Portfolio Website**](#Portfolio-Website)
 - [**📞 Contact Me**](#contact)
-- [**📝 My Latest Blog Posts**](#-My-Latest-Blog-posts:)
+- [**📝 My Latest Blog Posts**](#welcome-to-the-my-blog)
 - [**👀 Visitor Count**](#Visitor-Count)
 
 🚀 **Feel free to fork this template and make it your own!** 😎
