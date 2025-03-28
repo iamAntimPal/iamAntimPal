@@ -256,9 +256,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 💡 **Tip:** Keep pushing code every day to maintain your streak! 🚀🔥
 -->
 <!-- This is for github stats-->
-
+<!--
 <img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
-
+-->
 <!-- Git hub stats -->
 
 </div>
