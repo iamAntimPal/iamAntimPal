@@ -191,7 +191,6 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 </p>
 
 </details>
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <!-- END YOUTUBE-CARDS -->
@@ -221,7 +220,10 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 </p>
-</details>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=" alt="WakaTime Stats">
+    </a>
+<!-- <a href="https://github.com/iamAntimPal/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs"></a> -->
 
 ## Top Repositories
  
