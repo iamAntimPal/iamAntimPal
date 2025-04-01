@@ -33,11 +33,11 @@
 
 
 <!-- My Discription-->
-<p font-size="20px">
+
 I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
 
 I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
-</p>
+
  <details>	
     <summary><h1><b>📈 What I Do</b></h1></summary><br>
 
@@ -70,7 +70,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- Antim Pal Summary -->
 <img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
   <!-- Activity Graph with improved styling -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=4.5" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" />
 <!-- Gif Section -->
 
 [<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/iamAntimPal?tab=repositories)
@@ -220,9 +220,6 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 </p>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=" alt="WakaTime Stats">
-    </a>
 <!-- <a href="https://github.com/iamAntimPal/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs"></a> -->
 
 ## Top Repositories
@@ -259,9 +256,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 💡 **Tip:** Keep pushing code every day to maintain your streak! 🚀🔥
 -->
 <!-- This is for github stats-->
-
+<!--
 <img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
-
+-->
 <!-- Git hub stats -->
 
 </div>
