@@ -1,0 +1,10 @@
+# Detect Markdown as the primary language
+*.md linguist-detectable=true
+
+# Ignore HTML, CSS, and JavaScript in GitHub language stats
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
+*.ts linguist-detectable=false
+*.tsx linguist-detectable=false
