@@ -233,8 +233,8 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 </a>
 
 
- <a href="https://github.com/iamAntimPal/LeetCode-in-Python">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-in-Python&theme=dark" />
+ <a href="https://github.com/iamAntimPal/MSWord-Learning-Hub">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=MSWord-Learning-Hub&theme=dark" />
  </a>
   <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
