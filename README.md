@@ -95,6 +95,26 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ---
 
+## 📌 Table of Contents
+1. [👋 About Me](#-about-me)  
+2. [🚀 Skills & Expertise](#-skills--expertise)  
+   - [Programming Languages](#programming-languages)  
+   - [Web Development](#web-development)  
+   - [Data Science & Machine Learning](#data-science--machine-learning)  
+   - [Database Management](#database-management)  
+   - [UI/UX & Graphic Design](#uiux--graphic-design)  
+3. [📂 Projects & Repositories](#-projects--repositories)  
+   - [Featured Projects](#featured-projects)  
+   - [Open-Source Contributions](#open-source-contributions)  
+4. [📊 GitHub Stats & Activity](#-github-stats--activity)  
+5. [🎓 Teaching & Educational Content](#-teaching--educational-content)  
+6. [🛠 Tools & Technologies](#-tools--technologies)  
+7. [📜 Certifications & Achievements](#-certifications--achievements)  
+8. [📚 Blog & Articles](#-blog--articles)  
+9. [📹 YouTube & Video Tutorials](#-youtube--video-tutorials)  
+10. [📫 Contact & Socials](#-contact--socials)  
+
+
 ## **📖 Table of Contents**
  
 - [**📌 What I Do**](#-what-i-do)
