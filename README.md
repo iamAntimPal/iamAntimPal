@@ -326,14 +326,14 @@ Pandas                  1 repo              █░░░░░░░░░░░
    </details> 
 
 <!--START_SECTION:waka-->
-
+<!--
 <img height="25" src="./assets/unicorn.gif"> **Year Progress** { <div style="background-color: #e0e0e0; border-radius: 8px; width: 100%; max-width: 400px;">
   <div style="width: 75%; background-color: #4caf50; padding: 10px 0; border-radius: 8px; text-align: center; color: white;">
     75%
   </div>
 </div>
  75.78 % as on ⏰ 27-March-2025
-
+-->
 ---
 ## Portfolio Website
 [![Static Badge](https://img.shields.io/badge/Website-%20?style=for-the-badge&label=Portfolio&labelColor=dark&color=blue)](https://iamantimpal.github.io/Antim-Portfolio/)
