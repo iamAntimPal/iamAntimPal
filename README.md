@@ -94,7 +94,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 </div>
 
 ---
-
+<!--
 ## **📖 Table of Contents**
  
 - [**📌 What I Do**](#-what-i-do)
@@ -113,6 +113,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 🚀 **Feel free to fork this template and make it your own!** 😎
 ---
+-->
 ## 🧑‍💻 Tech I work on :
 
 
