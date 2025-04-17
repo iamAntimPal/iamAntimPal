@@ -22,10 +22,10 @@
 <!-- Adding profile viewer -->
 
 
-<!-- <img src="https://komarev.com/ghpvc/?username=iamAntimPal" alt="https://github.com/ileriayo" /> -->
+<!-- <img src="https://komarev.com/ghpvc/?username=antim-IWP" alt="https://github.com/ileriayo" /> -->
 
-<a href="#"> <img height="25" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
-<a href="#"> <img height="25" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
+<a href="#"> <img height="25" src="https://img.shields.io/github/followers/antim-IWP?label=Follower&style=social" /></a>
+<a href="#"> <img height="25" src="https://img.shields.io/github/stars/antim-IWP?label=Stars&style=social" /></a>
 <a href="https://www.youtube.com/@OptimismEducator"> <img height="25" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
 <a href="https://www.youtube.com/@OptimismEducator"> <img height="25" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
 
@@ -68,12 +68,12 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 ---
 
 <!-- Antim Pal Summary -->
-<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
+<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antim-IWP&theme=radical" />
   <!-- Activity Graph with improved styling -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=antim-IWP&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" />
 <!-- Gif Section -->
 
-[<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/iamAntimPal?tab=repositories)
+[<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/antim-IWP?tab=repositories)
 
 <div align="left">
   <h3 align="left">
@@ -143,7 +143,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- 🏆 GitHub Trophies -->
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=antim-IWP&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 
 <!-- Tech Stack -->
@@ -206,39 +206,39 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!-- this is adding github stats icon--->
 <!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
 
-<a href="https://github.com/iamAntimPal#gh-dark-mode-only">
-<img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
-</a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
+<a href="https://github.com/antim-IWP#gh-dark-mode-only">
+<img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=antim-IWP&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
+</a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=antim-IWP&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=antim-IWP&theme=dark" />
 
 <!-- this try to git stats-->
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=antim-IWP&theme=radical" />
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=antim-IWP&theme=radical" />
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=antim-IWP&theme=radical&utcOffset=8" />
 
 
-<img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
+<img  height="200" src="https://github-contributor-stats.vercel.app/api?username=antim-IWP&limit=5&theme=dark&combine_all_yearly_contributions=true"/> 
 
 </p>
-<!-- <a href="https://github.com/iamAntimPal/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs"></a> -->
+<!-- <a href="https://github.com/antim-IWP/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs"></a> -->
 
 ## Top Repositories
  
  
- <a href="https://github.com/iamAntimPal">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
+ <a href="https://github.com/antim-IWP">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=antim-IWP&repo=antim-IWP&theme=dark" />
  </a>
-<a href="https://github.com/iamAntimPal/LeetCode-Python-Solutions">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-Python-Solutions&theme=dark" />
+<a href="https://github.com/antim-IWP/LeetCode-Python-Solutions">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=antim-IWP&repo=LeetCode-Python-Solutions&theme=dark" />
 </a>
 
 
- <a href="https://github.com/iamAntimPal/MSWord-Learning-Hub">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=MSWord-Learning-Hub&theme=dark" />
+ <a href="https://github.com/antim-IWP/MSWord-Learning-Hub">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=antim-IWP&repo=MSWord-Learning-Hub&theme=dark" />
  </a>
-  <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
+  <a href="https://github.com/antim-IWP/LeetCode_SQL_Database">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=antim-IWP&repo=LeetCode_SQL_Database&theme=dark" />
  </a>
 
 
@@ -250,7 +250,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!--
 ## 📊 Commit Distribution
 
-<img height="200" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=dailycommit_dashboard&theme=radical"/>
+<img height="200" src="https://github-readme-stats.vercel.app/api/pin/?username=antim-IWP&repo=dailycommit_dashboard&theme=radical"/>
 
 ---
 
@@ -258,7 +258,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 -->
 <!-- This is for github stats-->
 <!--
-<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
+<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=antim-IWP&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
 -->
 <!-- Git hub stats -->
 
@@ -380,9 +380,9 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/antim-IWP/antim-IWP/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/antim-IWP/antim-IWP/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/antim-IWP/antim-IWP/output/github-snake.svg" />
 </picture>
 
 
@@ -396,7 +396,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 <!-- Visiter count -->
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <h3>Visitor Count</h3>
-  <img src="https://profile-counter.glitch.me/iamAntimPal/count.svg"alt="Profile Visitor Count" />
+  <img src="https://profile-counter.glitch.me/antim-IWP/count.svg"alt="Profile Visitor Count" />
 </div>
 
 <!-- Keep Learing Banner -->
