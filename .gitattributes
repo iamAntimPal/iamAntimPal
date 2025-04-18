@@ -1,10 +1,37 @@
-# Detect Markdown as the primary language
-*.md linguist-detectable=true
+# Normalize line endings
+* text=auto eol=lf
 
-# Ignore HTML, CSS, and JavaScript in GitHub language stats
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.js linguist-detectable=false
-*.jsx linguist-detectable=false
-*.ts linguist-detectable=false
-*.tsx linguist-detectable=false
+# Syntax-aware diffs for common development file types
+*.blade.php diff=html
+*.css       diff=css
+*.html      diff=html
+*.md        diff=markdown
+*.php       diff=php
+*.js        diff=javascript
+*.ts        diff=typescript
+*.py        diff=python
+*.sh        diff=shell
+*.yml       diff=yaml
+*.yaml      diff=yaml
+*.json      diff=json
+*.csv       diff=text
+*.mmd       diff=text
+*.xlsx      diff=binary
+*.xls       diff=binary
+
+# Ignore meta/config files in git archive (e.g., for release .zip/.tar)
+.github/       export-ignore
+.vscode/       export-ignore
+node_modules/  export-ignore
+.env           export-ignore
+.env.example   export-ignore
+CHANGELOG.md   export-ignore
+README.md      export-ignore
+LICENSE        export-ignore
+CONTRIBUTING.md export-ignore
+.styleci.yml   export-ignore
+.editorconfig  export-ignore
+
+# Docs and templates (optional)
+docs/          export-ignore
+templates/     export-ignore
