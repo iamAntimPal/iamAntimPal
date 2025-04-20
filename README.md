@@ -17,8 +17,9 @@
 <!-- banner that is have follower and youtube-->
 
 <div align="center">
+ <!--
 <a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
-
+-->
 <!-- Adding profile viewer -->
 
 
