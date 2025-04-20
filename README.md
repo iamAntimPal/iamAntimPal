@@ -271,6 +271,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.2%20million%20lines%20of%20code-blue)
 
+[![My WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Antim_Pal&layout=compact&langs_count=6)](https://wakatime.com/@Antim_Pal)
+
+
 **I'm an Early 🐤** 
 
 ```text
@@ -279,7 +282,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 🌃 Evening                869 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.94 % 
 🌙 Night                  493 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.61 % 
 ```
-📅 **I'm Most Productive on Friday** 
+📅 **I'm Most Productive on Sunday** 
 
 ```text
 Monday                   904 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.62 % 
