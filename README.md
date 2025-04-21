@@ -421,7 +421,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 |-------------------|---------------|
 | **Antim_Web_Designing_All_Proiject** | 10 commits |
 | **MyGithubMaster** | 3 commits |
-| **TechInterviewMaster** | 23 commits |
+| **TechInterviewMaster** | 30 commits |
 | **Web-Designing** | 7 commits |
 
 
