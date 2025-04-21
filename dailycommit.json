@@ -14,5 +14,9 @@
   {
     "repo": "MyGithubMaster",
     "count": 3
+  },
+  {
+    "repo": "Python",
+    "count": 2
   }
 ]
