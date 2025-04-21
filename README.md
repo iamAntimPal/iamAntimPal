@@ -419,8 +419,8 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
-| **Antim_Web_Designing_All_Proiject** | 8 commits |
-| **Web-Designing** | 2 commits |
+| **Antim_Web_Designing_All_Proiject** | 10 commits |
+| **Web-Designing** | 4 commits |
 
 
 ## 📊 Commit Distribution
