@@ -419,11 +419,6 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
-| **Antim_Web_Designing_All_Proiject** | 10 commits |
-| **MyGithubMaster** | 3 commits |
-| **Python** | 2 commits |
-| **TechInterviewMaster** | 30 commits |
-| **Web-Designing** | 7 commits |
 
 
 ## 📊 Commit Distribution
