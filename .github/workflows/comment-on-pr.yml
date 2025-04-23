@@ -1,0 +1,33 @@
+name: 💬 Comment on Pull Request
+
+on:
+  pull_request:
+    types: [opened]
+    branches:
+      - main
+
+jobs:
+  comment_pr:
+    runs-on: ubuntu-latest
+    name: Auto-comment PR
+    permissions: # Add this block
+      pull-requests: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Add Pull Request Comment
+        uses: thollander/actions-comment-pull-request@v3
+        with:
+          message: |
+            👋 Hi @${{ github.actor }}, thank you for your contribution!  
+            We appreciate your effort in submitting this pull request to **TechInterviewMaster** 🚀
+
+            🔍 Our team will review your changes shortly.  
+            If you haven’t already:
+            - Make sure your PR follows our [contributing guidelines](../blob/main/CONTRIBUTING.md)
+            - Link any related issues
+            - Add a meaningful description of your changes
+
+            Let's make tech interviews easier for everyone! 💪  
+            — _The Maintainers_
