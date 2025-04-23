@@ -420,6 +420,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
 | **TechInterviewMaster** | 17 commits |
+| **Web-Designing** | 5 commits |
 
 
 ## 📊 Commit Distribution
