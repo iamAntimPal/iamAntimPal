@@ -32,6 +32,8 @@
 
 </div>
 
+![Metrics](./metrics.plugin.followup.svg)
+
 
 <!-- My Discription-->
 
