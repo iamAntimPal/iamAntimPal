@@ -419,8 +419,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 
 | 🔹 Repository Name | 📝 Commits Today |
 |-------------------|---------------|
-| **Github-Profile** | 2 commits |
-| **TechInterviewMaster** | 30 commits |
+| **TechInterviewMaster** | 1 commits |
 
 
 ## 📊 Commit Distribution
