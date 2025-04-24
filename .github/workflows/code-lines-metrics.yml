@@ -1,45 +1,49 @@
 name: Lines of Code Changed
 
 on:
-  # Schedule updates at minute 0 past every 12th hour
   schedule:
+    # Run at minute 0 past every 12th hour
     - cron: "0 */12 * * *"
-  # Manual trigger via UI
+  # Manual trigger
   workflow_dispatch:
-  # Also run on pushes to specified branches
   push:
     branches:
       - master
       - main
       - metrics
 
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
 jobs:
   code-lines-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Install jq
-        # Docker is preinstalled on Ubuntu runners, so only jq is needed
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Allow custom token usage for PR creation
+          fetch-depth: 0          # needed for full history
+          persist-credentials: false  # use custom token for pushes
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
 
       - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:
           filename: assets/metrics.plugin.code.lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}        # use built-in token to avoid null refs
           base: header, activity, community, repositories
           plugin_lines: yes
           plugin_lines_sections: base, repositories
           plugin_lines_skipped: testing, The-Futurists_Manthan_Frontend
           plugin_lines_repositories_limit: 4
 
-      - name: Create PR branch and commit
+      - name: Commit and push metrics update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,12 +51,13 @@ jobs:
           git add assets/metrics.plugin.code.lines.svg
           git commit -m "chore: update metrics"
           git push origin metrics-update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create Pull Request
+      - name: Create pull request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: update metrics"
           branch: metrics-update
-          title: "Update metrics SVG"
+          title: "chore: update metrics SVG"
           body: "Auto-generated lines of code metrics."
