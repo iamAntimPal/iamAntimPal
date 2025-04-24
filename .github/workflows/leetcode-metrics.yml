@@ -1,22 +1,49 @@
-name: Leetcode
+name: LeetCode Metrics
+
 on:
-  # Schedule updates (At minute 0 past every 12th hour)
-  schedule: [{ cron: "0 */12 * * *" }]
-  # Lines below let you run workflow manually with each commit
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
   workflow_dispatch:
-  push: { branches: ["master","main", "metrics"] }
+
+permissions:
+  contents: read
+  actions: read
+
 jobs:
-  # https://github.com/lowlighter/metrics/blob/master/source/plugins/leetcode/README.md
   leetcode-metrics:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Docker and jq
+        run: |
+          sudo apt-get update
+          sudo apt-get remove -y containerd containerd.io || true
+          sudo apt-get autoremove -y || true
+          sudo apt-get install -y docker.io jq
+          sudo systemctl enable docker
+          sudo systemctl start docker
+          docker --version
+          jq --version
+
+      - name: Generate LeetCode metrics and upload to Gist
+        uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics.plugin.leetcode.svg
-          token: NOT_NEEDED
-          base: ""
+          token: ${{ secrets.GIST }}  # Your PAT with gist scope
+          committer_token: ${{ secrets.GIST }}
+          committer_gist: 549db21ce1afaffa48994d7500d3d80b
+
+          # Main config
+          user: iamAntimPal
+          filename: metrics.plugin.leetcode.svg
+          base: ""  # No GitHub info, just plugins
+          config_timezone: Asia/Kolkata
+
+          # LeetCode plugin
           plugin_leetcode: yes
           plugin_leetcode_user: antim_pal
           plugin_leetcode_sections: solved, skills, recent
-          plugin_leetcode_limit_recent: 5
-          plugin_leetcode_limit_skills: 7
