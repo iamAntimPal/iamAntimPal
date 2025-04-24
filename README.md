@@ -2,6 +2,10 @@
  <div align="center">
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
 
+### 🧠 My LeetCode Stats
+
+![LeetCode Stats](https://gist.githubusercontent.com/iamAntimPal/549db21ce1afaffa48994d7500d3d80b/raw/metrics.plugin.leetcode.svg)
+
  
 <!--
 <h1 align="center">
