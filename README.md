@@ -4,7 +4,7 @@
 
 ### 🧠 My LeetCode Stats
 
-![LeetCode Stats](https://gist.githubusercontent.com/iamAntimPal/549db21ce1afaffa48994d7500d3d80b/raw/metrics.plugin.leetcode.svg)
+![LeetCode Stats]([https://gist.githubusercontent.com/iamAntimPal/549db21ce1afaffa48994d7500d3d80b/raw/metrics.plugin.leetcode.svg](https://github.com/iamAntimPal/Workflows/blob/main/github-metrics.svg))
 
  
 <!--
