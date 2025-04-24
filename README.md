@@ -82,9 +82,9 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 | Overview | Follow up Issues & PRs |
 |:--------:|:-------------------------:|
-| ![Lines of Code & Base Introduction](assets/metrics.plugin.code.lines.svg) | ![Follow up Issues & PRs](assets/metrics.plugin.followup.svg) |
+| ![Lines of Code & Base Introduction](https://github.com/iamAntimPal/Workflows/blob/main/github-metrics.svg) | ![Lines of Code](https://gist.githubusercontent.com/iamAntimPal/1c22864dc3cb5967c03b4e2cd4239284/raw/lines.svg) |
 | Leetcode Stats | Notable Contributions |
-| ![Leetcode Stats](assets/metrics.plugin.leetcode.svg) | ![Notable Contributions](assets/metrics.plugin.notable.contributions.svg) |
+| ![LeetCode Stats](https://gist.githubusercontent.com/iamAntimPal/1c22864dc3cb5967c03b4e2cd4239284/raw/leetcode.svg) | ![Notable Contributions](assets/metrics.plugin.notable.contributions.svg) |
 | Achievements | Language Activity |
 | ![Achievements](assets/metrics.plugin.achievements.svg) | ![Language Activity](assets/metrics.plugin.languages.activity.svg) |
 | Discussions | Reactions |
