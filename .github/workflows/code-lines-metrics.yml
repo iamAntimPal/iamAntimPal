@@ -17,10 +17,11 @@ jobs:
   code-lines-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up dependencies
+      - name: Install jq
+        # Docker is preinstalled on Ubuntu runners, so only jq is needed
         run: |
           sudo apt-get update
-          sudo apt-get install -y docker.io jq
+          sudo apt-get install -y jq
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -38,7 +39,7 @@ jobs:
           plugin_lines_skipped: testing, The-Futurists_Manthan_Frontend
           plugin_lines_repositories_limit: 4
 
-      - name: Commit metrics file
+      - name: Create PR branch and commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
