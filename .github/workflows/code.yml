@@ -1,37 +1,66 @@
-name: Python Snippet of the Day
-
+# .github/workflows/metrics.yml
+name: code
 on:
-  push:
-    branches:
-      - main
+  # Daily at 16:00 UTC
+  schedule:
+    - cron: "0 16 * * *"
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write     # to push updates / create PRs
+  actions: read       # to run actions
 
 jobs:
-  snippet:
+  metrics:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
 
-      - name: Install dependencies
+    steps:
+      # 1️⃣ Checkout your profile repo
+      - name: 🦑 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      # 2️⃣ Install jq (required by lowlighter/metrics)
+      - name: 🦑 Install jq
         run: |
           sudo apt-get update
-          sudo apt-get install -y docker.io jq
+          sudo apt-get install -y jq
 
-      - name: Authenticate with GitHub
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: echo "Authentication successful"
+      # 3️⃣ CODE
+      - name: 🐙Code
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_code: yes
+          plugin_code_lines: 12
+          plugin_code_visibility: public
+          plugin_code_languages: python 
 
-      - name: Run metrics action
-        run: |
-          echo "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"
-          cd $METRICS_ACTION_PATH
-          for DEPENDENCY in docker jq; do
-            if ! which $DEPENDENCY > /dev/null 2>&1; then
-              echo "::error::$DEPENDENCY is not installed on current runner but is needed to run metrics"
-              exit 1
-            fi
-          done
-          METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG
-          docker image pull $METRICS_IMAGE || METRICS_IMAGE=metrics:$METRICS_VERSION
-          # Additional steps for metrics action...
+
+      # 4️⃣ Achievements
+      # 5️⃣ Sponsors
+      # 6️⃣ General
+      # 7️⃣ Splatoon
+      # 8️⃣ **NEW** Lines of Code Change
+      # 9️⃣ LeetCode 
+
+      # 9️⃣ Commit & push all SVG updates to a PR
+      - name: 🦑 Commit & Create PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          branch: metrics-update
+          title: "chore: update all metrics SVGs"
+          body: "Auto-generated metrics via lowlighter/metrics"
+
+
+
+
