@@ -1,3 +1,26 @@
+<div>
+
+<blockquote>
+  Want to know what I'm currently working on?<br>
+  Checkout <a href="https://github.com/users/iamAntimPal/projects/11">@iamAntimPAl's todos</a>
+
+
+<p>
+  <em>
+    PS: I haven't been very active on
+    <a href="https://github.com/iamAntimPal/TechInterviewMaster">iamAntimPal/TechInterviewMaster</a>!
+  </em>
+</p>
+<p>
+  <em>Thanks for your patience and continued support!</em>
+</p>
+</blockquote>
+
+
+ <img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" />
+</div>
+
+
 <!-- Banner Section-->
  <div align="center">
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
