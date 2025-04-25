@@ -3,10 +3,10 @@
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
 
 ### 🧠 My LeetCode Stats
-
+<!--
 ![LeetCode Stats](https://github.com/iamAntimPal/Workflows/blob/main/github-metrics.svg)
+-->
 
- 
 <!--
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/martonlederer/martonlederer/master/name.svg" alt="Antim Pal" />
