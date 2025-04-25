@@ -1,4 +1,4 @@
-<div>
+
 
 <blockquote>
   Want to know what I'm currently working on?<br>
@@ -16,16 +16,15 @@
 </p>
 </blockquote>
 
-
+<p>
  <img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" />
-</div>
+</p>
 
 
-<!-- Banner Section-->
+<!-- Banner Section
  <div align="center">
  <img align="center" witdh="auto" src="./assets/welcome-header.gif">
-
-### 🧠 My LeetCode Stats
+-->
 <!--
 ![LeetCode Stats](https://github.com/iamAntimPal/Workflows/blob/main/github-metrics.svg)
 -->
@@ -37,10 +36,10 @@
 -->
 <!-- <h1 align="center">🏄‍♂️ Hi 👋, I'm Antim pal</h1> -->
 
-<!-- adding name -->
+<!-- adding name 
 <p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/Antim_pal.png" /></a></p>
 
-
+-->
 <!-- banner that is have follower and youtube-->
 
 <div align="center">
