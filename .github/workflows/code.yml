@@ -1,19 +1,37 @@
 name: Python Snippet of the Day
 
 on:
-  schedule: [{ cron: "0 0 * * *" }]  # runs daily at midnight
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  snippet-of-the-day:
+  snippet:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Metrics Snippet Card
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.code.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_code: yes
-          plugin_code_languages: python, C++, java
-          plugin_code_load: 400
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
+
+      - name: Authenticate with GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "Authentication successful"
+
+      - name: Run metrics action
+        run: |
+          echo "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"
+          cd $METRICS_ACTION_PATH
+          for DEPENDENCY in docker jq; do
+            if ! which $DEPENDENCY > /dev/null 2>&1; then
+              echo "::error::$DEPENDENCY is not installed on current runner but is needed to run metrics"
+              exit 1
+            fi
+          done
+          METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG
+          docker image pull $METRICS_IMAGE || METRICS_IMAGE=metrics:$METRICS_VERSION
+          # Additional steps for metrics action...
