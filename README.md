@@ -36,9 +36,6 @@
 
 </div>
 
-![Metrics](./metrics.plugin.followup.svg)
-
-
 <!-- My Discription-->
 
 I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
@@ -74,22 +71,6 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 ---
 <!--- Adding Github New matrics -->
-
-# My GitHub Metrics
-
-<details>
-  <summary>Expand</summary> 
-
-| Overview | Follow up Issues & PRs |
-|:--------:|:-------------------------:|
-| ![Lines of Code & Base Introduction](https://github.com/iamAntimPal/Workflows/blob/main/github-metrics.svg) | ![Lines of Code](https://gist.githubusercontent.com/iamAntimPal/1c22864dc3cb5967c03b4e2cd4239284/raw/lines.svg) |
-| ![LeetCode Stats](https://gist.githubusercontent.com/iamAntimPal/1c22864dc3cb5967c03b4e2cd4239284/raw/leetcode.svg) | ![Notable Contributions](assets/metrics.plugin.notable.contributions.svg) |
-
-
-</details>                     
-<br>
-<hr>
-
 
 
 <!-- Antim Pal Summary -->
@@ -224,9 +205,16 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 ---
 
 
+<details>
+<summary><h1><img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats: </h1></summary> 
 
-<h1><img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats:
-</h1>
+<!-- Adiding-->
+
+
+</details>                     
+<br>
+<hr>
+
 <p align="center" >
 <!-- this is adding github stats icon--->
 <!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
