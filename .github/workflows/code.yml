@@ -1,0 +1,19 @@
+name: Python Snippet of the Day
+
+on:
+  schedule: [{ cron: "0 0 * * *" }]  # runs daily at midnight
+  workflow_dispatch:
+
+jobs:
+  snippet-of-the-day:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Metrics Snippet Card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: python, C++, java
+          plugin_code_load: 400
