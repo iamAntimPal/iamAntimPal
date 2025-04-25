@@ -46,3 +46,12 @@ jobs:
           plugin_followup_sections: repositories, user
           plugin_followup_indepth: yes
           plugin_followup_archived: no
+
+      # 4️⃣ Commit & push all SVG updates to a PR
+      - name: 🦑 Commit & Create PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          branch: metrics-update
+          title: "chore: update all metrics SVGs"
+          body: "Auto-generated metrics via lowlighter/metrics"
