@@ -1,5 +1,5 @@
 # .github/workflows/metrics.yml
-name: Github_Metrics
+name: followup-metrics-svg
 on:
   # Daily at 16:00 UTC
   schedule:
