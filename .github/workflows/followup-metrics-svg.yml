@@ -7,6 +7,11 @@ on:
   # Manual trigger from the Actions tab
   workflow_dispatch:
 
+  # 1️⃣ Checkout your profile repo
+  # 2️⃣ Install jq (required by lowlighter/metrics)
+  # 3️⃣ Run metrics
+  # 4️⃣ Create a PR to update the metrics
+
 permissions:
   contents: write     # to push updates / create PRs
   actions: read       # to run actions
