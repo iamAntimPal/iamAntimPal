@@ -15,7 +15,11 @@
 </p>
 </blockquote>
 <div>
- <img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" />
+  <img src="https://github.com/iamAntimPal/iamAntimPal/blob/main/assets/github%20banner.png" alt="Github banner"/>
+  
+<!--
+<img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" /> 
+-->
 </div>
 
 <!-- 2. Banner Section -->
