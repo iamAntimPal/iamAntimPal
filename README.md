@@ -57,16 +57,17 @@
 
 🔖 I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
 
-💜 I've spent around 2 years in open source. Contributed to 40+ open source projects, made 200+ Pull Requests, joined 600+ discussions and earned a lot of reputation. Love the ecosystem.
+💜 I've spent around 2 years in open source. Contributed to 10+ open source projects, made 200+ Pull Requests, joined 50+ discussions and earned a lot of reputation. Love the ecosystem.
 
-I worked with NIELIT() as Traning Specilist and also worked with 
+I worked with NIELIT(National Institute of Electronics & Information Technology) as Traning Specilist and also worked with Sahyog Care for you(NGO) to Support Delhi Police.
 
-😎 By the way, Data Scientist wasn't the first thing I did. I've done Web designing, research, software development and much more.
+😎 By the way, Training Sepcilist wasn't the first thing I did. I've done Web designing, research, software development and much more.
 
 I code for fun and keep learning new stuff :)
 
+## 📈 What I Do
  <details>	
-    <summary><h1><b>📈 What I Do</b></h1></summary><br>
+    <summary><b>😆 More bragging about me.</b></summary><br>
 
 
 ## 🚀Software Development
