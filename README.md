@@ -51,9 +51,19 @@
 
 <!-- 4. My Discription-->
 
-I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
+👋 Hi! I'm Antim Pal, I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**.
 
-I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
+✍ I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, **JavaScript** and **Python**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
+
+🔖 I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
+
+💜 I've spent around 2 years in open source. Contributed to 40+ open source projects, made 200+ Pull Requests, joined 600+ discussions and earned a lot of reputation. Love the ecosystem.
+
+I worked with NIELIT() as Traning Specilist and also worked with 
+
+😎 By the way, Data Scientist wasn't the first thing I did. I've done Web designing, research, software development and much more.
+
+I code for fun and keep learning new stuff :)
 
  <details>	
     <summary><h1><b>📈 What I Do</b></h1></summary><br>
