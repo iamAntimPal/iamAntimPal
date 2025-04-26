@@ -65,7 +65,6 @@ I worked with NIELIT(National Institute of Electronics & Information Technology)
 
 I code for fun and keep learning new stuff :)
 
-## 📈 What I Do
  <details>	
     <summary><b>😆 More bragging about me.</b></summary><br>
 
@@ -91,6 +90,19 @@ I code for fun and keep learning new stuff :)
 
 - **Development Tools:** Visual Studio Code, IntelliJ IDEA, Sublime Text, PowerBI  
 - **Teaching:** Educating students in Graphic Design, Python, Web Design, and Data Analytics
+</details>
+
+<details>
+  <summary><b>🏆 Achievements</b></summary>
+
+  💜 Competition Zone
+  - working on
+  - 
+  💜 GitHub Zone
+  - working on
+  - 
+  💜 Proud Zone
+  - working no
 </details>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
