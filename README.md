@@ -1,10 +1,9 @@
-<div>
+
+<!-- 1. Adding Recent work -->
 
 <blockquote>
   Want to know what I'm currently working on?<br>
   Checkout <a href="https://github.com/users/iamAntimPal/projects/11">@iamAntimPAl's todos</a>
-
-
 <p>
   <em>
     PS: I haven't been very active on
@@ -15,51 +14,27 @@
   <em>Thanks for your patience and continued support!</em>
 </p>
 </blockquote>
-
-
+<div>
  <img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" />
 </div>
 
+<!-- 2. Banner Section -->
 
-<!-- Banner Section-->
  <div align="center">
- <img align="center" witdh="auto" src="./assets/welcome-header.gif">
+ <img align="center" witdh="auto" src="https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/fe054170-c69a-41d2-8e73-f7f239ebc046">
+ </div>
 
-### 🧠 My LeetCode Stats
-<!--
-![LeetCode Stats](https://github.com/iamAntimPal/Workflows/blob/main/github-metrics.svg)
--->
+ <!--- 3. Working profile section --->
 
-<!--
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/martonlederer/martonlederer/master/name.svg" alt="Antim Pal" />
-</h1>
--->
-<!-- <h1 align="center">🏄‍♂️ Hi 👋, I'm Antim pal</h1> -->
-
-<!-- adding name -->
-<p align="center"><a href="#-github-trophies"><img width="80%" alt="Hello, I'm Antim Pal. I do open source!" src="./assets/Antim_pal.png" /></a></p>
-
-
-<!-- banner that is have follower and youtube-->
-
+ 
 <div align="center">
- <!--
-<a hraf="#"> <img height="30" src="./assets/counter.gif" /> </a>
--->
-<!-- Adding profile viewer -->
-
-
-<!-- <img src="https://komarev.com/ghpvc/?username=iamAntimPal" alt="https://github.com/ileriayo" /> -->
-
 <a href="#"> <img height="25" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
 <a href="#"> <img height="25" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
 <a href="https://www.youtube.com/@OptimismEducator"> <img height="25" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
 <a href="https://www.youtube.com/@OptimismEducator"> <img height="25" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
-
 </div>
 
-<!-- My Discription-->
+<!-- 4. My Discription-->
 
 I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
 
@@ -92,15 +67,10 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 - **Teaching:** Educating students in Graphic Design, Python, Web Design, and Data Analytics
 </details>
 
----
-<!--- Adding Github New matrics -->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
+<!--- 5. Github Profile --->
 
-<!-- Antim Pal Summary -->
-<img align="center" height="250" width="auto" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical" />
-  <!-- Activity Graph with improved styling -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" />
-<!-- Gif Section -->
 
 [<img align="right" alt="Chill gif" src="https://cdn.shopify.com/s/files/1/0578/3696/1997/t/9/assets/lofiboy.gif?v=103461765217895835051680702279" width="500" height="300" />](https://github.com/iamAntimPal?tab=repositories)
 
@@ -108,160 +78,303 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
   <h3 align="left">
     <img height="25" src="./assets/cat.gif" width="45" /> About Me: <img src="./assets/hot.gif">
   </h3>
-
+ 
   - 🔭 I’m currently working on: **Graphic Designer And Data Analytics Trainer** <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
   - 🌱 I’m currently learning: **Data Science Machine Learning**
-  - 👨‍💻 All of my projects are available at <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/> [Visit My PortFolio](https://iamantimpal.github.io/Antim-Portfolio/) [Visit My GitHub](https://iamantimpal.github.io/Github-Profile/)
-
-  - 💬 Ask me about: **NumPy, pandas, Matplotlib, Seaborn, Power BI, C++, Python, Photoshop, Illustator, Indesign, MySql**
-
+  - 👨‍💻 All of my projects are available at  [MyPortFolio](https://iamantimpal.github.io/Antim-Portfolio/) [GitHub](https://iamantimpal.github.io/Github-Profile/)
   - 📫 How to reach me: **antimpal01617121@gmail.com**
-  
   - 📫 Join Whatsapp Group: [**Whatsapp App**](https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK) 
-
   - ⚡ Fun fact: **My GitHub is more active than my phone!😂**
 </div>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
----
-<!--
-## **📖 Table of Contents**
- 
-- [**📌 What I Do**](#-what-i-do)
-- [**📖 Table of Contents**](#-table-of-contents)
-- [**🏆 GitHub Trophies**](#-github-trophies)
-- [**🧑‍💻 Tech I Work On**](#-tech-i-work-on)
-- [**💻 Tech Stack**](#-tech-stack)
-- [**📺 Latest YouTube Videos**](#Latest-YouTube-Videos)
-- [**📊 My GitHub Stats**](#-my-github-stats)
-- [**🔥 Top Repositories**](#Top-Repositories)
-- [**📈 Get My Code Stats**](#Get-my-Code-stats)
-- [**🌐 Portfolio Website**](#Portfolio-Website)
-- [**📞 Contact Me**](#contact)
-- [**📝 My Latest Blog Posts**](#welcome-to-the-my-blog)
-- [**👀 Visitor Count**](#Visitor-Count)
+<!--- 6. Skills Section --->
 
-🚀 **Feel free to fork this template and make it your own!** 😎
----
--->
-## 🧑‍💻 Tech I work on :
+# Skills <img src='https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif' width="40"> 
+
+<table>
+  <tr>
+    <td><strong>Data Science Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Styling & Frameworks</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Database</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  </tr>
+  <tr>
+    <td><strong>Services & Tools</strong></td>
+    <td>
+      <a href="https://github.com/Anmol-Baranwal"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
+      <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Action"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Competitive Coding</strong></td>
+    <td>
+      <a href="https://leetcode.com/anmol4coder/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"/></a>
+      <a href="https://auth.geeksforgeeks.org/user/anmolbaranwal119"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
+      <a href="https://www.codechef.com/users/anmol119"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white"/></a>
+      <a href=""><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>IDE & Environment</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+      <!-- Jupyter Notebook -->
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+      <!-- Google Colab -->
+      <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
+      <!-- RStudio -->
+      <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white"/>
+      <!-- Spyder -->
+      <img src="https://img.shields.io/badge/Spyder-FF0000?style=for-the-badge&logo=spyder-ide&logoColor=white"/>
+      <!-- JetBrains (generic) -->
+      <img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Hosting</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Operating System</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Design Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6"/>
+      <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Adobe%20InDesign-FF3366?style=for-the-badge&logo=Adobe%20InDesign&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Learning</strong></td>
+    <td>
+      <a href="https://www.coursera.org/user/69e4ae79233b116200019fb3f9111083"><img src="https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white"/></a>
+      <img src="https://img.shields.io/badge/scrimba-2B283A?style=for-the-badge&logo=scrimba&logoColor=white"/>
+      <img src="https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Udacity-02B3E4?style=for-the-badge&logo=udacity&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+<!--- 7. Projects --->
 
 
-<p align="center"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="50" height="50"/>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="50"/> </a> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="50"/> </a> 
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="50" height="50"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> 
-<img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="50" height="50"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> 
-<img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="50" height="50"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="50" height="50"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="50" height="50"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="50" height="50"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="50" height="50"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="50" height="50"/> </a>
-<img src="https://cdn.worldvectorlogo.com/logos/intellij-idea-1.svg" alt="intellij" title="intellij" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="vs-code" title="vs-code" width="40" height="40"/>
+# Projects <img src="https://user-images.githubusercontent.com/74038190/221857969-f37e1717-1470-4fe4-abb5-88b334cf64ea.png" alt="icon of todo list" width="40" />
+
+> Find all of my projects at [antimpal.com/projects](https://github.com/iamAntimPal?tab=projects) with timeline, tech stack and necessary links.
+
+&nbsp;
 
 
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="git" width="40" height="40"/>  
-<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="github" title="github" width="40" height="40"/> 
-<img src="https://brandlogos.net/wp-content/uploads/2020/03/Linux-logo.png" alt="linux" title="linux" width="40" height="40"/> 
-<img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" alt="ubuntu" title="ubuntu" width="40" height="40"/> 
-</p>
+<table bgcolor="black">
+  <thead>
+    <tr>
+      <th>Projects</th>
+      <th>Deployed Link</th>
+      <th>Repository</th>
+      <th>Tech Stack & Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>GitHub Profile</strong></td>
+      <td><a href="https://iamantimpal.github.io/Github-Profile/" target="_blank">View</a></td>
+      <td><a href="https://github.com/iamAntimPal/Github-Profile" target="_blank">view</a></td>
+      <td><code>HTML</code> <code>CSS</code> <code>Javascript</code> <code>GitHub API</code></td>
+    </tr>
+<!--     <tr>
+      <td><strong>Handle Multiple Issues</strong></td>
+      <td><a href="https://github.com/marketplace/actions/handle-multiple-issues" target="_blank">Marketplace</a></td>
+      <td><a href="https://github.com/Anmol-Baranwal/handle-multiple-issues" target="_blank">view</a></td>
+      <td><code>TypeScript</code> <code>GitHub Actions</code> <code>GitHub API</code></td>
+    </tr> -->
+    <tr>
+      <td><strong>Portfolio</strong></td>
+      <td><a href="https://iamantimpal.github.io/Antim-Portfolio/" target="_blank">view</a></td>
+      <td><a href="https://iamantimpal.github.io/Antim-Portfolio/">view</a></td>
+      <td><code>HTML</code> <code>CSS</code> <code>JAvascript</code> <code>BootStrap</code> <code>Tailwind CSS</code> <code>Simple Analytics</code></td>
+    </tr>
+    <tr>
+      <td><strong>Hotal Management System</strong></td>
+      <td><a href="https://github.com/iamAntimPal/Hotel-Management" target="_blank">App</a></td>
+      <td><a href="https://github.com/iamAntimPal/Hotel-Management" target="_blank">view</a></td>
+      <td><code>Python</code> <code>Tkinter</code> <code>MySQL</code> <code>Pandas</code> <code>Requests</code> <code>OOPS(Object-Oriented-Programming)</code> <code>Python API</code> <code>PIL(Image TK)</code></td>
+    </tr>
+<!--     <tr>
+      <td><strong>Arcjet Demo</strong></td>
+      <td><a href="https://arcjet-demo.vercel.app/" target="_blank">view</a></td>
+      <td><a href="https://github.com/Anmol-Baranwal/arcjet-demo" target="_blank">view</a></td>
+      <td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Arcjet JS SDK</code></td>
+    </tr> -->
+  </tbody>
+</table>
 
-<!-- 🏆 GitHub Trophies -->
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 
-<!-- Tech Stack -->
-
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
----
+<!--- 8. Github Metrics --->
+<h1><img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats: </h1>
 <details>
-<summary style="font-size:25px; font-weight:bolder;"><h1>📺 Latest YouTube Videos<h1></summary>
-<!-- YouTube Channel Badges -->
-<p align="center">
-  <a href="https://www.youtube.com/@OptimismEducator?sub_confirmation=1">
-    <img alt="YouTube Subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/>
-  </a>
-  <a href="https://www.youtube.com/@OptimismEducator">
-    <img alt="YouTube Views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"/>
-  </a>
-</p>
-
-<!-- Latest 6 Videos Section -->
-<h2 align="center">Latest Videos</h2>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=hUe1iD5rpno" target="_blank">
-    <img src="https://img.youtube.com/vi/hUe1iD5rpno/hqdefault.jpg" alt="Video 1" width="300"/>
-  </a>
-  <a href="https://www.youtube.com/watch?v=SKgahaGHtlI" target="_blank">
-    <img src="https://img.youtube.com/vi/SKgahaGHtlI/hqdefault.jpg" alt="Video 2" width="300"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=4Bub9PwFRXU" target="_blank">
-    <img src="https://img.youtube.com/vi/4Bub9PwFRXU/hqdefault.jpg" alt="Video 3" width="300"/>
-  </a>
-  <a href="https://www.youtube.com/watch?v=xL85kMWcbJM" target="_blank">
-    <img src="https://img.youtube.com/vi/xL85kMWcbJM/hqdefault.jpg" alt="Video 4" width="300"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=SKgahaGHtlI" target="_blank">
-    <img src="https://img.youtube.com/vi/SKgahaGHtlI/hqdefault.jpg" alt="Video 5" width="300"/>
-  </a>
-  <a href="https://www.youtube.com/watch?v=hUe1iD5rpno" target="_blank">
-    <img src="https://img.youtube.com/vi/hUe1iD5rpno/hqdefault.jpg" alt="Video 6" width="300"/>
-  </a>
-</p>
-
-</details>
-
-
-<!-- END YOUTUBE-CARDS -->
-<img src="./assets/hot.gif">[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/@OptimismEducator?sub_confirmation=1)<img src="./assets/hot.gif">
----
-
-
-<details>
-<summary><h1><img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats: </h1></summary> 
+<summary>Expend</summary> 
 
 <!-- Adiding-->
+<table border="1">
+  <tr>
+    <th>Base</th>
+    <th>Reactions</th>
+  </tr>
+  <tr>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/base.svg" alt="Achievements"></td>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/followup.svg" alt="Reactions"></td>
+  </tr>
+  <tr>
+    <th>Languages</th>
+    <th>Discussions</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/languages.svg" alt="Followup"></td>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/discussions.svg" alt="Discussions"></td>
+  </tr>
+  <tr>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/Reactions.svg" alt="Reaction"></td>
+  </tr>
+  <tr>
+    <th>Leetcode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/leetcode.svg" alt="LeetCode"></td>
+     <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code"></td>
+  </tr>
+   <tr>
+      <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/lines.svg" alt="line of code"></td>
+  </tr>
+  </tr>
+  <tr>
+    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical&width=200px" width="1000px" height="auto" alt="year data"></td>
+  </tr>
+   <tr>
+    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" alt="Month-graph"</td>
+  </tr>
+  <tr>
+    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="achivement"</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/iamAntimPal#gh-dark-mode-only">
+        <img height="259" width="auto" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
+      </a>
+    </td>
+    <td>
+      <img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515" alt="Top Languages" /></td>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical" alt="Repos Per Language" /></td>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical" alt="Most Commit Language" /></td>
+  </tr>
+</table>
 
 
-</details>                     
+</details> 
+
+<!--- 9. Social Links --->
+
+# <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="40" /> My socials
+
+> I've been active across various platforms, whether it's for learning, creating content, trying the platform, or sharing my progress. I've tried a lot of stuff which is why I have a good knowledge of various domains. You can find all the social links at [antimpal.com/links](https://github.com/iamAntimPal/).
+
 <br>
-<hr>
 
-<p align="center" >
-<!-- this is adding github stats icon--->
-<!-- ## <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats: -->
+<div align="center">
+  <a href="https://app.daily.dev/antim_pal"><img src="https://img.shields.io/badge/dailydotdev-d5d5d5?style=for-the-badge&logo=dailydotdev&logoColor=d5d5d5" /></a>
+  <br>
+  <a href="https://dev.to/antim_pal"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209"/></a>
+  <a href=""><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209"/></a>
+  <a href="mailto:antimpal113@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Discord-d5d5d5?style=for-the-badge&logo=discord&logoColor=0A0209" alt="Antim" >
+  <br>
+  <a href="https://leetcode.com/u/antim_pal/"><img src="https://img.shields.io/badge/-LeetCode-0A0209?style=for-the-badge&logo=LeetCode&logoColor=d5d5d5"/></a>
+  <a href="https://www.geeksforgeeks.org/user/antimpal075cj/"><img src="https://img.shields.io/badge/GeeksforGeeks-0A0209?style=for-the-badge&logo=geeksforgeeks&logoColor=d5d5d5"/></a>
+  <a href="https://www.coursera.org/user/94912184a43ad6cdca12b178ca5d72d5"><img src="https://img.shields.io/badge/Coursera-0A0209?style=for-the-badge&logo=Coursera&logoColor=d5d5d5" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Codecademy-0A0209?style=for-the-badge&logo=codecademy&logoColor=d5d5d5" /></a> 
+  <br> 
+</div>
 
-<a href="https://github.com/iamAntimPal#gh-dark-mode-only">
-<img height=259 width=auto src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
-</a><img height="auto" alt="top icon" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515"/><img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" />
+<!--- 10. Sponsesers Section--->
 
-<!-- this try to git stats-->
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical" />
+# <img src="https://user-images.githubusercontent.com/74038190/216112957-034e1f8b-5468-4857-8512-9cd2bac35bb6.png" alt="Handshake" width="40" /> Sponsor me 
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical" />
+> I've made significant contributions to the open source ecosystem. Sponsoring me gives you access to exclusive benefits, such as a private Discord channel and more. Visit the [sponsors page](https://github.com/sponsors/iamAntimPal) for further details.
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamAntimPal&theme=radical&utcOffset=8" />
+<br>
 
+<a href="https://github.com/sponsors/iamAntimPal"><img src="https://img.shields.io/badge/sponsor-d5d5d5?style=for-the-badge&logo=GitHub-Sponsors&logoColor=0A0209" /></a>
 
-<!-- <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/>  -->
+<!--- 11.Top Repository Section --->
 
-</p>
-<!-- <a href="https://github.com/iamAntimPal/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs"></a> -->
-
-## Top Repositories
+<h2>📌 Top Repositories</h2>
  
- 
+ <p align="center">
  <a href="https://github.com/iamAntimPal">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
  </a>
@@ -276,162 +389,91 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
   <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
  </a>
+</p>
 
+<!--- 12. Get My Code Section --->
 
-
-<!--That is git hub tosy commits-->
-
-
-
-<!--
-## 📊 Commit Distribution
-
-<img height="200" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=dailycommit_dashboard&theme=radical"/>
-
----
-
-💡 **Tip:** Keep pushing code every day to maintain your streak! 🚀🔥
--->
-<!-- This is for github stats-->
-<!--
-<img height="200" alt="my stats" src="https://github-readme-stats.vercel.app/api?username=iamAntimPal&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues"/>
--->
-<!-- Git hub stats -->
-
-</div>
-
----
-<details><summary><h1>📈 Get my Code stats</h1></summary><br>
-<!--START_SECTION:waka-->
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.2%20million%20lines%20of%20code-blue)
-
-[![My WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Antim_Pal&layout=compact&langs_count=6)](https://wakatime.com/@Antim_Pal)
-
-
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                1690 commits        ████████░░░░░░░░░░░░░░░░░   32.94 % 
-🌆 Daytime                2078 commits        ██████████░░░░░░░░░░░░░░░   40.51 % 
-🌃 Evening                869 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.94 % 
-🌙 Night                  493 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.61 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   904 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.62 % 
-Tuesday                  1332 commits        ██████░░░░░░░░░░░░░░░░░░░   25.96 % 
-Wednesday                1042 commits        █████░░░░░░░░░░░░░░░░░░░░   20.31 % 
-Thursday                 328 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.39 % 
-Friday                   300 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.85 % 
-Saturday                 435 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.48 % 
-Sunday                   789 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.38 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-Python                   16 hrs 10 mins      ████████████████████░░░░░   80.11 % 
-CSS                      2 hrs 3 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.19 % 
-C++                      1 hr 19 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
-YAML                     14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.22 % 
-Other                    9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.76 % 
-
-🔥 Editors: 
-VS Code                  20 hrs 11 mins      ███████████████████░░░░░░   82.00 % 
-
-Jupyter Notebook          2 hrs 9 mins      ████░░░░░░░░░░░░░░░░░░░░░   18.00 % 
-
-
-💻 Operating System: 
-Windows                  50 hrs 11 mins      █████████████████████████   100.00 % 
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python               35 repos            ███████████░░░░░░░░░░░░░░   45.65 % 
-HTML                     8 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.39 % 
-CSS                      4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
-SQL                  3 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.52 % 
-Pandas                  1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   02.17 % 
-```
-
-<!--END_SECTION:waka-->
-   </details> 
-
-<!--START_SECTION:waka-->
-<!--
-<img height="25" src="./assets/unicorn.gif"> **Year Progress** { <div style="background-color: #e0e0e0; border-radius: 8px; width: 100%; max-width: 400px;">
-  <div style="width: 75%; background-color: #4caf50; padding: 10px 0; border-radius: 8px; text-align: center; color: white;">
-    75%
-  </div>
-</div>
- 75.78 % as on ⏰ 27-March-2025
--->
----
-## Portfolio Website
-[![Static Badge](https://img.shields.io/badge/Website-%20?style=for-the-badge&label=Portfolio&labelColor=dark&color=blue)](https://iamantimpal.github.io/Antim-Portfolio/)
----
-
-## Contact
-
-<!-- My Gmail -->
-  <a href="mailto:antimpal01617121@gmail.com">
-  <img height="30" src="https://img.shields.io/badge/Gmail-antimpal01617121?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<!-- LinkedIn Badge -->
-<a href="https://www.linkedin.com/in/antim-pal/" target="_blank">
-  <img height="30" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<!-- HackerRank Badge -->
-<a href="https://www.hackerrank.com/profile/antimpal01617121/" target="_blank">
-  <img height="30" src="https://img.shields.io/badge/HackerRank-E4405F?style=for-the-badge&logo=HackerRank&logoColor=white" />
-</a>
-
-<!-- LeetCode Badge -->
-<a href="https://leetcode.com/antim_pal/" target="_blank">
-  <img height="30" src="https://img.shields.io/badge/LeetCode-1DA1F2?style=for-the-badge&logo=LeetCode&logoColor=white" />
-</a>
-
-<!-- whatsapp group -->
-<a href="https://chat.whatsapp.com/CDEWDYYKc0i2z1We9xwKfK" target="_blank">
-  <img height="30" src="https://img.shields.io/badge/Join%20WhatsApp%20Group-25D366?style=flat&logo=whatsapp&logoColor=white" />
-</a>
-
-
-<!--
----
+<h2>📈 My Code Activity Summary</h2>
 <details>
-<summary><h1>This is the main for me</h1></summary>
-<p>ok that is Random for al to haide that ok!</p>
+  <summary>Expend</summary>
+<table>
+  <tr>
+    <td>
+      <h3>🌅 I'm an Early 🐤</h3>
+      <pre>
+🌞 Morning   1690 commits   ████████░░░░░░░   32.94%
+🌆 Daytime   2078 commits   ██████████░░░░░░   40.51%
+🌃 Evening   869 commits    ████░░░░░░░░░░░░   16.94%
+🌙 Night     493 commits    ██░░░░░░░░░░░░░░   09.61%
+      </pre>
+    </td>
+    <td>
+      <h3>📅 Most Productive on Sunday</h3>
+      <pre>
+Monday      904 commits   ████░░░░░░░░░░░░   17.62%
+Tuesday     1332 commits  ██████░░░░░░░░░░   25.96%
+Wednesday   1042 commits  █████░░░░░░░░░░░   20.31%
+Thursday    328 commits   ██░░░░░░░░░░░░░░   06.39%
+Friday      300 commits   █░░░░░░░░░░░░░░░   05.85%
+Saturday    435 commits   ██░░░░░░░░░░░░░░   08.48%
+Sunday      789 commits   ████░░░░░░░░░░░░   15.38%
+      </pre>
+    </td>
+  </tr>
 
+  <tr>
+    <td>
+      <h3>🕒 Time Spent This Week</h3>
+      <pre>
+🕑 Time Zone: Asia/Kolkata
+
+💬 Languages:
+Python        16h 10m  ████████████████   80.11%
+CSS            2h 03m  ████░░░░░░░░░░░░   10.19%
+C++            1h 19m  ██░░░░░░░░░░░░░░   06.53%
+YAML           14m     ░░░░░░░░░░░░░░░   01.22%
+Other           9m     ░░░░░░░░░░░░░░░   00.76%
+      </pre>
+    </td>
+    <td>
+      <h3>🧰 Editors & OS</h3>
+      <pre>
+🔥 Editors:
+VS Code          20h 11m   ██████████████   82.00%
+Jupyter Notebook  2h 09m   ████░░░░░░░░░░   18.00%
+
+💻 OS:
+Windows         50h 11m   ████████████████████   100.00%
+      </pre>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <h3>💻 I Mostly Code in Python</h3>
+      <pre>
+Python    35 repos   ███████████░░░░░░░░░   45.65%
+HTML       8 repos   ████░░░░░░░░░░░░░░░   17.39%
+CSS        4 repos   ██░░░░░░░░░░░░░░░░░   08.70%
+SQL        3 repos   ██░░░░░░░░░░░░░░░░░   06.52%
+Pandas     1 repo    █░░░░░░░░░░░░░░░░░░   02.17%
+      </pre>
+    </td>
+  </tr>
+</table>
 </details>
--->
+
+
+<!--- Footer Section  --->
+
 <!-- Snake Game -->
-
-
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg" />
 </picture>
-
-
-<details>
-<summary><h2> <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = '23' /> My Latest Blog posts:</h2></summary>
-
-## Welcome to the My Blog
-
-
-</details>
+</div>
 <!-- Visiter count -->
 <div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
   <h3>Visitor Count</h3>
@@ -447,8 +489,7 @@ Pandas                  1 repo              █░░░░░░░░░░░
 </p>
 
 <!-- Profile End -->
-
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 <img height="80" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
 
 <p align="center">
