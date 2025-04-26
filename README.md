@@ -63,7 +63,7 @@ I worked with NIELIT(National Institute of Electronics & Information Technology)
 
 😎 By the way, Training Sepcilist wasn't the first thing I did. I've done Web designing, research, software development and much more.
 
-I code for fun and keep learning new stuff :)
+#### ***I code for fun and keep learning new stuff :)***
 
  <details>	
     <summary><b>😆 More bragging about me.</b></summary><br>
