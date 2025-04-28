@@ -42,7 +42,7 @@
   <a href="https://dev.to/antim_pal"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="profile of Dev.to with username antim pal" /></a>
   <a href="https://iamantimpal.github.io/Antim-Portfolio/"><img src="https://img.shields.io/badge/portfolio-d5d5d5?style=for-the-badge&logo=Portfolio&logoColor=0A0209" alt="portfolio of Antim Pal" /></a>
   <a href="mailto:antimpl113@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="email of Anmol i.e.   hi@anmolbaranwal.com" /></a>
-  <a href=""><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="profile of Twitter with username Antim_Codes" ></a>
+<!--   <a href=""><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="profile of Twitter with username Antim_Codes" ></a> -->
 <!--   <a href="https://github.com/sponsors/iamAntimPal"><img src="https://img.shields.io/badge/Sponsor-iamAntimPal-cc317c?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Github Sponsor"/> -->
   <a href="https://github.com/sponsors/iamAntimPal"><img src="https://img.shields.io/badge/Sponsor-❤️-pink?style=for-the-badge" alt="Github sponsor Antim Pal" /></a>
 </div>
