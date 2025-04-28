@@ -33,17 +33,18 @@
 <!--- -- Visitor Badge + Links ----------------------------------------------------------------------------------------------------------------------------- -->
 <!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
+
 <div align="center">
   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FiamAntimPal%2FiamAntimPal&label=VISITORS&labelColor=%23000&countColor=%230A0209" />
-  <img src="https://github.com/sponsors/iamAntimPal/button" title="Sponsor iamAntimPal" height="32" width="114" style="border: 0; border-radius: 6px;"></img>
   <br><br>
 <!--   <a href="https://www.showwcase.com/anmol-baranwal"><img src="https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/c9e3761a-08c6-404d-9e27-5cd9d1084773"/></a> -->
   <a href="https://www.linkedin.com/in/antim-pal"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="profile of LinkedIn with username Antim Pal" /></a>
-<a href="https://dev.to/antim_pal"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="profile of Dev.to with username antim pal" /></a>
-<a href="https://iamantimpal.github.io/Antim-Portfolio/"><img src="https://img.shields.io/badge/portfolio-d5d5d5?style=for-the-badge&logo=Portfolio&logoColor=0A0209" alt="portfolio of Antim Pal" /></a>
-<a href="mailto:antimpl113@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="email of Anmol i.e.   hi@anmolbaranwal.com" /></a>
+  <a href="https://dev.to/antim_pal"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="profile of Dev.to with username antim pal" /></a>
+  <a href="https://iamantimpal.github.io/Antim-Portfolio/"><img src="https://img.shields.io/badge/portfolio-d5d5d5?style=for-the-badge&logo=Portfolio&logoColor=0A0209" alt="portfolio of Antim Pal" /></a>
+  <a href="mailto:antimpl113@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="email of Anmol i.e.   hi@anmolbaranwal.com" /></a>
   <a href=""><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="profile of Twitter with username Antim_Codes" ></a>
-  <a href="https://github.com/sponsors/iamAntimPal"><img src="https://img.shields.io/badge/Sponsor-iamAntimPal-cc317c?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Github Sponsor"/>
+<!--   <a href="https://github.com/sponsors/iamAntimPal"><img src="https://img.shields.io/badge/Sponsor-iamAntimPal-cc317c?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Github Sponsor"/> -->
+  <a href="https://github.com/sponsors/iamAntimPal"><img src="https://img.shields.io/badge/Sponsor-❤️-pink?style=for-the-badge" alt="Github sponsor Antim Pal" /></a>
 </div>
 <br>
 
