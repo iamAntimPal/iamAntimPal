@@ -99,15 +99,21 @@ I worked with NIELIT(National Institute of Electronics & Information Technology)
 
 <details>
   <summary><b>🏆 Achievements</b></summary>
-
-  💜 Competition Zone
-  - working on
-  - 
+  
+  💜 LeetCode
+  - I have completed my [**50 days of leetcode**](https://leetcode.com/medal/?showImg=0&id=6908716&isLevel=false)  journey.
+  - 🏅 LeetCode April 2025 Badge Earned – Consistently solved problems throughout the month and achieved my monthly goal! [LeetCode Profile](https://leetcode.com/medal/?showImg=0&id=6917028&isLevel=false)  
+  - ✅ Completed LeetCode Top Interview Questions – Strengthened problem-solving and DSA skills by tackling key coding challenges asked by top tech companies. [View Progress](https://leetcode.com/medal/?showImg=0&id=6868095&isLevel=false).
+  - 🧠 Completed LeetCode SQL Top 50 – Mastered essential SQL queries by solving the top 50 problems on LeetCode. Strengthened my database and data analysis skills! [View Progress](https://leetcode.com/medal/?showImg=0&id=6613392&isLevel=false).
+  -  Completed LeetCode Introduction to Pandas – Gained hands-on experience with essential Pandas functions for data manipulation and analysis. [View Progress](https://leetcode.com/medal/?showImg=0&id=6613392&isLevel=false).
+  -  🏆 Completed LeetCode 75 (Blind 75) – Solved the most recommended 75 problems to strengthen core data structures and algorithms skills for top tech interviews. [View Progress](https://leetcode.com/medal/?showImg=0&id=6806143&isLevel=false).
   💜 GitHub Zone
   - working on
   - 
   💜 Proud Zone
   - working no
+
+
 </details>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
