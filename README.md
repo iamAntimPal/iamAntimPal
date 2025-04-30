@@ -111,7 +111,8 @@ I'm actively solving problems on [LeetCode](https://leetcode.com/u/antim_pal/) t
 - 🏅 **April 2025 Badge Earned** – Solved problems consistently throughout the month  
 - 🔥 **50 Days of LeetCode** – Built the habit of daily coding for long-term mastery
 
-🔗 **My LeetCode Profile**: [leetcode.com/u/antim_pal](https://leetcode.com/u/antim_pal/)
+🔗 **My LeetCode Profile**: [leetcode.com/u/antim_pal](https://leetcode.com/u/antim_pal/)  
+[![LeetCode Stats](https://leetcard.jacoblin.cool/antim_pal?theme=light&font=baloo&ext=heatmap)](https://leetcode.com/u/antim_pal/)
 
   💜 GitHub Zone
   - working on
