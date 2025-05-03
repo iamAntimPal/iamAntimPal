@@ -355,13 +355,13 @@ I'm actively solving problems on [LeetCode](https://leetcode.com/u/antim_pal/) t
   </tr>
   </tr>
   <tr>
-    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+    <th colspan="2" align="center">🏆 GitHub Graph</th>
   </tr>
   <tr>
     <td colspan="2"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical&width=200px" width="1000px" height="auto" alt="year data"></td>
   </tr>
    <tr>
-    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+    <th colspan="2" align="center">🏆 GitHub Graph</th>
   </tr>
   <tr>
     <td colspan="2"><img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" alt="Month-graph"</td>
