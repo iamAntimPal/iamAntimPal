@@ -252,7 +252,7 @@ I'm actively solving problems on [LeetCode](https://leetcode.com/u/antim_pal/) t
   <tr>
     <td><strong>Learning</strong></td>
     <td>
-      <a href="https://www.coursera.org/user/69e4ae79233b116200019fb3f9111083"><img src="https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white"/></a>
+      <a href="https://www.coursera.org/user/94912184a43ad6cdca12b178ca5d72d5"><img src="https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white"/></a>
       <img src="https://img.shields.io/badge/scrimba-2B283A?style=for-the-badge&logo=scrimba&logoColor=white"/>
       <img src="https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white"/>
       <img src="https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white"/>
